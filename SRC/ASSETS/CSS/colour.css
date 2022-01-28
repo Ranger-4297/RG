@@ -201,7 +201,7 @@
 }
 /* Pinned messages modal background */
 .ChannelWrapper-content .ChannelPinnedMessages-container {
-    background-color: rgba(241, 227, 227, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 /* Pinned messages modal content background */
 .ChannelWrapper-content .ChatV2PinnedMessage-message-wrapper {
