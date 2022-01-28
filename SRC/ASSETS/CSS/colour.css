@@ -1,0 +1,243 @@
+:root {
+    --black: #010003ff;
+    --rich-black-fogra-29: #00080Fff;
+    --rich-black-fogra-29-2: #000e19;
+    --rich-black-fogra-29-3: #051522;
+    --dark-jungle-green: #0D262Bff;
+    --warm-black: #1C4545ff;
+    --dark-slate-gray: #346058ff;
+    --morning-blue: #7FA297ff;
+}
+
+.ChatChannelContents-container, .LayeredPageContent-content,
+.TournamentsPortalPage-container, .UserProfileV3-container,
+.OptionsMenu-option-content, .OptionsMenuPageWrapper-container,
+.OptionsMenu-container-desktop .OptionsMenu-options-control,
+.NavV4Footer-footer-content, .GroupSelector-container {
+    background: url(https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.WindowsTitleBar-container {
+    background-color: crimson;
+}
+
+.ChannelActivityDisplay-container, .ChannelActivityDisplay-group-header {
+    background-color: limegreen
+}
+.ChannelActivityDisplay-item {
+    background-color: green;
+}
+
+
+
+.OnboardingExperience-background, .FullScreenIconFlowWrapper-background {
+    background-color: violet
+}
+.FullScreenFlowStageWrapper-contents-wrapper {
+    background-color: purple;
+}
+.ModalHeaderV2-container {
+    background-color: navy
+}
+.ModalV2-container {
+    background-color: royalblue;
+}
+.ItemChooserItemWrapper-container {
+    background-color: green;
+}
+.WebAppV2-sidebar, .NavV4SectionSidebar-container {
+    background-color: darkblue;
+}
+.NavV4FooterGlobalContextDisplay-teams-wrapper {
+    background-color: blue;
+}
+.TournamentCard-container {
+    background-color: purple;
+}
+.UserGameSummaryCard-container {
+    background-color: yellowgreen;
+}
+.UserProfilePostPanel-container, .PlayerAliasCard-container-type-game .PlayerAliasCard-info,
+.PlayerAliasCard-container-type-game, .MediaDisplayItemV3-container, .CardWrapper-container,
+.DocDisplayItem-container,.ReplyPanel-container-viewing, .TeamListItemIndentWrapper-container,
+.TeamListItemWrapper-container, .TeamPostRow-container, .DocEditor-container .DocEditor-content-input {
+    background-color: purple;
+}
+
+.ChatChannelListItem-container-selected {
+    background-color: greenyellow;
+}
+
+
+.TeamOverviewContentItemCard-container, .OverviewWidgetItemWrapper-container-type-filled {
+    background-color: purple;
+}
+.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-right-blur {
+    background-image: linear-gradient(to right, rgba(55,57,67,0), purple 75%);
+}
+.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-left-blur {
+    background-image: linear-gradient(to left, rgba(55,57,67,0), purple 75%);
+}
+.DocSummaryInfo-container {
+    background-color: darkviolet;
+}
+.OverviewWidgetSkeleton-container-type-filled {
+    background-color: green;
+}
+.OverviewWidgetSkeleton-text, .OverviewWidgetSkeleton-subtitle, .OverviewWidgetSkeleton-paragraph, .OverviewWidgetSkeleton-profile-picture {
+    background: yellow;
+}
+.FullSizedCalendar-week {
+    background-color: #89c161;
+}
+.FullSizedCalendarDay-container-different-month {
+    background-color: greenyellow;
+}
+.FullSizedCalendarDay-container-today {
+    background-color: green;
+}
+.AvailabilityDisplay-container {
+    background-color: mediumslateblue;
+}
+.AvailabilityDisplayDaysPlaceholder-create {
+    background-color: rebeccapurple;
+}
+.AvailabilityDisplayHeader-day-today {
+    background-color: darkorchid;
+}
+.AvailabilityDisplayHeader-button {
+    background-color: #ffb400;
+}
+.StreamChannelDisplay-container {
+    background-color: #53da33;
+}
+
+
+
+
+
+/* Member & threadlist sidebar */
+.TeamPageV2-container .SidebarWrapper-container {
+    background-color: rgba(0, 0, 0, 0.7);;
+}
+/* Member & threadlist inside */
+.TeamPageV2-container .SidebarWrapper-container 
+.SimpleIconTabMenu-header, .SidebarInfoItem-container {
+    background-color: transparent;
+}
+.TeamPageV2-container .SidebarWrapper-container
+.SimpleIconTabMenuHeaderItem-container:hover,
+.TeamPageV2-container .SidebarWrapper-container
+.SimpleIconTabMenuHeaderItem-container:active,
+.TeamPageV2-container .SidebarWrapper-container
+.SimpleIconTabMenuHeaderItem-container:focus {
+    background-color: rgb(0, 0, 0, 0.3);
+}
+/* Channel header, options and sidebar button */
+.ChannelWrapper-container .ScreenHeader-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+}
+/*Channel list */
+.TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Active channel */
+.TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .TeamChannelItemContents-container-selected {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Profile, Status, Activity, Settings and More */ 
+.NavV4Footer-right {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Channel input */
+.ChatChannelInput-container .ChatChannelInput-editor {
+    border-radius: 20px;
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* Reply box */
+.ChatChannelInputStatusDrawer-typeahead-portal-target, .ChatChannelInputStatusDrawer-inline-reply-bar {
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+}
+/* Reply box */
+.ChatChannelInputStatusBar-container {
+    background-color: rgb(5 21 23);
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    border-radius: 0;
+}
+
+
+/* React, Reply, Thread & More */
+.ChatV2Message-content-wrapper .QuickActionBar-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* React, Reply, Thread & More Hover */
+.ChatV2Message-content-wrapper .QuickActionBar-action:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Add reaction */
+.ReactionPickerButton-container-type-content, .ReactionBadge-container.ReactionBadge-container-active .ReactionBadge-container-content {
+    background-color: rgba(256, 256, 256, 0.08);
+    border-radius: 10px;
+}
+/* Add reaction Hover */
+.ReactionPickerButton-container-type-content:hover, 
+.ReactionBadge-container:not(.ReactionBadge-container-disabled).ReactionBadge-container-active:hover .ReactionBadge-container-content {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* Pinned messages modal background */
+.ChannelWrapper-content .ChannelPinnedMessages-container {
+    background-color: rgba(241, 227, 227, 0.9);
+}
+/* Pinned messages modal content background */
+.ChannelWrapper-content .ChatV2PinnedMessage-message-wrapper {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+.ChannelWrapper-content .ChatV2Message-container:not(.ChatV2Message-container-editing):hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Server list background */
+.NavV4Sidebar-team-selector {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Server search area */
+.NavV4Sidebar-sidebar-footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+/* Search boxes */
+.SearchBarV2-container {
+       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
