@@ -144,8 +144,7 @@
 }
 /*Channel list */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -157,8 +156,7 @@ url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.pn
 }
 /* Profile, Status, Activity, Settings and More */ 
 .NavV4Footer-right {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -199,8 +197,7 @@ url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.pn
     border-radius: 10px;
 }
 /* Add reaction Hover */
-.ReactionPickerButton-container-type-content:hover, 
-.ReactionBadge-container:not(.ReactionBadge-container-disabled).ReactionBadge-container-active:hover .ReactionBadge-container-content {
+.ReactionPickerButton-container-type-content:hover, .ReactionBadge-container:not(.ReactionBadge-container-disabled).ReactionBadge-container-active:hover .ReactionBadge-container-content {
     background-color: rgba(256, 256, 256, 0.1);
 }
 /* Pinned messages modal background */
@@ -216,28 +213,55 @@ url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.pn
 }
 /* Server list background */
 .NavV4Sidebar-team-selector {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
     background-attachment: fixed;
 }
 /* Server search area */
 .NavV4Sidebar-sidebar-footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
+    background-attachment: fixed;
+}
+/* Server search box */
+.NavV4Sidebar-sidebar-footer .SearchBarV2-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 
 
-
-/* Search boxes */
-.SearchBarV2-container {
-       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-position: center;
+/* Replpy to in a thread */
+.ChatV2MessageReplyTooltip-arrow, .ChatV2MessageReplyTooltip-content-wrapper {
+    background-color: rgb(0, 0, 0, 0.9)
+}
+/* User Modal */
+.ProfileHoverCardV2Overlay-container, .ProfileHoverCardV2Overlay-action-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+/* Reaction picker */
+.ReactionPickerOverlay-container .ReactionPickerNavbar-container,
+.ReactionPickerOverlay-container .ReactionPicker-content,
+.ReactionPickerOverlay-container .SearchBarV2-container,
+.ReactionPickerOverlay-container .ReactionPickerFooter-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.SelectMenu-container {
+    background-color: purple;
+}
+.SelectMenuItem-container-selected {
+    background-color: magenta
+}
+.SelectMenuItem-container-desktop:hover {
+    background-color: violet
 }
