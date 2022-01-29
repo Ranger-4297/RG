@@ -216,3 +216,56 @@
 .TournamentsPortalHeader-header.ScreenHeader-container {
     background-color: rgba(0, 0, 0, 0.6);
 }
+/* Tournaments sidebar */
+.WebAppV2-container-minimal .WebAppV2-sidebar {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Tournaments "Tournaments" */
+.NavV4SectionSidebar-container {
+    background-color: transparent;
+}
+/* Tournaments sidebar server name */
+.NavV4Footer-container .NavV4FooterGlobalContextDisplay-teams-wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Tournaments sidebar server name hover */
+.NavV4Footer-container .NavV4FooterGlobalContextDisplay-teams-wrapper .NavV4SelectorRow-container::after {
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+/* Create tournament background */
+.FullScreenIconFlowWrapper-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Create tournament modal */
+.FullScreenFlowStageWrapper-container .FullScreenFlowStageWrapper-contents-wrapper {
+    background-color: rgba(256, 256, 256, 0.05);
+    border: solid 1px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+}
+/* Create tournament game search */
+.FullScreenFlowStageWrapper-contents-wrapper .SearchBarV2-container {
+    background-color: rgba(256, 256, 256, 0.05);
+    border: solid 1px rgba(0, 0, 0, 0.7);
+}
+/* Create tournament games/server chooser */
+.FullScreenFlowStageWrapper-contents-wrapper .ItemChooserItemWrapper-container{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+/* Features tournaments */
+.TournamentsPortalSection-container-type-staticgrid .TournamentsPortalSection-list .TournamentCard-container:not(.TournamentCardHeader-game-logo) {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+}
