@@ -359,19 +359,69 @@
 /* Trigger type selected */
 .GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
     background-color: rgba(256, 256, 256, 0.1)
-}
+}a
 /* Create forum topic in channel */
 .GuildedSelect-container.GuildedSelect-container-dark .Select-noresults {
     background-color: rgba(256, 256, 256, 0.2)
 }
 
 
+
+/* Channel creation */
+
 /* Create channel selected */
 .RadioOptionPanel-container-selected {
     background-color: transparent
 }
+/* Stream background */
+.StreamChannelDisplay-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Stream: Screen, Cam, Voice */
+.StreamChannelDisplay-container .SVGIconWithTooltip-container-flavor-hover-bleach {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Stream: Invite link */
+.StreamChannelDisplay-container .CopyableTextbox-container {
+    background-color: rgba(256, 256, 256, 0.05)
+}
+/* Stream: Screen share : Application */
+.DesktopAppCaptureDevicePickerOverlay-options {
+    background-color: rgba(256, 256, 256, 0.05)
+}
+
+/* Forums */
+
 /* Create forum> Create topic+body */
 .DraftInputWithTitleV2-container-desktop.DraftInputWithTitleV2-container .DraftInputWithTitleV2-title-wrapper, .DraftInputWithTitleV2-container .DraftInputWithTitleV2-editor {
     background-color: rgba(0, 0, 0, 0.5);
 }
-/* Loading forum post */
+/* Loading/forum post */
+.TeamThreadPostPanel-container .TeamThreadPostPanelDisplay-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Loading title/body */
+.SkeletonPlaceholder-container-no-children {
+    background: rgba(0, 0, 0, 0.6);
+}
+/* Write a reply */
+.TeamThreadReplyCreator-container-desktop .TeamThreadReplyCreator-unexpanded-wrapper {
+    background: rgb(0, 0, 0, 0.5);
+}
+/* Repl body */
+.TeamThreadPostPanel-container {
+    background-color: transparent;
+}
+/* Add reply */
+.TeamThreadPostEditor-container:not(.TeamThreadPosts-reply-creator .TeamThreadPostEditor-container):not(.TeamThread-reply-creator .TeamThreadPostEditor-container) {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+/* Forum post list */
+.TeamPostRow-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
