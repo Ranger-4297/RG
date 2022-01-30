@@ -373,9 +373,17 @@
 .RadioOptionPanel-container-selected {
     background-color: transparent
 }
+/* Connection display */
+.VoiceConnectionDisplayPanelContents-container * {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;;
+}
 /* Stream background */
 .StreamChannelDisplay-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 /* Stream: Screen, Cam, Voice */
 .StreamChannelDisplay-container .SVGIconWithTooltip-container-flavor-hover-bleach {
@@ -409,10 +417,7 @@
     background-position: center;
     background-attachment: fixed;
 }
-/* Stream: Threatre buttons */
-.StreamControls-container .SVGIconWithTooltip-container-flavor-hover-bleach {
-    background-color: rgba(0, 256, 256, 0.1)
-}
+
 
 /* Forums */
 
