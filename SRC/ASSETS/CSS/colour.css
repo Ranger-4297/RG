@@ -389,6 +389,30 @@
 .DesktopAppCaptureDevicePickerOverlay-options {
     background-color: rgba(256, 256, 256, 0.05)
 }
+/* Stream connected */
+.StreamsDisplayV2-container:not(.StreamTheaterViewer-content .StreamsDisplayV2-container) {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+/* Stream: Theatre display */
+.StreamTheaterViewer-content .StreamsDisplayV2-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Stream: Theatre sidebar */
+.StreamTheaterViewer-sidebar .ScreenHeader-container, .StreamTheaterViewer-sidebar .SidebarWrapper-container  {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Stream: Threatre buttons */
+.StreamControls-container .SVGIconWithTooltip-container-flavor-hover-bleach {
+    background-color: rgba(0, 256, 256, 0.1)
+}
 
 /* Forums */
 
