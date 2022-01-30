@@ -136,11 +136,9 @@
     background-attachment: fixed;
 }
 
-
-
 /* Replpy to in a thread */
 .ChatV2MessageReplyTooltip-arrow, .ChatV2MessageReplyTooltip-content-wrapper {
-    background-color: rgb(0, 0, 0, 0.9)
+    background-color: rgb(0, 0, 0, 0.9);
 }
 /* User Modal */
 .ProfileHoverCardV2Overlay-container, .ProfileHoverCardV2Overlay-action-menu {
@@ -268,4 +266,44 @@
 .TournamentsPortalSection-container-type-staticgrid .TournamentsPortalSection-list .TournamentCard-container:not(.TournamentCardHeader-game-logo) {
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(3px);
+}
+
+
+
+
+/* Server settings */
+
+/* Upload image modal fix showing behind */
+.ModalV2-container {
+    background-color: transparent;
+}
+/* Upload image modal header */
+.ModalHeaderV2-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border: solid 1px #9b9595;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+/* Upload image menu */
+.ModalV2-container-has-header .ModalV2-modal-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border: solid 1px #9b9595;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+/* default notification settings */
+.OptionsMenuPageWrapper-container .RadioOptionPanel-container {
+    backdrop-filter: blur(2px);
+}
+/* Default notifications selected */
+.OptionsMenuPageWrapper-container .RadioOptionPanel-container-selected {
+    background-color: rgba(0, 0, 0, 0.5);
 }
