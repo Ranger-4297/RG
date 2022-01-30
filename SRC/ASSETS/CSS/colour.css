@@ -273,11 +273,35 @@
 
 /* Server settings */
 
-/* Upload image modal fix showing behind */
+/* Paste URL section */
+.ModalV2-container .MediaUploaderPasteInstructions-container {
+    background-color: rgba(256, 256, 256, 0.07);
+}
+
+/* Server type/TImezone selection */
+.OptionsMenuPageWrapper-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    border-color: rgba(256, 256, 256, 0.2);
+}
+/* Open entry */
+.OptionsMenuPageWrapper-container .ToggleFieldWrapper-container .SwitchInput-slide:not(.SwitchInput-container-on .SwitchInput-slide) {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* default notification settings */
+.OptionsMenuPageWrapper-container .RadioOptionPanel-container {
+    backdrop-filter: blur(2px);
+}
+/* Default notifications selected */
+.OptionsMenuPageWrapper-container .RadioOptionPanel-container-selected {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Upload image, Transfer ownership & Disband server modal fix showing behind */
 .ModalV2-container {
     background-color: transparent;
 }
-/* Upload image modal header */
+/* Upload image, Transfer ownership & Disband server modal header */
 .ModalHeaderV2-container {
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
@@ -288,7 +312,7 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-/* Upload image menu */
+/* Upload image, Transfer ownership & Disband server modal main */
 .ModalV2-container-has-header .ModalV2-modal-content {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
@@ -299,11 +323,20 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-/* default notification settings */
-.OptionsMenuPageWrapper-container .RadioOptionPanel-container {
-    backdrop-filter: blur(2px);
+/* Transfer ownership modal search */
+.ModalV2-container-has-header .ModalV2-modal-content .SearchBarV2-container {
+    background-color: rgba(256, 256, 256, 0.15);
+    border: solid 1px rgba(0, 0, 0, 0.9);
 }
-/* Default notifications selected */
-.OptionsMenuPageWrapper-container .RadioOptionPanel-container-selected {
-    background-color: rgba(0, 0, 0, 0.5);
+/* Trasnfer ownership new owner */
+.ModalV2-modal-content .CheckboxPanel-container-selected {
+    background-color: rgba(256, 256, 256, 0.2)
 }
+/* Transfer ownership new owners hover */
+.CheckboxPanel-container.CheckboxPanel-container-clickable.CheckboxPanel-container-size-sm:hover {
+    background-color: rgba(256, 256, 256, 0.25)
+}
+
+/* Create bot flows */
+
+/* Trigger flow */
