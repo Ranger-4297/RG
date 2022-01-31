@@ -23,7 +23,12 @@
 
 
 
-
+.ModalV2-container {
+    border: solid 1px #9b9595;
+}
+.ModalV2-container .ModalFooter-container {
+    background-color: rgba(0, 0, 0, 0.3)
+}
 
 /* Member & threadlist sidebar */
 .TeamPageV2-container .SidebarWrapper-container {
@@ -317,9 +322,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    border: solid 1px #9b9595;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
 }
 /* Transfer ownership modal search */
 .ModalV2-container-has-header .ModalV2-modal-content .SearchBarV2-container {
@@ -418,7 +420,53 @@
     background-attachment: fixed;
 }
 
+/* Voice lobby */
+.VoiceChannelDisplay-container {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+/* Voice: Invite */
+.VoiceGroupInviteControl-container .CopyableTextbox-container {
+    background-color: rgba(256, 256, 256, 0.05)
+}
 
+/* Calendar: Main colour */
+.FullSizedCalendar-week {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px) ;
+}
+/* Calendar: Different month */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-different-month {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* Calendar: Today */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-today{
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Calendar: Hover */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Calendar: Create event: Date picker: Header */
+.DayPicker-header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Schedule */
+
+/* Shedule: Main colour*/
+.ChannelWrapper-contents .AvailabilityDisplay-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+/* Schedule: Today */
+.ChannelWrapper-contents .AvailabilityDisplayHeader-day-today {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Schedule: Change week */
+.ChannelWrapper-contents .AvailabilityDisplayHeader-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
 /* Forums */
 
 /* Create forum> Create topic+body */
