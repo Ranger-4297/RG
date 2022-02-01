@@ -21,9 +21,6 @@
     background-attachment: fixed;
 }
 
-
-
-
 /* Member & threadlist sidebar */
 .TeamPageV2-container .SidebarWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);;
@@ -268,79 +265,26 @@
 
 
 
-/* Server settings */
 
-/* Paste URL section */
-.ModalV2-container .MediaUploaderPasteInstructions-container {
-    background-color: rgba(256, 256, 256, 0.07);
-}
 
-/* Server type/TImezone selection */
-.OptionsMenuPageWrapper-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
-    background-color: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(2px);
-    border-color: rgba(256, 256, 256, 0.2);
-}
-/* Open entry */
-.OptionsMenuPageWrapper-container .ToggleFieldWrapper-container .SwitchInput-slide:not(.SwitchInput-container-on .SwitchInput-slide) {
-    background-color: rgba(256, 256, 256, 0.1);
-}
-/* default notification settings */
-.OptionsMenuPageWrapper-container .RadioOptionPanel-container {
-    backdrop-filter: blur(2px);
-}
-/* Default notifications selected */
-.OptionsMenuPageWrapper-container .RadioOptionPanel-container-selected {
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
-/* Upload image, Transfer ownership & Disband server modal header */
 
-/* Upload image, Transfer ownership & Disband server modal main */
 
-/* Transfer ownership modal search */
-.ModalV2-container-has-header .ModalV2-modal-content .SearchBarV2-container {
-    background-color: rgba(256, 256, 256, 0.15);
-    border: solid 1px rgba(0, 0, 0, 0.9);
-}
-/* Trasnfer ownership new owner */
-.ModalV2-modal-content .CheckboxPanel-container-selected {
-    background-color: rgba(256, 256, 256, 0.2)
-}
-/* Transfer ownership new owners hover */
-.CheckboxPanel-container.CheckboxPanel-container-clickable.CheckboxPanel-container-size-sm:hover {
-    background-color: rgba(256, 256, 256, 0.25)
-}
 
-/* Create bot flows */
 
-/* Trigger flow */
-.UserCTAPanel-container {
-    background-color: transparent;
-}
-/* Flow borders */
-.ModalV2-container:not(.ModalV2-container-fullscreen) .UserCTAPanel-container-style-bordered {
-    border: none;
-}
-/* Flow background */
-.UserCTAPanel-container .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
-    background-color: rgba(256, 256, 256, 0.2);
-    border-radius: 7px;
-}
-/* Trigger type drop down */
-.GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
-    background-color: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(2px);
-    border-color: rgba(256, 256, 256, 0.2);
-}
-/* Trigger type selected */
-.GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
-    background-color: rgba(256, 256, 256, 0.1)
-}a
-/* Create forum topic in channel */
-.GuildedSelect-container.GuildedSelect-container-dark .Select-noresults {
-    background-color: rgba(256, 256, 256, 0.2)
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -448,9 +392,18 @@
 }
 
 /* Announcements */
+
 /* Announcement: Main colour */
 .TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
     background-color: rgba(0, 0, 0, 0.5);
+}
+/* Announcement: Post */
+.TeamAnnouncementsWidget-container .DraftInputWithTitleV2-title-wrapper {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+/* Announcement: Post: Body */
+.TeamAnnouncementsWidget-container .Editor-container {
+    background-color: rgba(0, 0, 0,  0.5)
 }
 /* Announcement: Loading */
 .TeamAnnouncementsWidget-container .OverviewWidgetSkeleton-container-type-filled, .TeamAnnouncementWithReplies-container .OverviewWidgetSkeleton-container-type-filled {
@@ -476,38 +429,38 @@
 .TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-/* Forums */
-
-/* Create forum> Create topic+body */
-.DraftInputWithTitleV2-container-desktop.DraftInputWithTitleV2-container .DraftInputWithTitleV2-title-wrapper, .DraftInputWithTitleV2-container .DraftInputWithTitleV2-editor {
-    background-color: transparent;
-}
-/* Loading/forum post */
-.TeamThreadPostPanel-container .TeamThreadPostPanelDisplay-container {
+/* Announcement: Add reaction */
+/* Announcement: Reaction picker */
+.ReactionPicker-container .ReactionPickerNavbar-container,
+.ReactionPicker-container .ReactionPicker-content,
+.ReactionPicker-container .SearchBarV2-container,
+.ReactionPicker-container .ReactionPickerFooter-container {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-/* Loading title/body */
-.SkeletonPlaceholder-container-no-children {
-    background: rgba(0, 0, 0, 0.6);
+/* Announcement: Reaction picker: Skin colour picker */
+.SelectMenu-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
-/* Write a reply */
-.TeamThreadReplyCreator-container-desktop .TeamThreadReplyCreator-unexpanded-wrapper {
-    background: rgb(0, 0, 0, 0.5);
+/* Announcement: Reaction picker: Skin colour selected */
+.SelectMenuItem-container-selected {
+    background-color: rgba(256, 256, 256, 0.05);
 }
-/* Repl body */
-.TeamThreadPostPanel-container {
-    background-color: transparent;
+/* Announcement: Reaction picker: Skin colour hover */
+.SelectMenuItem-container-desktop:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
-/* Add reply */
-.TeamThreadPostEditor-container:not(.TeamThreadPosts-reply-creator .TeamThreadPostEditor-container):not(.TeamThread-reply-creator .TeamThreadPostEditor-container) {
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 5px;
+/* Announcement: Reaction picker: Picker border */
+.TransientMenu-container-style-default {
+    border: solid 1px rgba(0, 0, 0, 1);
+    border-radius: 10px;
 }
-/* Forum post list */
-.TeamPostRow-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
+
+/* Forums */
