@@ -1,0 +1,71 @@
+/* Paste URL section */
+.ModalV2-container .MediaUploaderPasteInstructions-container {
+    background-color: rgba(256, 256, 256, 0.07);
+}
+
+/* Server type/TImezone selection */
+.OptionsMenuPageWrapper-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    border-color: rgba(256, 256, 256, 0.2);
+}
+/* Open entry */
+.OptionsMenuPageWrapper-container .ToggleFieldWrapper-container .SwitchInput-slide:not(.SwitchInput-container-on .SwitchInput-slide) {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* default notification settings */
+.OptionsMenuPageWrapper-container .RadioOptionPanel-container {
+    backdrop-filter: blur(2px);
+}
+/* Default notifications selected */
+.OptionsMenuPageWrapper-container .RadioOptionPanel-container-selected {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Upload image, Transfer ownership & Disband server modal header */
+
+/* Upload image, Transfer ownership & Disband server modal main */
+
+/* Transfer ownership modal search */
+.ModalV2-container-has-header .ModalV2-modal-content .SearchBarV2-container {
+    background-color: rgba(256, 256, 256, 0.15);
+    border: solid 1px rgba(0, 0, 0, 0.9);
+}
+/* Trasnfer ownership new owner */
+.ModalV2-modal-content .CheckboxPanel-container-selected {
+    background-color: rgba(256, 256, 256, 0.2)
+}
+/* Transfer ownership new owners hover */
+.CheckboxPanel-container.CheckboxPanel-container-clickable.CheckboxPanel-container-size-sm:hover {
+    background-color: rgba(256, 256, 256, 0.25)
+}
+
+/* Create bot flows */
+
+/* Trigger flow */
+.UserCTAPanel-container {
+    background-color: transparent;
+}
+/* Flow borders */
+.ModalV2-container:not(.ModalV2-container-fullscreen) .UserCTAPanel-container-style-bordered {
+    border: none;
+}
+/* Flow background */
+.UserCTAPanel-container .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 7px;
+}
+/* Trigger type drop down */
+.GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    border-color: rgba(256, 256, 256, 0.2);
+}
+/* Trigger type selected */
+.GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
+    background-color: rgba(256, 256, 256, 0.1)
+}a
+/* Create forum topic in channel */
+.GuildedSelect-container.GuildedSelect-container-dark .Select-noresults {
+    background-color: rgba(256, 256, 256, 0.2)
+}
