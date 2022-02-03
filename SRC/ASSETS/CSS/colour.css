@@ -345,7 +345,8 @@
     background-attachment: fixed;
 }
 
-/* Voice lobby */
+/* Voice */
+/* Voice: lobby */
 .VoiceChannelDisplay-container {
     background-color: rgba(0, 0, 0, 0.8)
 }
@@ -354,6 +355,7 @@
     background-color: rgba(256, 256, 256, 0.05)
 }
 
+/* Calendar */
 /* Calendar: Main colour */
 .FullSizedCalendar-week {
     background-color: rgba(0, 0, 0, 0.5);
@@ -377,7 +379,6 @@
 }
 
 /* Schedule */
-
 /* Shedule: Main colour */
 .ChannelWrapper-contents .AvailabilityDisplay-container, .ChannelWrapper-content .AvailabilityDisplayHeader-day {
     background-color: rgba(0, 0, 0, 0.4);
@@ -398,7 +399,6 @@
 }
 
 /* Announcements */
-
 /* Announcement: Main colour */
 .TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
     background-color: rgba(0, 0, 0, 0.5);
@@ -435,7 +435,6 @@
 .TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-/* Announcement: Add reaction */
 /* Announcement: Reaction picker */
 .ReactionPicker-container .ReactionPickerNavbar-container,
 .ReactionPicker-container .ReactionPicker-content,
@@ -449,7 +448,6 @@
 }
 
 /* Forums */
-
 /* Forum: Post */
 .TeamForumsThreadsDisplay-container .DraftInputWithTitleV2-title-wrapper, .TeamPostRow-container {
     background-color: rgba(0, 0, 0, 0.5)
@@ -493,4 +491,25 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+
+/* List */
+/* List: Add item */
+.TeamList-container .TeamListItemWrapper-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* List: Item */
+.TeamList-container .TeamListItemIndentWrapper-container {
+    background-color: transparent;
+}
+/* List: Move item */
+.TeamList-container .TeamListItemIndentWrapper-container .ReorderIndentable-blockout {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Docs */
+/* Docs: Editor */
+.DocEditor-container .DocEditor-content-input {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
 }
