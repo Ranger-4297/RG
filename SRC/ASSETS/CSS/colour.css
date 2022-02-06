@@ -88,8 +88,10 @@
 }
 /* Chat: Thread link: Pinned message */
 .ChatMessageThread-container .ChatV2MessageContents-display {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.2);
 }
+/* Chat: Thread link: Embed */
+.ChatMessageThread-container 
 /* Chat: Thread link: Last reply */
 .ChatMessageThread-container .LastReplyDisplay-container.LastReplyDisplay-container-participant:not(.LastReplyDisplay-container-unread):before {
     background-color: rgba(0, 0, 0, 0.9);
