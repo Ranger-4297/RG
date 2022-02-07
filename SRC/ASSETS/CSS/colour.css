@@ -104,6 +104,10 @@
 .CodeContainerRenderer-container .CodeLineRenderer {
     background-color: transparent;
 }
+/* Chat: Pinned message background */
+.ChatV2MessageContents-container-pinned .ChatV2MessageContents-display {
+    background-color: transparent;
+}
 /* Chat: Thread link */
 .ChatMessageThread-container, .ChatMessageThread-container:hover {
     background-color: rgb(0, 0, 0, 0.5);
@@ -130,4 +134,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+/* Chat: Pinned messages: Main colour */
+.ChannelWrapper-content .ChannelPinnedMessages-container {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* Chat: Pinned messages: Message: Main colour */
+.ChannelWrapper-content .ChatV2PinnedMessage-message-wrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Chat: Pinned messages: Message: Hover */
+.ChannelWrapper-content .ChatV2Message-container:not(.ChatV2Message-container-editing):hover {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Chat: Pinned messages: Message: Quote */
+.ChatV2PinnedMessage-message-wrapper .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
 }

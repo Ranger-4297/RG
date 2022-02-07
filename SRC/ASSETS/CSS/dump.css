@@ -34,26 +34,6 @@
 
 
 
-/* Pinned messages: Main colour */
-.ChannelWrapper-content .ChannelPinnedMessages-container {
-    background-color: rgba(0, 0, 0, 0.9);
-}
-/* Pinned messages: Message: Main colour */
-.ChannelWrapper-content .ChatV2PinnedMessage-message-wrapper {
-    background-color: rgba(256, 256, 256, 0.09);
-}
-/* Pinned messages: Message: Hover */
-.ChannelWrapper-content .ChatV2Message-container:not(.ChatV2Message-container-editing):hover {
-    background-color: rgba(256, 256, 256, 0.05);
-}
-/* Pinned messages: Message: Quote */
-.ChatV2PinnedMessage-message-wrapper .BlockQuoteContainerRenderer {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-
-
-
 
 
 
