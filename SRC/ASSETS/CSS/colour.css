@@ -124,3 +124,10 @@
 .ChatChannelInput-container .ChatChannelInput-editor {
     background-color: rgba(256, 256, 256, 0.1);
 }
+/* Chat: User modal */
+.ProfileHoverCardV2Overlay-container, .ProfileHoverCardV2Overlay-action-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
