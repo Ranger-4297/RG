@@ -3,7 +3,7 @@
     background-color: rgba(256, 256, 256, 0.07);
 }
 
-/* Server type/TImezone selection */
+/* Server type/Timezone selection */
 .OptionsMenuPageWrapper-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(2px);
