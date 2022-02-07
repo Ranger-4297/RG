@@ -103,7 +103,9 @@
 /* Chat: Codeblock 2*/
 .CodeContainerRenderer-container .CodeLineRenderer {
     background-color: transparent;
+    font-family: 'Consolas', monospace;
 }
+
 /* Chat: Pinned message background */
 .ChatV2MessageContents-container-pinned .ChatV2MessageContents-display {
     background-color: transparent;
