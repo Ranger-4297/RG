@@ -179,6 +179,19 @@
 .TeamAnnouncementsWidget-announcements .OverviewWidgetItemWrapper-container-type-filled {
     background-color: rgba(0, 0, 0, 0.7);
 }
+/* Overview: View announcement: Main colour */
+.TeamAnnouncements-container .TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Overview: View announcement: Comment */
+.TeamAnnouncements-container .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Overview: View announcement: Comment: Quote */
+.TeamAnnouncements-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 /* Channels */
 /* Chat */
 /* Chat: Message hover */
