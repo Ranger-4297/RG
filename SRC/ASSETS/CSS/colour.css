@@ -134,12 +134,15 @@
 /* Sections */
 /* Overview */
 /* Overview: Banner loading */
+.TeamPageBanner-skeleton {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
 .TeamOverviewBanner-banner.TeamPageBanner-overview-banner.Img-skeleton-square {
         content: linear-gradient(rgba(0, 0, 0,  0.5), rgba(0, 0, 0,  0.5));
 }
 /* Overview: Latest announcements/Recent forum activity */
 .TeamOverviewContentSection-list .TeamOverviewContentItemCard-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Overview: Latest announcements/Recent forum activity: Pagination: Left */
 .CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-left-blur {
@@ -148,7 +151,34 @@
 .CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-right-blur {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255, 0.1) 75%);
 }
-
+/* Overview: Anouncements: Post an announcement */ 
+.TeamOverviewSummaryDisplay-public-announcements .DraftInputWithTitleV2-title-wrapper:not(.TeamAnnouncementsWidget-announcements .OverviewWidgetItemWrapper-container-type-filled *) {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Overview: Announcements: Loading */
+.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-container-type-filled,
+.TeamAnnouncements-container .OverviewWidgetSkeleton-container-type-filled {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Overview: Announcements: Loading: pfp, title & text */
+.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-profile-picture,
+.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-text,
+.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-subtitle,
+.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-paragraph,
+.TeamAnnouncements-container .OverviewWidgetSkeleton-profile-picture,
+.TeamAnnouncements-container .OverviewWidgetSkeleton-text,
+.TeamAnnouncements-container .OverviewWidgetSkeleton-subtitle,
+.TeamAnnouncements-container .OverviewWidgetSkeleton-paragraph {
+    background: rgba(256, 256, 256, 0.1);
+}
+/* Overview: Announcements: Pinned */
+.PinnedAnnouncements-announcements .TeamPostRow-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Overview: Announcement: Main colour */
+.TeamAnnouncementsWidget-announcements .OverviewWidgetItemWrapper-container-type-filled {
+    background-color: rgba(0, 0, 0, 0.7);
+}
 /* Channels */
 /* Chat */
 /* Chat: Message hover */
