@@ -79,11 +79,83 @@
     border-radius: 10px;
 }
 
+/* Server list */
+/* Server list: Main colour */
+.NavV4Sidebar-team-selector {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Server search: Main colour */
+.NavV4Sidebar-sidebar-footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Server search: Search servers */
+.NavV4Sidebar-sidebar-footer .SearchBarV2-container {
+    background: linear-gradient(rgba(256, 256, 256, 0.05), rgba(256, 256, 256, 0.05)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Content navigation */
+.TeamPageNavV3-team-content .GroupSelector-container, .NavV4Footer-container .NavV4Footer-footer-content {
+    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Server */
+/* Channel list: Main colour */
+.TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Channel list: Active channel */
+.TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .TeamChannelItemContents-container-selected {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Profile, Status, Activity, Settings and More */ 
+.NavV4Footer-right {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Sections */
+/* Overview */
+/* Overview: Banner loading */
+.TeamOverviewBanner-banner.TeamPageBanner-overview-banner.Img-skeleton-square {
+        content: linear-gradient(rgba(0, 0, 0,  0.5), rgba(0, 0, 0,  0.5));
+}
+/* Overview: Latest announcements/Recent forum activity */
+.TeamOverviewContentSection-list .TeamOverviewContentItemCard-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Overview: Latest announcements/Recent forum activity: Pagination: Left */
+.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-left-blur {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(256, 256, 256, 0.1) 75%);
+}
+.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-right-blur {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255, 0.1) 75%);
+}
+
+/* Channels */
 /* Chat */
 /* Chat: Message hover */
 .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChannelWrapper-content  .ChannelPinnedMessages-container .ChatV2Message-container):hover {
     background-color: rgba(0, 0, 0, 0.25)
 }
+
 /* Chat: Embed */
 .ChatV2Message-content-container .OpenGraphEmbed-content {
     background-color: rgba(0, 0, 0, 0.4);
@@ -129,8 +201,8 @@
 .ChatChannelInputStatusBar-container {
     background-color: rgba(256, 256, 256, 0.1);
 }
-/* Chat: input */
-.ChatChannelInput-container .ChatChannelInput-editor {
+/* Chat: input/archived */
+.ChatChannelInput-container .ChatChannelInput-editor, .ChatChannelInput-container .BannerWithButton-container {
     background-color: rgba(256, 256, 256, 0.1);
 }
 /* Chat: User modal */
@@ -140,19 +212,40 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/* Chat: Options: Moderator view: Main colour */
+.ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-moderator-view.ChatChannelAlertBar-container-banner.ChatChannelMessages-moderation[style] {
+    background-color: rgba(0, 0, 0,  0.7) !important;
+}
 /* Chat: Pinned messages: Main colour */
-.ChannelWrapper-content .ChannelPinnedMessages-container {
-    background-color: rgba(0, 0, 0, 0.9);
+.ChannelWrapper-content .ssages-container {
+    background-color: rgba(0, 0, 0, 0.95);
 }
 /* Chat: Pinned messages: Message: Main colour */
 .ChannelWrapper-content .ChatV2PinnedMessage-message-wrapper {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(256, 256, 256, 0.05);
 }
 /* Chat: Pinned messages: Message: Hover */
 .ChannelWrapper-content  .ChannelPinnedMessages-container .ChatV2Message-container:hover {
-    background-color: rgba(256, 256, 256, 0.05);
+    background-color: rgba(256, 256, 256, 0.03);
 }
 /* Chat: Pinned messages: Message: Quote */
 .ChatV2PinnedMessage-message-wrapper .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
+}
+/* Member & threadlist: Main colour */
+.TeamPageV2-container .SidebarWrapper-container {
+    background-color: rgba(0, 0, 0, 0.7);;
+}
+/* Member & threadlist: Inside: Colour */
+.SimpleIconTabMenu-container .SidebarInfoItem-container {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* Member & threadlist: Top button things */
+.TeamPageV2-container .SidebarWrapper-container
+.SimpleIconTabMenuHeaderItem-container:hover,
+.TeamPageV2-container .SidebarWrapper-container
+.SimpleIconTabMenuHeaderItem-container:active,
+.TeamPageV2-container .SidebarWrapper-container
+.SimpleIconTabMenuHeaderItem-container:focus {
+    background-color: rgb(0, 0, 0, 0.2);
 }
