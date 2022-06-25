@@ -1,43 +1,5 @@
 
 
-
-
-
-
-
-
-/* Server list: Main colour */
-.NavV4Sidebar-team-selector {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-attachment: fixed;
-}
-/* Server search: Main colour */
-.NavV4Sidebar-sidebar-footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-attachment: fixed;
-}
-/* Server search: Active */
-.NavV4Sidebar-sidebar-footer .SearchBarV2-container {
-    background: linear-gradient(rgba(256, 256, 256, 0.05), rgba(256, 256, 256, 0.05)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 /* Member & threadlist: Main colour */
 .TeamPageV2-container .SidebarWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);;

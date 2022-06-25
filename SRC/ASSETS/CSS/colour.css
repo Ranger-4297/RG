@@ -18,6 +18,8 @@ Team information, tournaments
 Messages loading
 Invite others modal
 Finalise bracket, tournaments
+Bracket modal, tournaments
+Registration modal, tournaments 
 Modal V2 container
 Bot flows container
 */
@@ -30,6 +32,8 @@ Bot flows container
 }
 
 /* Main chat background */
+.ChannelWrapper-container,
+.WebAppV2-sidebar,
 .ChatChannelContents-container,
 .LayeredPageContent-content,
 .TournamentsPortalPage-container {
@@ -188,6 +192,7 @@ Bot flows container
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(256, 256, 256, 0.1) 75%);
 }
 
+/* Overview: Latest announcements/Recent forum activity: Pagination: Right */
 .CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-right-blur {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255, 0.1) 75%);
 }
@@ -238,6 +243,11 @@ Bot flows container
 /* Overview: View announcement: Comment: Quote */
 .TeamAnnouncements-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Overview: Leaderboard */
+.TeamOverviewSummaryDisplay-team-content-summary .TeamOverviewLeaderboardSection-leaderboard-container {
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Channels */
@@ -359,7 +369,7 @@ Bot flows container
 }
 
 /* Member & threadlist: Inside: Colour */
-.SimpleIconTabMenu-container .SidebarInfoItem-container {
+.SimpleIconTabMenu-container .SidebarInfoItem-container:not(.SidebarInfoItem-container.TeamPageContentSidebarGames-container.TeamPageContentSidebarGames-container-unpadded.TeamPageContentSidebarAbout-games) {
     background-color: rgba(256, 256, 256, 0.1);
 }
 
@@ -369,8 +379,6 @@ Bot flows container
 .TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:focus {
     background-color: rgb(0, 0, 0, 0.2);
 }
-
-
 
 
 /* Server settings: */
@@ -401,7 +409,7 @@ Bot flows container
 }
 
 /* Margins for overview */
-.OptionsMenuPageWrapper-container>.Form-container-section-border .Form-section:not(:first-child) {
+.OptionsMenuPageWrapper-container>.Form-container-section-border .Form-section:not(:first-child):not(.TournamentSettingsGameSettingsPage-container>) {
     margin-top: 0;
 }
 
@@ -524,4 +532,129 @@ Bot flows container
 .TeamSettingsServerSubscriptionsManage-container .ServerSubscriptionsSettings-container {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2.5px);
+}
+
+/* Direct messages */
+/* DM list */
+.WebAppV2-container-minimal .WebAppV2-sidebar .ChatChannelList-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* DM list: Active dm */
+.ChatChannelList-items .ChatChannelListItem-container-selected {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* DM list: Hovered dm */
+.ChatChannelList-items .ChatChannelListItem-container:not(.ChatChannelListItem-container-selected):hover {
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+/* DM list: Close X button */
+.ChatChannelList-items .ChatChannelListItem-container-selected .ChatChannelListItem-remove-icon {
+    background-color: transparent;
+}
+
+/* DM list: Whatever the fuck is the bottom thing */
+.NavV4FooterGlobalContextDisplay-teams-wrapper {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Activity button/inbox */
+.ChannelActivityDisplay-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Activity button/inbox: Content */
+.ChannelActivityDisplay-group-header,
+.ChannelActivityDisplay-item {
+    background-color: transparent;
+}
+
+/* Tournaments */
+/* Tournaments: Sidebar */
+.WebAppV2-sidebar,
+.WebAppV2-sidebar .NavV4SectionSidebar-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Tournaments: Active */
+.NavV4SectionSidebarOption-container.NavV4SectionSidebarOption-container-active.NavV4SectionSidebarOptionGroup-option {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+/* Tournaments: Sidebar: Server */
+.WebAppV2-sidebar .NavV4FooterGlobalContextDisplay-teams-wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Tournaments: Loading featured */
+.TournamentsPortalPage-sections .ExploreSkeleton-card,
+.TournamentsPortalPage-sections .ExploreSkeleton-title {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Featured */
+.TournamentsPortalPage-sections .TournamentCard-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Create modal */
+.FullScreenIconFlowWrapper-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(2.5px);
+}
+
+/* Tournaments: Create modal: Games */
+.ItemChooser-container .SearchBarV2-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ItemChooser-container .ItemChooserItemWrapper-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Set up tournament: Dashboard */
+.TournamentSettingsDashboardPage-container .PersistentUpsell-container-flavor-settings {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Set up tournament: Brackets */
+.TournamentSettingsBracketsPage-brackets .TournamentSettingsBracket-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Set up tournament: Staff */
+.TournamentSettingsStaffList-staff-members .TournamentSettingsSupportStaff-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Server: Information */
+.TournamentNavHeader-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.TournamentNavHeader-container .TeamNavHeaderRowButton-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Tournaments: Server: Brackets: Finalise bracket */
+.PersistentUpsell-container-flavor-default {
+    background-color: rgba(0, 0, 0, 0.7)
 }
