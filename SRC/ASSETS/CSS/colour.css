@@ -270,9 +270,14 @@ Bot flows container
     background-color: rgba(0, 0, 0, 0.25)
 }
 
-/* Chat: Embed */
-.ChatV2Message-content-container .OpenGraphEmbed-content {
+/* Embed */
+.OpenGraphEmbed-content,
+.ChatEmbed-container {
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ChatEmbedFooter-container {
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
 /* Chat: Embed hover */
@@ -281,12 +286,14 @@ Bot flows container
 }
 
 /* Chat: Loading image */
-.MaximizedImageOverlay-image.Img-skeleton-square {
+.Img-skeleton-square,
+.DummyImagePlaceholder-container.DynamicMediaLoader-image-placeholder.RawVideoPlayer-video-loader {
     display: none;
 }
 
 /* Chat: Codeblock */
-.CodeContainerRenderer-container {
+.CodeContainerRenderer-container,
+.BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -304,6 +311,11 @@ Bot flows container
 /* Chat: Pinned message background */
 .ChatV2MessageContents-container-pinned .ChatV2MessageContents-display {
     background-color: transparent;
+}
+
+/* Chat: Create thread */
+.ChatChannelInput-container .ChannelTitleInput-container {
+    background-color: rgba(256, 256, 256, 0.1);
 }
 
 /* Chat: Thread link */
@@ -414,7 +426,7 @@ Bot flows container
 /* Notification settings */
 .Form-container-section-border .Form-section:not(:first-child),
 .Form-container-section-border-unpadded .Form-section:not(:first-child),
-.Form-container-row-border .Form-section:not(:first-child) {
+.Form-container-row-border .Form-section:not(:first-child):not(.RecruitmentApplicationSubmissionForm-container.RecruitmentApplicationEditor-preview>) {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -547,6 +559,43 @@ Bot flows container
     backdrop-filter: blur(2.5px);
 }
 
+/* Subscriptions: Server */
+/* Earnings */
+.ServerSubscriptions-container .ServerSubscriptionsSectionAdminHasSetup-earnings {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Invite others */
+.ServerSubscriptions-container .ServerSubscriptionsInviteUpsell-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ServerSubscriptions-container .ServerSubscriptionsInviteUpsell-container .CopyableTextbox-container {
+    background-color: transparent;
+}
+
+/* Rewards */
+.ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Recent activity */
+.ServerSubscriptions-container .ServerSubscriptionsRecentActivityFeed-empty-wrapper {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
 /* Direct messages */
 /* DM list */
 .WebAppV2-container-minimal .WebAppV2-sidebar .ChatChannelList-container {
@@ -559,7 +608,7 @@ Bot flows container
 
 /* DM list: Active dm */
 .ChatChannelList-items .ChatChannelListItem-container-selected {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* DM list: Hovered dm */
@@ -574,12 +623,12 @@ Bot flows container
 
 /* DM list: Whatever the fuck is the bottom thing */
 .NavV4FooterGlobalContextDisplay-teams-wrapper {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Activity button/inbox */
 .ChannelActivityDisplay-container {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Activity button/inbox: Content */
@@ -674,7 +723,7 @@ Bot flows container
 
 /* Applications */
 .TeamRecruitmentTab-container .TeamApplicationInlineLink-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .TeamRecruitmentTab-container .CopyableTextbox-container {
@@ -696,4 +745,362 @@ Bot flows container
     backdrop-filter: blur(2.5px);
 }
 
-/* Preview applications
+/* Preview applications */
+.RecruitmentApplicationEditor-forms-previewing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Channels */
+
+
+/* Stream */
+/* Stream: background */
+.StreamChannelDisplay-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Stream: Screen, Cam, Voice */
+.StreamChannelDisplay-container .SVGIconWithTooltip-container-flavor-hover-bleach {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+
+/* Stream: Invite link */
+.StreamChannelDisplay-container .CopyableTextbox-container {
+    background-color: rgba(256, 256, 256, 0.05)
+}
+
+/* Stream: Screen share : Application */
+.DesktopAppCaptureDevicePickerOverlay-options {
+    background-color: rgba(256, 256, 256, 0.05)
+}
+
+/* Stream: Connectivity */
+.VoiceConnectionDisplayPanelContents-container * {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    ;
+}
+
+/* Stream connected */
+.StreamsDisplayV2-container:not(.StreamTheaterViewer-content .StreamsDisplayV2-container) {
+    background-color: transparent;
+}
+
+/* Stream: Theatre display */
+.StreamTheaterViewer-content .StreamsDisplayV2-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Stream: Theatre sidebar */
+.StreamTheaterViewer-sidebar .ScreenHeader-container,
+.StreamTheaterViewer-sidebar .SidebarWrapper-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Voice */
+/* Voice: lobby */
+.VoiceChannelDisplay-container {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+/* Voice: Invite */
+.VoiceGroupInviteControl-container .CopyableTextbox-container {
+    background-color: rgba(256, 256, 256, 0.05)
+}
+
+/* Calendar */
+/* Calendar: Main colour */
+.FullSizedCalendar-week {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+/* Calendar: Different month */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-different-month {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Calendar: Today */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-today {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+
+/* Calendar: Hover */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Calendar: Create event: Date picker: Header */
+.DayPicker-header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Calendar: Event */
+.FullSizedCalendar-week .FullSizedCalendarEvent-container-unread:not(.FullSizedCalendarEvent-container-full-day) {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+/* Calendar: Event: Details */
+.EventCard-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Calendar: Event: Details > Enhanced */
+.TeamEvent-contents .EventTemporalChannelDisplay-container,
+.TeamEventDetails-post-metadata,
+.TeamEventDetails-status,
+.TeamEventDetails-item,
+.EventCardMetadata-container-size-lg {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Schedule */
+/* Shedule: Main colour */
+.ChannelWrapper-contents .AvailabilityDisplay-container,
+.ChannelWrapper-content .AvailabilityDisplayHeader-day {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+/* Schedule: Today */
+.ChannelWrapper-contents .AvailabilityDisplayHeader-day-today {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Schedule: Change week */
+.ChannelWrapper-contents .AvailabilityDisplayHeader-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+/* Availability */
+.ChannelWrapper-contents .AvailabilityDisplayDaysPlaceholder-create {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Announcements */
+/* Announcement: Main colour */
+.TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Announcement: Post */
+.TeamAnnouncementsWidget-container .DraftInputWithTitleV2-title-wrapper {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Announcement: Post: Body */
+.TeamAnnouncementsWidget-container .Editor-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Announcement: Loading */
+.TeamAnnouncementsWidget-container .OverviewWidgetSkeleton-container-type-filled,
+.TeamAnnouncementWithReplies-container .OverviewWidgetSkeleton-container-type-filled {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Announcement: Loading: Avatar */
+.TeamAnnouncementsWidget-container .OverviewWidgetSkeleton-profile-picture,
+.TeamAnnouncementWithReplies-container .OverviewWidgetSkeleton-profile-picture {
+    background: rgba(256, 256, 256, 0.12);
+}
+
+/* Announcement: Loading: Text */
+.OverviewWidgetSkeleton-text,
+.OverviewWidgetSkeleton-subtitle,
+.TeamAnnouncementWithReplies-container .OverviewWidgetSkeleton-paragraph {
+    background: rgba(256, 256, 256, 0.12);
+}
+
+/* Announcement: Reply: Main colour */
+.TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Announcement: Reply: Quote */
+.TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Announcement: Reaction picker */
+.ReactionPicker-container .ReactionPickerNavbar-container,
+.ReactionPicker-container .ReactionPicker-content,
+.ReactionPicker-container .SearchBarV2-container,
+.ReactionPicker-container .ReactionPickerFooter-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Announcement: Docs */
+.TeamAnnouncementsWidget-announcements .CustomFormWrapper-container-standalone,
+.TeamAnnouncementWithReplies-container .CustomFormWrapper-container-standalone {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+/* Forums */
+/* Forum: Post */
+.TeamForumsThreadsDisplay-container .DraftInputWithTitleV2-title-wrapper,
+.TeamPostRow-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Forum: Post: Body */
+.TeamForumsThreadsDisplay-container .Editor-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Forum: Content */
+.TeamThread-content .TeamThreadPostPanelDisplay-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Forum: Content: Quote */
+.TeamThread-content .TeamThreadPostPanel-display .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Forum: Loading: Text */
+.TeamThread-content .TeamThreadPostPanelDisplay-container .SkeletonPlaceholder-container-no-children {
+    background: rgba(256, 256, 256, 0.12);
+}
+
+/* Forum: Write a reply [1] */
+.TeamThread-content .TeamThreadReplyCreator-unexpanded-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Forum: Write a reply [2] */
+.TeamThread-content .TeamThread-posts .TeamThreadPostEditor-container:not(.TeamThreadPostPanel-inline-reply) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Forum: Write a reply [3] */
+.TeamThread-reply-creator .TeamThreadPostEditor-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Forum: Reply: Inline reply */
+.TeamThread-content .TeamThreadPostPanel-inline-reply {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* List */
+/* List: Add item */
+.TeamList-container .TeamListItemWrapper-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* List: Item */
+.TeamList-container .TeamListItemIndentWrapper-container {
+    background-color: transparent;
+}
+
+/* List: Move item */
+.TeamList-container .TeamListItemIndentWrapper-container .ReorderIndentable-blockout {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Docs */
+/* Docs: Editor */
+.DocEditor-container .DocEditor-content-input {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+/* Docs: Editor: Indent */
+.DocEditor-container .DocEditor-content-input .ParagraphRenderer {
+    margin-left: 5px;
+}
+
+/* Docs: Main colour */
+.DocsGrid-container .DocsGrid-grid .DocDisplayItem-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Docs: Info colour */
+.DocsGrid-container .DocsGrid-grid .DocDisplayItem-container .DocSummaryInfo-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Docs: Reply */
+.DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Docs: Reply: Quote */
+.DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+/* Media */
+/* Media: Main colour */
+.TeamMedia-container .MediaDisplayItemV3-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Media: View media: Main colour */
+.MediaSplitView-container .MediaSplitView-media {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Media: View media: Info pane */
+.MediaSplitView-container-desktop .MediaSplitView-right-pane .MediaInfoPane-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Media: View media: Info pane: Comment */
+.MediaSplitView-container-desktop .MediaSplitView-right-pane .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Media: View media: Info pane: Comment: Quote */
+.MediaSplitView-container-desktop .MediaSplitView-right-pane .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+/* Unread messages */
+.ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-unread-messages.ChatChannelMessages-alert-bar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-radius: 5px;
+}
