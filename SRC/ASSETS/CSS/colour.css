@@ -7,7 +7,8 @@
     --warm-black: #1C4545ff;
     --dark-slate-gray: #346058ff;
     --morning-blue: #7FA297ff;
-    --dark1: rgba(0, 0, 0, 0.5)
+    --dark1: rgba(0, 0, 0, 0.5);
+    --light4: rgba(256, 256, 256, 0.4);
 }
 
 /* Todo:
@@ -23,6 +24,18 @@ Registration modal, tournaments
 Modal V2 container
 Bot flows container
 */
+
+/* Skeleton classes */
+.OverviewWidgetSkeleton-container-type-filled {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.OverviewWidgetSkeleton-profile-picture,
+.OverviewWidgetSkeleton-text,
+.OverviewWidgetSkeleton-subtitle,
+.OverviewWidgetSkeleton-paragraph {
+    background: linear-gradient(270deg, var(--light4), var(--light4), var(--light4), var(--light4), var(--light4), var(--light4));
+}
 
 /* Right click & options modal */
 .TransientMenu-container-style-default {
@@ -651,10 +664,36 @@ Bot flows container
 }
 
 .TournamentNavHeader-container .TeamNavHeaderRowButton-container {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Tournaments: Server: Brackets: Finalise bracket */
 .PersistentUpsell-container-flavor-default {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Applications */
+.TeamRecruitmentTab-container .TeamApplicationInlineLink-container {
     background-color: rgba(0, 0, 0, 0.7)
 }
+
+.TeamRecruitmentTab-container .CopyableTextbox-container {
+    background-color: transparent;
+}
+
+/* Edit applications */
+.StatusContext-container.ModalV2-modal-content.ModalV2-modal-content-scrollable {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Edit applications: drop downs */
+.RecruitmentApplicationEditor-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2.5px);
+}
+
+/* Preview applications
