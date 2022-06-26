@@ -80,7 +80,7 @@ Bot flows container
 
 /* React: Message active */
 .ChatV2Message-container-active {
-    background-color: rgba(256, 256, 256, 0.1);
+    background-color: rgba(256, 256, 256, 0.1)
 }
 
 /* Reaction picker */
@@ -235,7 +235,7 @@ Bot flows container
 
 /* Overview: Announcements: Pinned */
 .PinnedAnnouncements-announcements .TeamPostRow-container {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Overview: Announcement: Main colour */
@@ -245,12 +245,12 @@ Bot flows container
 
 /* Overview: View announcement: Main colour */
 .TeamAnnouncements-container .TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Overview: View announcement: Comment */
 .TeamAnnouncements-container .ReplyPanel-container-viewing {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Overview: View announcement: Comment: Quote */
@@ -260,14 +260,14 @@ Bot flows container
 
 /* Overview: Leaderboard */
 .TeamOverviewSummaryDisplay-team-content-summary .TeamOverviewLeaderboardSection-leaderboard-container {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Channels */
 /* Chat */
 /* Chat: Message hover */
 .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChannelWrapper-content .ChannelPinnedMessages-container .ChatV2Message-container):hover {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.25)
 }
 
 /* Embed */
@@ -277,7 +277,7 @@ Bot flows container
 }
 
 .ChatEmbedFooter-container {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
 /* Chat: Embed hover */
@@ -524,17 +524,17 @@ Bot flows container
 }
 
 .EmbedWidgetSettingPage-preview .CardWrapper-container {
-    background-color: transparent;
+    background-color: transparent
 }
 
 /* Webhook */
 .TeamSettingsWebhookPage-webhooks .UserCTAPanel-container {
-    background-color: rgba(256, 256, 256, 0.2);
+    background-color: rgba(256, 256, 256, 0.2)
 }
 
 /* Subscriptions */
 .ServerSubscriptionsSetupUpsell-container .ServerSubscriptionsSetupUpsell-content {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .ServerSubscriptionsSetupUpsell-container .ServerSubscriptionsSetupUpsell-header {
@@ -593,7 +593,7 @@ Bot flows container
 
 /* Recent activity */
 .ServerSubscriptions-container .ServerSubscriptionsRecentActivityFeed-empty-wrapper {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Direct messages */
@@ -757,7 +757,7 @@ Bot flows container
 /* Stream */
 /* Stream: background */
 .StreamChannelDisplay-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Stream: Screen, Cam, Voice */
@@ -767,12 +767,12 @@ Bot flows container
 
 /* Stream: Invite link */
 .StreamChannelDisplay-container .CopyableTextbox-container {
-    background-color: rgba(256, 256, 256, 0.05);
+    background-color: rgba(256, 256, 256, 0.05)
 }
 
 /* Stream: Screen share : Application */
 .DesktopAppCaptureDevicePickerOverlay-options {
-    background-color: rgba(256, 256, 256, 0.05);
+    background-color: rgba(256, 256, 256, 0.05)
 }
 
 /* Stream: Connectivity */
@@ -812,7 +812,7 @@ Bot flows container
 /* Voice */
 /* Voice: lobby */
 .VoiceChannelDisplay-container {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8)
 }
 
 /* Voice: Invite */
@@ -903,12 +903,12 @@ Bot flows container
 
 /* Announcement: Post */
 .TeamAnnouncementsWidget-container .DraftInputWithTitleV2-title-wrapper {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Announcement: Post: Body */
 .TeamAnnouncementsWidget-container .Editor-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Announcement: Loading */
@@ -959,19 +959,19 @@ Bot flows container
 /* Announcement: Docs */
 .TeamAnnouncementsWidget-announcements .CustomFormWrapper-container-standalone,
 .TeamAnnouncementWithReplies-container .CustomFormWrapper-container-standalone {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Forums */
 /* Forum: Post */
 .TeamForumsThreadsDisplay-container .DraftInputWithTitleV2-title-wrapper,
 .TeamPostRow-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Forum: Post: Body */
 .TeamForumsThreadsDisplay-container .Editor-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Forum: Content */
@@ -1047,7 +1047,7 @@ Bot flows container
 
 /* Docs: Main colour */
 .DocsGrid-container .DocsGrid-grid .DocDisplayItem-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Docs: Info colour */
@@ -1057,18 +1057,18 @@ Bot flows container
 
 /* Docs: Reply */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Docs: Reply: Quote */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Media */
 /* Media: Main colour */
 .TeamMedia-container .MediaDisplayItemV3-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Media: View media: Main colour */
@@ -1091,12 +1091,12 @@ Bot flows container
 
 /* Media: View media: Info pane: Comment */
 .MediaSplitView-container-desktop .MediaSplitView-right-pane .ReplyPanel-container-viewing {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Media: View media: Info pane: Comment: Quote */
 .MediaSplitView-container-desktop .MediaSplitView-right-pane .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 /* Unread messages notification */
@@ -1116,6 +1116,16 @@ Bot flows container
     background-attachment: fixed;
 }
 
+/* Profile: Post */
+.UserProfileV3-content .UserProfilePostPanel-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+/* Profile: Post > Reply */
+.UserProfileV3-content .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
 /* Profile header */
 .UserProfileV3-content .ScreenHeader-container {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
@@ -1125,17 +1135,74 @@ Bot flows container
     background-attachment: fixed;
 }
 
-/* Profile: Post */
-.UserProfileV3-content .UserProfilePostPanel-container:not(.UserProfilePostPanel-container-editing) {
+/* Create server: Main colour */
+.OnboardingExperience-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(2.5px);
+}
+
+/* Create server: Drop downs */
+.TransientMenuPortalContext-portal-container .TypeaheadMenu-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* Profile: Post > Reply */
-.UserProfileV3-content .ReplyPanel-container-viewing {
+/* Create server: Copy invite */
+.OnboardingUpsellStage-container .TeamInviteClipboardControl-container .CopyableTextbox-container {
+    background-color: transparent;
+}
+
+/* Create server: Summary */
+.OnboardingTeamStageEnabled-summary.TeamSummaryBar-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* My servers */
+.MyTeamsPage-container {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(2.5px);
+}
+
+/* My servers: Server background */
+.MyTeamsPage-container .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* Profile: Games */
-.UserProfileV3-profile-content .UserGameSummaryCard-container {
+
+/* Join a server */
+/* Main colour */
+.PlayerLfgPortal-container {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(2.5px);
+}
+
+/* Drop downs */
+.PlayerLfgListing-header-settings .TypeaheadMenu-container {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Setup checklist */
+.PlayerLfgListing-card-wrapper .PlayerLfgListing-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.PlayerLfgListing-card-wrapper .LfgLfmListingCard-upsell-bg {
+    display: none;
 }
