@@ -12,7 +12,6 @@ Apply to a server, and do Profile: Application
 .ServerSubscriptionStageWrapper-content .ItemChooserItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.7)
 }
-
 /* Payment method */
 .ServerSubscriptionStageWrapper-content .PaymentInstrumentCreator-element {
     background-color: rgba(0, 0, 0, 0.7)
@@ -23,7 +22,6 @@ Apply to a server, and do Profile: Application
 .TransientMenuPortalContext-portal-container .TypeaheadMenu-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Create server: Copy invite */
 .OnboardingUpsellStage-container .TeamInviteClipboardControl-container .CopyableTextbox-container {
     background-color: transparent;
