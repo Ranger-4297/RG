@@ -2,6 +2,8 @@
 TODO
 
 Viewing published posts
+Profile, add game drop down
+Apply to a server, and do Profile: Application
 
 */
 
@@ -32,22 +34,6 @@ Viewing published posts
     background-color: rgba(0, 0, 0, 0.0);
 }
 
-/* Profile: Games */
-.UserProfileV3-profile-content .UserGameSummaryCard-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Ganes: Main colour */
-.UserProfileGamesTab-container .PlayerAliasCard-container-type-game,
-.UserProfileGamesTab-container .PlayerAliasCard-container-type-game .PlayerAliasCard-info {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Media: Main colour */
-.MediaDisplayControlV2-media-display .MediaDisplayItemV3-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
 /* Servers: Main colour */
 .UserProfileTeamsTab-container .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
@@ -61,31 +47,6 @@ Viewing published posts
     background-position: center;
     background-attachment: fixed;
     backdrop-filter: blur(2.5px);
-}
-
-
-
-/* Friends */
-/* Selected tab */
-.UserProfileFriendsListTab-container .HorizontalTab-container.HorizontalTab-container-selected.HorizontalTab-container-desktop.HorizontalTab-container-custom-tab.HorizontalTabMenu-tab {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* Highlighter */
-.UserProfileFriendsListTab-container .HorizontalTab-highlighter {
-    display: none;
-}
-
-/* Hover */
-.UserProfileFriendsListTab-container .HorizontalTab-container:hover,
-.UserProfileFriendsListTab-container .HorizontalTab-container:active,
-.UserProfileFriendsListTab-container .HorizontalTab-container:focus {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-/* Text colour */
-.UserProfileFriendsListTab-container .FriendsListTab-container .FriendsListTab-tab-text {
-    color: darkgray;
 }
 
 
