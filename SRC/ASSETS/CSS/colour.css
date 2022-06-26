@@ -59,7 +59,7 @@
 }
 /* Drop down */
 .ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 /* Drop down: selected */
 .ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
@@ -71,6 +71,10 @@
 }
 .StatusContext-container.ModalV2-modal-content .GlobalSearchResult-container-desktop.GlobalSearchResult-container-focused {
     background-color: rgba(0, 0, 0, 0.5);
+}
+/* Radio options */
+.ModalV2-container .RadioOptionPanel-container-selected:not(.OptionsMenuPageWrapper-container>) {
+    background-color: rgba(0, 0, 0, 0.7)
 }
 /* Right click modal */
 /* Base colour */
@@ -114,6 +118,8 @@
 }
 
 
+
+
 /* Main app */
 /* Header */
 .ScreenHeader-container:not(.UserProfileV3-content .ScreenHeader-container) {
@@ -132,6 +138,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+
+
 /* Server list */
 /* Server list: Main colour */
 .NavV4Sidebar-team-selector {
@@ -153,6 +163,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+
+
 /* Server */
 /* Server: Content navigation */
 .TeamPageNavV3-team-content .GroupSelector-container,
@@ -200,6 +214,10 @@
 .ChannelActivityDisplay-item {
     background-color: transparent;
 }
+
+
+
+
 /* Direct messages */
 /* DM list base colour */
 .WebAppV2-container-minimal .WebAppV2-sidebar .ChatChannelList-container {
@@ -241,9 +259,33 @@
 .TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:focus {
     background-color: rgb(0, 0, 0, 0.2);
 }
+
+
+
+
+/*
+Changes both server && account settings
+Adds a background to the main page to fit with modal section
+*/
+.OptionsMenu-container-desktop .OptionsMenu-options-control {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.OptionsMenuPageWrapper-container:not(.Form-container-section-border .Form-section:not(:first-child), .Form-container-section-border-unpadded .Form-section:not(:first-child), .Form-container-row-border .Form-section:not(:first-child)),
+.StatusContext-container .OptionsMenu-option-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
 /* Account settings */
 /* Overview: Base colour */
-.UserSettingsBillingPage-container .DefaultReadonlyEditableForm-container {
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
 /* Billing: Active tab */
@@ -306,5 +348,14 @@
 }
 /* Streamer mode: Base colour  */
 .UserSettingsStreamerModePage-container .FormSection-container-section-background-inset {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* Server settings */
+/* Overview: Notification settings */
+.OptionsMenuPageWrapper-container .RadioOptionPanel-container-selected {
     background-color: rgba(0, 0, 0, 0.7);
 }
