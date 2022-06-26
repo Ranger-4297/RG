@@ -58,7 +58,7 @@
     background-color: transparent;
 }
 /* Drop down */
-.ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer:not(.TeamSettingsChannelNotificationsPage-container>) {
+.ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
     background-color: rgba(0, 0, 0, 0.9);
 }
 /* Drop down: selected */
