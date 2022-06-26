@@ -5,6 +5,13 @@
     background-color: rgba(0, 0, 0, 0.25)
 }
 
+
+/* Chat: Unread messages notification */
+.ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-unread-messages.ChatChannelMessages-alert-bar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-radius: 5px;
+}
+
 /* Embed */
 .OpenGraphEmbed-content,
 .ChatEmbed-container {
@@ -123,7 +130,32 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* Chat: Reaction: active message */
+.ChatV2Message-container-active {
+    background-color: rgba(256, 256, 256, 0.1)
+}
 
+/* Chat: Message options: Main colour */
+.ChatV2Message-content-wrapper .QuickActionBar-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Chat: Message options: Hover */
+.ChatV2Message-content-wrapper .QuickActionBar-action:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Chat: Replpy to in a thread */
+.ChatV2MessageReplyTooltip-arrow,
+.ChatV2MessageReplyTooltip-content-wrapper {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+/* Chat: Reaction on message: Background */
+.ReactionBadge-container.ReactionBadge-container-active .ReactionBadge-container-content {
+    background-color: rgba(256, 256, 256, 0.05);
+    border: solid 1px rgba(0, 0, 0, 1);
+}
 
 
 /* Overview */
@@ -672,5 +704,38 @@
 
 /* Media: View media: Info pane: Comment: Quote */
 .MediaSplitView-container-desktop .MediaSplitView-right-pane .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+
+/* Sections: Subscriptions */
+/* Earnings */
+.ServerSubscriptions-container .ServerSubscriptionsSectionAdminHasSetup-earnings {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Invite others */
+.ServerSubscriptions-container .ServerSubscriptionsInviteUpsell-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.ServerSubscriptions-container .ServerSubscriptionsInviteUpsell-container .CopyableTextbox-container {
+    background-color: transparent;
+}
+/* Rewards */
+.ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Recent activity */
+.ServerSubscriptions-container .ServerSubscriptionsRecentActivityFeed-empty-wrapper {
     background-color: rgba(0, 0, 0, 0.7)
 }
