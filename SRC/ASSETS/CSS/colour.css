@@ -124,7 +124,8 @@
 .WebAppV2-sidebar,
 .ChatChannelContents-container,
 .LayeredPageContent-content,
-.TournamentsPortalPage-container {
+.TournamentsPortalPage-container,
+.SettingsMenu-container .OptionsMenuPageWrapper-container {
     background: url(https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png);
     background-position: center;
     background-size: cover;
@@ -163,12 +164,16 @@
     background-attachment: fixed;
 }
 /* Channel list: Main colour */
-.TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections {
+.TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections, .SettingsMenu-container .OptionsMenu-container-desktop .OptionsMenu-options-control {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+/* Channel list: New server tasklist upsell */
+.TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .SetupUpsell-container {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 /* Channel list: Active channel */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .TeamChannelItemContents-container-selected {
@@ -235,4 +240,71 @@
 .TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:active,
 .TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:focus {
     background-color: rgb(0, 0, 0, 0.2);
+}
+/* Account settings */
+/* Overview: Base colour */
+.UserSettingsBillingPage-container .DefaultReadonlyEditableForm-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Billing: Active tab */
+.UserSettingsBillingPage-container .HorizontalTab-container.HorizontalTab-container-selected.HorizontalTab-container-desktop.HorizontalTabMenu-tab {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Billing: Active tab highlighter */
+.UserSettingsBillingPage-container .HorizontalTab-highlighter {
+    display: none;
+}
+/* Billing: Hover tab */
+.UserSettingsBillingPage-container .HorizontalTab-container:hover,
+.UserSettingsBillingPage-container .HorizontalTab-container:active,
+.UserSettingsBillingPage-container .HorizontalTab-container:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Billing: Tab text colour */
+.UserSettingsBillingPage-container .HorizontalTab-tab-text {
+    color: darkgray
+}
+/* Billing: Support server subcriptions */
+.UserSettingsBillingPage-container .UserSettingsServerSubscriptionsUpsell-container, .UserSettingsBillingPage-container .ServerSubscriptionBar-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Billing: Payments */
+.UserSettingsBillingPage-container .PaymentInstrumentSelector-container .CheckboxPanel-container-selected {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Security: 2FA */
+.UserSettingsSecurityPage-container .PersistentUpsell-container-flavor-settings {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Privacy: Pickers */
+.UserPrivacySettingsPage-container .RadioOptionPanel-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Connections: Connections */
+.UserSettingsConnectionsPage-container .SocialLinkPanel-header {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Connections: Extra options */
+.UserSettingsConnectionsPage-container .SocialLinkConnectionOptionsForm-form {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Voice and video: Pickers */
+.VoiceAndVideoSettingsPage-container .CheckboxPanel-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Voice and video: Hovered picker */
+.VoiceAndVideoSettingsPage-container .CheckboxPanel-container.CheckboxPanel-container-clickable.CheckboxPanel-container-flavor-default:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Voice and video: Preview video */
+.VoiceAndVideoSettingsPage-container .VideoPreferencesPane-video-preview {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Keybinds: Keybinds base colour */
+.KeybindsSettingsPage-container .ItemKeybindInput-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Streamer mode: Base colour  */
+.UserSettingsStreamerModePage-container .FormSection-container-section-background-inset {
+    background-color: rgba(0, 0, 0, 0.7);
 }
