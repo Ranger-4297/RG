@@ -600,6 +600,7 @@ Adds a background to the main page to fit with modal section
 
 
 
+
 /* My servers: Server panels: Base colour */
 .MyTeamsPage-container.ContentLoader-container .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
@@ -620,3 +621,32 @@ Adds a background to the main page to fit with modal section
 .PlayerLfgListing-card-wrapper .LfgLfmListingCard-upsell-bg {
     display: none;
 }
+
+
+
+
+/* Tournaments: Featured panels */
+.TournamentsPortalPage-sections .TournamentCard-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Tournaments: Create modal */
+.FullScreenIconFlowWrapper-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Tournaments: Create modal: Search */
+.ItemChooser-container .SearchBarV2-container:not(.OnboardingExperience-create-team-flow>) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Tournaments: Create moda: Games */
+.ItemChooser-container .ItemChooserItemWrapper-container:not(.OnboardingExperience-create-team-flow>) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/* Blog
