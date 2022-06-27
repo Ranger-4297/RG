@@ -19,28 +19,10 @@ View applications
 }
 
 
-/* Create server: Drop downs */
-.TransientMenuPortalContext-portal-container .TypeaheadMenu-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-/* Create server: Copy invite */
-.OnboardingUpsellStage-container .TeamInviteClipboardControl-container .CopyableTextbox-container {
-    background-color: transparent;
-}
-
-/* Create server: Summary */
-.OnboardingTeamStageEnabled-summary.TeamSummaryBar-container:not(#OnboardingImportDiscordServerTemplateStage >) {
-    background-color: rgba(0, 0, 0, 0.0);
-}
-
 /* Servers: Main colour */
 .UserProfileTeamsTab-container .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
-
-
-
 /* My servers */
 .MyTeamsPage-container {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
@@ -50,44 +32,10 @@ View applications
     background-attachment: fixed;
     backdrop-filter: blur(2.5px);
 }
-
 /* My servers: Server background */
 .MyTeamsPage-container .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
-
-
-/* Join a server from create server deletion */
-/* Main colour */
-.PlayerLfgPortal-container,
-.ExplorePage-container-v2 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    backdrop-filter: blur(2.5px);
-}
-
-/* Drop downs */
-.PlayerLfgListing-header-settings .TypeaheadMenu-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Setup checklist */
-.PlayerLfgListing-card-wrapper .PlayerLfgListing-card {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.PlayerLfgListing-card-wrapper .LfgLfmListingCard-upsell-bg {
-    display: none;
-}
-
 /* Interested servers */
 .PlayerLfgRecommendations-container .CardWrapper-container {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
