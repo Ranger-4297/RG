@@ -7,14 +7,6 @@ Profile, add game drop down
 */
 
 
-
-
-
-
-
-
-
-
 /* Select subscription tier */
 .ServerSubscriptionStageWrapper-content .ItemChooserItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.7)
@@ -53,7 +45,6 @@ Profile, add game drop down
 
 
 
-
 /* Server invite on docs/rules */
 .DocViewer-reader-container .TournamentInviteEmbedCard-container,
 .TeamEmbedCard-container {
@@ -64,56 +55,4 @@ Profile, add game drop down
 .StretchFadeBackground-container-type-half-left .StretchFadeBackground-container>* {
     -webkit-mask-image: linear-gradient(to left, black, black calc(100% - 100%), rgba(0, 0, 0, 0) calc(100% - 0%), rgba(0, 0, 0, 0));
     mask-image: linear-gradient(to left, black, black calc(100% - 120%), rgba(0, 0, 0, 0) calc(100% - 0%), rgba(0, 0, 0, 0));
-}
-
-/* Blog */
-.BlogPage-container,
-.BlogPage-container .BlogHeader-container:not(.BlogHeader-container-bare):not(.BlogHeader-container-user-blog) {
-    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-
-}
-
-/* Blog post */
-.BlogPage-container .BlogPostSummary-container {
-    background-color: rgba(0, 0, 0, 0.7)
-}
-
-.BlogPage-container .LandingPageV3FooterSocialLinkIcons-social-link {
-    background-color: rgba(256, 256, 256, 0.1)
-}
-
-
-/* Share article */
-.BlogPage-container .CopyableTextbox-container {
-    background-color: transparent;
-}
-
-.LandingPageV3Footer-trendy-slash,
-.LandingPageV3Footer-trendy-slash,
-.LandingPageV3Footer-footer-content {
-    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-/* Social icons */
-.LandingPageV3Footer-footer-content .LandingPageV3FooterSocialLinkIcons-social-link {
-    background-color: rgba(0, 0, 0, 0.2)
-}
-
-/* Remove slant */
-.LandingPageV3Footer-trendy-slash {
-    transform: none;
-}
-
-
-/* Become a partner */
-.PartnerProgramLandingHero-container {
-    background: url(https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
