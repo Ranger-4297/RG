@@ -697,3 +697,30 @@
 .PersistentUpsell-container-flavor-default {
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+/* Tournaments */
+/* Tournaments: Active */
+.NavV4SectionSidebarOption-container.NavV4SectionSidebarOption-container-active.NavV4SectionSidebarOptionGroup-option {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+/* Tournaments: User modal */
+.TournamentParticipantHoverCard-container,
+.TournamentParticipantHoverCard-action-menu {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+/* Tournaments: Brackets */
+/* Rounds */
+.TournamentPage-contents .EliminationBracketHeaderRoundSummary-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Teams */
+.TournamentPage-contents .EliminationBracketMatchDisplay-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.TournamentPage-contents .ElimBracketMatchLineItemScorePanel-container:not(.ElimBracketMatchLineItemScorePanel-container-is-winner) {
+    background-color: rgba(0, 0, 0, 0.7);
+}
