@@ -125,12 +125,14 @@
 .ScreenHeader-container:not(.UserProfileV3-content .ScreenHeader-container) {
     background-color: rgba(0, 0, 0, 0.7);
 }
-/* Main chat base colour */
+/* Main app base colour */
 .ChannelWrapper-container,
 .ChatChannelContents-container,
 .LayeredPageContent-content,
 .TournamentsPortalPage-container,
-.SettingsMenu-container .OptionsMenuPageWrapper-container {
+.SettingsMenu-container .OptionsMenuPageWrapper-container,
+.BlogPage-container,
+.BlogPage-container .BlogHeader-container:not(.BlogHeader-container-bare):not(.BlogHeader-container-user-blog) {
     background: url(https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png);
     background-position: center;
     background-size: cover;
@@ -649,4 +651,54 @@ Adds a background to the main page to fit with modal section
 
 
 
-/* Blog
+/* Blog: Post panel */
+.BlogPage-container .BlogPostSummary-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Blog: Post panel > Social icons */
+.BlogPage-container .LandingPageV3FooterSocialLinkIcons-social-link {
+    background-color: rgba(256, 256, 256, 0.1)
+}
+/* Blog: Post: Share article */
+.BlogPage-container .CopyableTextbox-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Blog: Post: Remove slant */
+.LandingPageV3Footer-trendy-slash {
+    transform: none;
+}
+/* Blog: Post: Footer base colour */
+.LandingPageV3Footer-trendy-slash,
+.LandingPageV3Footer-trendy-slash,
+.LandingPageV3Footer-footer-content {
+    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Blog: Post: Footer > social icons */
+.LandingPageV3Footer-footer-content .LandingPageV3FooterSocialLinkIcons-social-link {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+/* Blog: Post: Footer > Sign up modal */
+.OneStepSignUp-container.OneStepSignUp-container-has-cancel-text.OneStepSignUpLogIn-form {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* Partner program: Base colour */
+.PartnerProgramLandingHero-container,
+.PartnerProgramLanding-container .PartnerProgramLanding-requirements-container {
+    background: url(https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Partner program: Profile */
+.PartnerProgramLanding-container .PlayerCard-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
