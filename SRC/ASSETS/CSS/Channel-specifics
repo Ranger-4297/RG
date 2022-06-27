@@ -649,3 +649,51 @@
 .ServerSubscriptions-container .ServerSubscriptionsRecentActivityFeed-empty-wrapper {
     background-color: rgba(0, 0, 0, 0.7)
 }
+
+
+
+
+
+
+
+
+
+
+/* Tournaments: Set up tournament: Dashboard */
+.TournamentSettingsDashboardPage-container .PersistentUpsell-container-flavor-settings {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Set up tournament: Brackets */
+.TournamentSettingsBracketsPage-brackets .TournamentSettingsBracket-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Set up tournament: Staff */
+.TournamentSettingsStaffList-staff-members .TournamentSettingsSupportStaff-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Server: Information */
+.TournamentNavHeader-container,
+.TournamentNav-container .TeamNavMenu-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.TournamentNavHeader-container .TeamNavHeaderRowButton-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Tournaments: Archived */
+.TournamentNav-container .GroupUpsell-container-archived {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+
+/* Tournaments: Server: Brackets: Finalise bracket */
+.PersistentUpsell-container-flavor-default {
+    background-color: rgba(0, 0, 0, 0.7);
+}
