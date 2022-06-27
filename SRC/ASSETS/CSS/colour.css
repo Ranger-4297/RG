@@ -543,3 +543,80 @@ Adds a background to the main page to fit with modal section
 .UserProfileFriendsListTab-container .ItemManager-container .FriendsList-actions .FriendList-action-icon {
     background-color: rgba(256, 256, 256, 0.1);
 }
+/* Profile: Servers: Create server base colour */
+.OnboardingExperience-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(2.5px);
+}
+/* Profile: Servers: Create server: Games > Panels */
+.OnboardingExperience-create-team-flow .ItemChooser-container .ItemChooserItemWrapper-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Profile: Servers: Create server: Games > Search */
+.OnboardingExperience-create-team-flow .ItemChooser-container .SearchBarV2-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Profile: Servers: Create server: Drop downs */
+.TransientMenuPortalContext-portal-container .TypeaheadMenu-container {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* Profile: Servers: Join server: Selected tab */
+.ExplorePage-content .HorizontalTab-container.HorizontalTab-container-selected.HorizontalTab-container-desktop.HorizontalTabMenu-tab {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Profile: Servers: Join server: Highlighter */
+.ExplorePage-content .HorizontalTab-highlighter {
+    display: none;
+}
+/* Profile: Servers: Join server: Hover */
+.ExplorePage-content .HorizontalTab-container:hover,
+.ExplorePage-content .HorizontalTab-container:active,
+.ExplorePage-content .HorizontalTab-container:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Profile: Servers: Join server: Drop down */
+.ExplorePage-content .TypeaheadInput-container:not(.TypeaheadInput-container-menu-portal) .TypeaheadInput-typeahead-options-list {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* Profile: Servers: Join server: Server panels */
+.ExplorePage-content .CardWrapper-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Profile: Applications: Application panels */
+.RecruitmentApplicantsDisplayWrapper-container .ApplicantDisplayItem-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Profile: Applications: Sections */
+.ApplicantSummaryCard-container .ApplicantSummaryCard-votes,
+.ApplicantSummaryCard-container .ApplicantSummaryCard-buttons-applied-date,
+.ApplicantSummaryCard-container .UserInfoSummaryItem-container-layout-grid,
+.RecruitmentApplicantViewer-container .RecruitmentApplicantViewer-form-results {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* My servers: Server panels: Base colour */
+.MyTeamsPage-container.ContentLoader-container .CardWrapper-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* My servers: Join server > Status */
+/* My servers: Join server > Status: Drop downs */
+.PlayerLfgListing-header-settings .TypeaheadMenu-container {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* My servers: Join server > Status: Setup checklist */
+.PlayerLfgListing-card-wrapper .PlayerLfgListing-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.PlayerLfgListing-card-wrapper .LfgLfmListingCard-upsell-bg {
+    display: none;
+}
