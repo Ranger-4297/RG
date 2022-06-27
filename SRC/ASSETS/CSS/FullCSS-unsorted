@@ -4,6 +4,7 @@ TODO
 Viewing published posts
 Profile, add game drop down
 Apply to a server, and do Profile: Application
+View applications
 
 */
 
@@ -37,15 +38,7 @@ Apply to a server, and do Profile: Application
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* Create server: Main colour */
-.OnboardingExperience-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    backdrop-filter: blur(2.5px);
-}
+
 
 
 /* My servers */
@@ -63,49 +56,6 @@ Apply to a server, and do Profile: Application
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-
-
-/* Join server from settings */
-/* Main color */
-.ExplorePage-container-v2 .ExplorePage-content {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-/* Selected tab */
-.ExplorePage-content .HorizontalTab-container.HorizontalTab-container-selected.HorizontalTab-container-desktop.HorizontalTabMenu-tab {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* Highlighter */
-.ExplorePage-content .HorizontalTab-highlighter {
-    display: none;
-}
-
-/* Hover */
-.ExplorePage-content .HorizontalTab-container:hover,
-.ExplorePage-content .HorizontalTab-container:active,
-.ExplorePage-content .HorizontalTab-container:focus {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-/* Text colour */
-.ExplorePage-content .HorizontalTab-tab-text {
-    color: darkgray;
-}
-
-/* Drop down */
-.ExplorePage-content .TypeaheadInput-container:not(.TypeaheadInput-container-menu-portal) .TypeaheadInput-typeahead-options-list {
-    background-color: rgba(0, 0, 0, 0.7)
-}
-
-/* Servers */
-.ExplorePage-content .CardWrapper-container {
-    background-color: rgba(0, 0, 0, 0.7)
-}
 
 
 /* Join a server from create server deletion */
