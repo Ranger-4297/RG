@@ -524,6 +524,10 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/* Profile: Loading banner */
+.UserProfileBackground-image.Img-skeleton-square {
+    display: none;
+}
 /* Profile: Post */
 .UserProfileV3-content .UserProfilePostPanel-container:not(.UserProfileFeedWidget-posts.UserProfilePostsDisplay-container) {
     background-color: rgba(0, 0, 0, 0.7)
@@ -948,6 +952,17 @@ Adds a background to the main page to fit with modal section
     font-family: 'Consolas', monospace;
     letter-spacing: 1px;
 }
+/* Chat: Input > Emoji */
+.ChatChannelInput-container .TypeaheadDrawer-container {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.ChatChannelInput-container .SlateTypeaheadMenuHeader-container {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Chat: Input > Emoji : Selected */
+.ChatChannelInput-container .MenuItemEnabled-container-highlighted {
+    background-color: rgba(256, 256, 256, 0.1);
+}
 /* Chat: Input > Quote */
 .SlateEditor-container .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
@@ -1008,4 +1023,24 @@ Adds a background to the main page to fit with modal section
 .ReactionBadge-container.ReactionBadge-container-active .ReactionBadge-container-content {
     background-color: rgba(256, 256, 256, 0.05);
     border: solid 1px rgba(0, 0, 0, 1);
+}
+/* Chat: Thread link */
+.ChatV2Message-content-wrapper .ChatMessageThread-container {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+/* Chat: Thread link: Hovered */
+.ChatV2Message-content-wrapper .ChatMessageThread-container::after {
+    background-color: rgba(256, 256, 256, 0.2);
+}
+/* Chat: Thread link: Last reply colour */
+.ChatMessageThread-container .LastReplyDisplay-container.LastReplyDisplay-container-participant:not(.LastReplyDisplay-container-unread):before {
+    background-color: rgba(66, 124, 135, 1);
+}
+/* Chat: User modal */
+.ProfileHoverCardV2Overlay-container,
+.ProfileHoverCardV2Overlay-action-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
