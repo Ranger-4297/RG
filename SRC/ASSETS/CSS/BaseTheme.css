@@ -209,6 +209,14 @@ body,
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .TeamChannelItemContents-container-selected {
     background-color: rgba(256, 256, 256, 0.05);
 }
+/* Channel list: Connected to voicechannel */
+.VoiceConnectionDisplayPanelContents-container * {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
 /* Channel list: Channel permissions: Selected role */
 .TeamSettingsPermissionsItem-container-selected {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
@@ -1042,5 +1050,38 @@ Adds a background to the main page to fit with modal section
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Stream: Base colour */
+.StreamChannelDisplay-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Stream: Screenshare modal > Application window: Base colour */
+.DesktopAppCaptureDevicePickerOverlay-window .DesktopAppCaptureDevicePickerOverlay-options, .DesktopAppCaptureDevicePickerOverlay-screen .DesktopAppCaptureDevicePickerOverlay-options{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Stream: Screen, Cam, Voice */
+.StreamChannelDisplay-container .SVGIconWithTooltip-container-flavor-hover-bleach {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Stream: Application window */
+.StreamsDisplayV2-container:not(.StreamTheaterViewer-content .StreamsDisplayV2-container) {
+    background-color: transparent;
+}
+/* Stream: Theatre display */
+.StreamTheaterViewer-content .StreamsDisplayV2-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Stream: Theatre sidebar */
+.StreamTheaterViewer-sidebar .ScreenHeader-container,
+.StreamTheaterViewer-sidebar .SidebarWrapper-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
 }
