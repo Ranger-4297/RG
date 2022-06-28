@@ -1,13 +1,4 @@
 
-/* Voice: lobby */
-.VoiceChannelDisplay-container {
-    background-color: rgba(0, 0, 0, 0.8)
-}
-/* Voice: Invite */
-.VoiceGroupInviteControl-container .CopyableTextbox-container {
-    background-color: rgba(256, 256, 256, 0.05)
-}
-
 /* Calendar */
 /* Calendar: Main colour */
 .FullSizedCalendar-week {
