@@ -1101,8 +1101,6 @@ Adds a background to the main page to fit with modal section
 .TeamCalendarControls-container .TeamCalendarControls-view-options .ToggleControlButton-container.ToggleControlButton-container-desktop:hover,
 .TeamCalendarControls-container .ToggleControlButton-container.ToggleControlButton-container-selected {
     background-color: rgba(0, 0, 0, 0.5);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
 }
 /* Calendar: Main colour */
 .FullSizedCalendar-week {
