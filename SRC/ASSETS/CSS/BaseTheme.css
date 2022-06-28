@@ -88,7 +88,11 @@
 .ReactionPickerOverlay-container .ReactionPickerNavbar-container,
 .ReactionPickerOverlay-container .ReactionPicker-content,
 .ReactionPickerOverlay-container .SearchBarV2-container,
-.ReactionPickerOverlay-container .ReactionPickerFooter-container {
+.ReactionPickerOverlay-container .ReactionPickerFooter-container,
+.ReactionPicker-container .ReactionPickerNavbar-container,
+.ReactionPicker-container .ReactionPicker-content,
+.ReactionPicker-container .SearchBarV2-container,
+.ReactionPicker-container .ReactionPickerFooter-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -1198,4 +1202,28 @@ Adds a background to the main page to fit with modal section
 /* Availability */
 .ChannelWrapper-contents .AvailabilityDisplayDaysPlaceholder-create {
     background-color: rgba(0, 0, 0, 0.6);
+}
+/* Announcement: Main colour */
+.TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Announcement: Post */
+.TeamAnnouncementsWidget-container .DraftInputWithTitleV2-title-wrapper {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Announcement: Post: Body */
+.TeamAnnouncementsWidget-container .Editor-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Announcement: Reply: Main colour */
+.TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Announcement: Reply: Quote */
+.TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Announcement: Loading image */
+.TeamAnnouncementItem-container.MediaRenderer-content.MediaRenderer-content-editor-default.MaximizableImage-image.Img-skeleton-square {
+    display: none;
 }
