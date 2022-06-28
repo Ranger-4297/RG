@@ -58,7 +58,8 @@
     background-color: transparent;
 }
 /* Drop down */
-.ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
+.ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer,
+.GuildedSelect-container.GuildedSelect-container-dark .Select-noresults {
     background-color: rgba(0, 0, 0, 0.9);
 }
 /* Drop down: selected */
@@ -1217,7 +1218,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Announcement: Reply: Main colour */
 .TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Announcement: Reply: Quote */
 .TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
@@ -1226,4 +1227,52 @@ Adds a background to the main page to fit with modal section
 /* Announcement: Loading image */
 .TeamAnnouncementItem-container.MediaRenderer-content.MediaRenderer-content-editor-default.MaximizableImage-image.Img-skeleton-square {
     display: none;
+}
+/* Forum: Post: Base colour */
+.TeamThreadPostPanel-container {
+    background-color: transparent;
+}
+/* Forum: Post */
+.TeamForumsThreadsDisplay-container .DraftInputWithTitleV2-title-wrapper,
+.TeamPostRow-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Forum: Post: Body */
+.TeamForumsThreadsDisplay-container .Editor-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Forum: Post: Loading */
+.TeamThreadPostPanel-container .TeamThreadPostPanelDisplay-container{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Forum: Write a reply [1] */
+.TeamThread-content .TeamThreadReplyCreator-unexpanded-wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Forum: Write a reply [2] */
+.TeamThread-content .TeamThread-posts .TeamThreadPostEditor-container:not(.TeamThreadPostPanel-inline-reply) {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Forum: Write a reply [3] */
+.TeamThreadPostPanel-container .TeamThreadPostEditor-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* List: Add item */
+.TeamList-container .TeamListItemWrapper-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* List: Item */
+.TeamList-container .TeamListItemIndentWrapper-container {
+    background-color: transparent;
+}
+/* List: Move item */
+.TeamList-container .TeamListItemIndentWrapper-container .ReorderIndentable-blockout {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.PortalTarget-container.ReorderPortalContext-drag-portal .TeamListItemWrapper-container {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* List: Share note */
+.ShareChannelContentEditorListItem-container .TeamListItemWrapper-container {
+    background-color: rgba(0, 0, 0, 0.5);
 }
