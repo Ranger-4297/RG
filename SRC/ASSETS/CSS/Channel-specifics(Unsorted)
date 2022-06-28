@@ -1,27 +1,3 @@
-/* Schedule */
-/* Shedule: Main colour */
-.ChannelWrapper-contents .AvailabilityDisplay-container,
-.ChannelWrapper-content .AvailabilityDisplayHeader-day {
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(5px);
-}
-
-/* Schedule: Today */
-.ChannelWrapper-contents .AvailabilityDisplayHeader-day-today {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* Schedule: Change week */
-.ChannelWrapper-contents .AvailabilityDisplayHeader-button {
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
-}
-
-/* Availability */
-.ChannelWrapper-contents .AvailabilityDisplayDaysPlaceholder-create {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
 /* Announcements */
 /* Announcement: Main colour */
 .TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
