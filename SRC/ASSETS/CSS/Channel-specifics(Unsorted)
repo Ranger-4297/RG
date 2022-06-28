@@ -1,101 +1,25 @@
-/* Forums */
-/* Forum: Post */
-.TeamForumsThreadsDisplay-container .DraftInputWithTitleV2-title-wrapper,
-.TeamPostRow-container {
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-/* Forum: Post: Body */
-.TeamForumsThreadsDisplay-container .Editor-container {
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-/* Forum: Content */
-.TeamThread-content .TeamThreadPostPanelDisplay-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-/* Forum: Content: Quote */
-.TeamThread-content .TeamThreadPostPanel-display .BlockQuoteContainerRenderer {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Forum: Loading: Text */
-.TeamThread-content .TeamThreadPostPanelDisplay-container .SkeletonPlaceholder-container-no-children {
-    background: rgba(256, 256, 256, 0.12);
-}
-
-/* Forum: Write a reply [1] */
-.TeamThread-content .TeamThreadReplyCreator-unexpanded-wrapper {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* Forum: Write a reply [2] */
-.TeamThread-content .TeamThread-posts .TeamThreadPostEditor-container:not(.TeamThreadPostPanel-inline-reply) {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* Forum: Write a reply [3] */
-.TeamThread-reply-creator .TeamThreadPostEditor-container {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* Forum: Reply: Inline reply */
-.TeamThread-content .TeamThreadPostPanel-inline-reply {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-/* List */
-/* List: Add item */
-.TeamList-container .TeamListItemWrapper-container {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* List: Item */
-.TeamList-container .TeamListItemIndentWrapper-container {
-    background-color: transparent;
-}
-
-/* List: Move item */
-.TeamList-container .TeamListItemIndentWrapper-container .ReorderIndentable-blockout {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
 /* Docs */
 /* Docs: Editor */
 .DocEditor-container .DocEditor-content-input {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
 }
-
 /* Docs: Editor: Indent */
 .DocEditor-container .DocEditor-content-input .ParagraphRenderer {
     margin-left: 5px;
 }
-
 /* Docs: Main colour */
 .DocsGrid-container .DocsGrid-grid .DocDisplayItem-container {
     background-color: rgba(0, 0, 0, 0.5)
 }
-
 /* Docs: Info colour */
 .DocsGrid-container .DocsGrid-grid .DocDisplayItem-container .DocSummaryInfo-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Docs: Reply */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.5)
 }
-
 /* Docs: Reply: Quote */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7)
