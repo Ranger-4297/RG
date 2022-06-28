@@ -126,6 +126,7 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 /* Main app base colour */
+body,
 .ChannelWrapper-container,
 .ChatChannelContents-container,
 .LayeredPageContent-content,
@@ -138,6 +139,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.JobsPerks-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 }
 
 
@@ -311,6 +319,18 @@ Adds a background to the main page to fit with modal section
 .UserSettingsBillingPage-container .UserSettingsServerSubscriptionsUpsell-container, .UserSettingsBillingPage-container .ServerSubscriptionBar-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
+/* Billing: Subscribe modal */
+.ServerSubscriptionFlowHeader-container .ServerSubscriptionFlowHeader-image {
+    display: none;
+}
+/* Billing: Subscribe > Tier modal */
+.ServerSubscriptionStageWrapper-content .ItemChooserItemWrapper-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Billing: Add payment method modal */
+.PaymentInstrumentCreator-container .PaymentInstrumentCreator-element {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* Billing: Payments */
 .UserSettingsBillingPage-container .PaymentInstrumentSelector-container .CheckboxPanel-container-selected {
     background-color: rgba(0, 0, 0, 0.7);
@@ -366,6 +386,13 @@ Adds a background to the main page to fit with modal section
 }
 /* Bots: Bot panels */
 .TeamSettingsBotsPage-container .UserCTAPanel-container-style-bordered .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Bots: Edit flows */
+.ManageFlowOverlay-container .UserCTAPanel-container-style-bordered .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -702,3 +729,92 @@ Adds a background to the main page to fit with modal section
 .PartnerProgramLanding-container .PlayerCard-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+
+
+
+/* We're hiring */
+/* Hiring: Job panels */
+.JobLandingOpenings-contents .JobLandingOpenings-job {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* Channel specific */
+/* Overview: Banner loading */
+.TeamPageBanner-skeleton {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+.TeamOverviewBanner-banner.TeamPageBanner-overview-banner.Img-skeleton-square {
+    content: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+/* Overview: Latest announcements/Recent forum activity */
+.TeamOverviewContentSection-list .TeamOverviewContentItemCard-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Overview: Latest announcements/Recent forum activity: Pagination: Left */
+.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-left-blur {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2) 70%);
+}
+/* Overview: Latest announcements/Recent forum activity: Pagination: Right */
+.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-right-blur {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.1) 70%);
+}
+/* Overview: Announcements: Pinned */
+.PinnedAnnouncements-announcements .TeamPostRow-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Overview: Leaderboard */
+.TeamOverviewLeaderboardSection-list .TeamOverviewLeaderboardSection-leaderboard-container {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Overview: Announcement: Main colour */
+.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetItemWrapper-container-type-filled {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Overview: Announcement: Post > Image loading */
+.TeamOverviewSummaryDisplay-public-announcements .MediaRenderer-content.MediaRenderer-content-editor-default.MaximizableImage-image.Img-skeleton-square {
+    display: none;
+}
+/* Overview: Announcement: Post > Form base colour */
+.TeamOverviewSummaryDisplay-public-announcements .CustomFormWrapper-container-standalone {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Overview: Announcement: Post > Embed base colour */
+.TeamOverviewSummaryDisplay-public-announcements .ContentEmbedCard-container .OpenGraphEmbed-content {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Applications: Base colour */
+.TeamRecruitmentTab-container .TeamApplicationInlineLink-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Applications: Share link */
+.TeamRecruitmentTab-container .CopyableTextbox-container {
+    background-color: transparent;
+}
+/* Applications: Drop down */
+.TeamRecruitment-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* Applications: Drop down: Selected */
+.TeamRecruitment-container .GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Applications: Search */
+.TeamRecruitment-all-applications .SearchBarInput-input {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+/* Applications: Preview */
+.RecruitmentApplicationEditor-forms-previewing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Applications: Sort */
+.Overlay-container .Overlay-status-context .ItemManagerFilterWrapper-container,
+.LandingPageNavBar-container-theme-gilded,
+.JobLandingHeader-container::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 9px;
+}
+
