@@ -1160,7 +1160,44 @@ Adds a background to the main page to fit with modal section
 .ContentEmbedCardLoading-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
+/* Calendar: Upcoming events */
+.UpcomingCalendarDay-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.UpcomingCalendarEvent-container-desktop:hover {
+    background-color: rgba(256, 256, 256, 0.2);
+}
+/* Calendar: Upcoming events > RSVP */
+.UpcomingCalendarEvent-rsvps .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.UpcomingCalendarEvent-rsvps .GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* Calendar: Create event: Date picker: Header */
 .DayPicker-header {
     background-color: rgba(0, 0, 0, 0.1);
+}
+/* Shedule: Main colour */
+.ChannelWrapper-contents .AvailabilityDisplay-container,
+.ChannelWrapper-content .AvailabilityDisplayHeader-day {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+}
+/* Schedule: Today */
+.ChannelWrapper-contents .AvailabilityDisplayHeader-day-today {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Schedule: Change days */
+.ChannelWrapper-contents .AvailabilityDisplayHeader-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+/* Availability */
+.ChannelWrapper-contents .AvailabilityDisplayDaysPlaceholder-create {
+    background-color: rgba(0, 0, 0, 0.6);
 }
