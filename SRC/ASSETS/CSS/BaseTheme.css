@@ -990,6 +990,10 @@ Adds a background to the main page to fit with modal section
 .ChatV2MessageContents-container .DefaultContentEmbedCard-content-wrapper:not(.DefaultContentEmbedCard-content-wrapper-disabled)::after {
     background: rgba(0, 0, 0, 0.5);
 }
+/* Chat: Shared event */
+.ChatV2MessageContents-container .DefaultContentEmbedCard-content-fade-overflow::after {
+    display: none;
+}
 /* Chat: Moderator view */
 .ChatChannelMessages-container .ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-moderator-view.ChatChannelAlertBar-container-banner.ChatChannelMessages-moderation {
     background-color: rgba(0, 0, 0, 0.7) !important;
@@ -1088,4 +1092,75 @@ Adds a background to the main page to fit with modal section
 /* Voice: lobby */
 .VoiceChannelDisplay-container {
     background-color: rgba(0, 0, 0, 0.7)
+}
+/* Calendar: Tabs outline */
+.TeamCalendarControls-container .TeamCalendarControls-view-options .ToggleControl-container {
+    border: 1px solid black;
+}
+/* Calendar: Tabs */
+.TeamCalendarControls-container .TeamCalendarControls-view-options .ToggleControlButton-container.ToggleControlButton-container-desktop:hover,
+.TeamCalendarControls-container .ToggleControlButton-container.ToggleControlButton-container-selected {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+/* Calendar: Main colour */
+.FullSizedCalendar-week {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+/* Calendar: Different month */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-different-month {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Calendar: Today */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-today {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Calendar: Hover */
+.FullSizedCalendar-week .FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Calendar: Event */
+.FullSizedCalendar-week .FullSizedCalendarEvent-container-unread:not(.FullSizedCalendarEvent-container-full-day) {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* Calendar: Event details */
+.TransientMenu-container-style-card {
+    border: 1px solid black;
+}
+.EventCard-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Calendar: Event details > Share events */
+.ShareChannelContentOverlay-container .DefaultContentEmbedCard-content-wrapper .DefaultContentEmbedCard-content-fade-overflow::after {
+    display: none;
+}
+/* Calendar: Event details > Enhanced */
+.TeamEvent-contents .EventTemporalChannelDisplay-container,
+.TeamEventDetails-post-metadata,
+.TeamEventDetails-status,
+.TeamEventDetails-item,
+.EventCardMetadata-container-size-lg {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Calendar: Event: Details > Enhanced: Search */
+.TeamEvent-container .SearchBarV2-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Calendar: Event: Details > Enhanced: Reply */
+.TeamEvent-contents .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Calendar: Event: Details > Enhanced: Reply > Share reply */
+.ContentEmbedCardLoading-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Calendar: Create event: Date picker: Header */
+.DayPicker-header {
+    background-color: rgba(0, 0, 0, 0.1);
 }
