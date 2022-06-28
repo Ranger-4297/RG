@@ -116,7 +116,10 @@
     border: solid 1px rgba(0, 0, 0, 1);
     border-radius: 10px;
 }
-
+/* Reaction picker: Loading emoji */
+.ReactionPicker-content .ReactionIcon-image.ReactionPickerIcon-icon.Img-skeleton-rounded-square {
+    display: none;
+}
 
 
 
@@ -198,6 +201,10 @@ body,
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .SetupUpsell-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
+/* Channel list: Unread messages */
+.TeamPageNavV3-container-desktop .ChatChannelAlertBar-container {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
 /* Channel list: Active channel */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .TeamChannelItemContents-container-selected {
     background-color: rgba(256, 256, 256, 0.05);
@@ -205,6 +212,22 @@ body,
 /* Channel list: Channel permissions: Selected role */
 .TeamSettingsPermissionsItem-container-selected {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+}
+/* Member & threadlist: Main colour */
+.TeamPageV2-container .SidebarWrapper-container,
+.TournamentPage-contents .SidebarWrapper-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Member & threadlist: Inside: Colour */
+.SimpleIconTabMenu-container .SidebarInfoItem-container:not(.SidebarInfoItem-container.TeamPageContentSidebarGames-container.TeamPageContentSidebarGames-container-unpadded.TeamPageContentSidebarAbout-games),
+.TournamentPage-contents .SidebarInfoItem-container {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* Member & threadlist: Top button things */
+.TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:hover,
+.TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:active,
+.TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:focus {
+    background-color: rgb(0, 0, 0, 0.2);
 }
 /* Profile, Status, Activity, Settings and More */
 .NavV4Footer-right {
@@ -251,22 +274,6 @@ body,
 /* DM list: Whatever the fuck is the bottom thing */
 .NavV4FooterGlobalContextDisplay-teams-wrapper {
     background-color: rgba(0, 0, 0, 0.5);
-}
-/* Member & threadlist: Main colour */
-.TeamPageV2-container .SidebarWrapper-container,
-.TournamentPage-contents .SidebarWrapper-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-/* Member & threadlist: Inside: Colour */
-.SimpleIconTabMenu-container .SidebarInfoItem-container:not(.SidebarInfoItem-container.TeamPageContentSidebarGames-container.TeamPageContentSidebarGames-container-unpadded.TeamPageContentSidebarAbout-games),
-.TournamentPage-contents .SidebarInfoItem-container {
-    background-color: rgba(256, 256, 256, 0.1);
-}
-/* Member & threadlist: Top button things */
-.TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:hover,
-.TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:active,
-.TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:focus {
-    background-color: rgb(0, 0, 0, 0.2);
 }
 
 
@@ -817,4 +824,188 @@ Adds a background to the main page to fit with modal section
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 9px;
 }
-
+/* Subscription */
+/* Subscriptions: Support your server */
+.ServerSubscriptions-container .ServerSubscriptionsSectionMemberUpsell-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Subscriptions: Staff: Earnings */
+.ServerSubscriptions-container .ServerSubscriptionsSectionAdminHasSetup-earnings {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Subscriptions: Staff: Invite others */
+.ServerSubscriptions-container .ServerSubscriptionsInviteUpsell-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.ServerSubscriptions-container .ServerSubscriptionsInviteUpsell-container .CopyableTextbox-container {
+    background-color: transparent;
+}
+/* Subscriptions: Staff: Rewards */
+.ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Subscriptions: Recent activity */
+.ServerSubscriptions-container .ServerSubscriptionsRecentActivityFeed-empty-wrapper {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+/* Chat: Unread messages */
+.ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-unread-messages.ChatChannelMessages-alert-bar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-radius: 5px;
+}
+/* Chat: input/archived */
+.ChatChannelInput-container .ChatChannelInput-editor,
+.ChatChannelInput-container .BannerWithButton-container {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* Chat: Reply: Replying to: Box */
+.ChatChannelInputStatusBar-container {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+.ChatChannelInputStatusBar-container {
+    height: auto;
+}
+.ChatChannelInput-container .ChatChannelInput-status-drawer {
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    width: 100%;
+    z-index: 2;
+    padding-bottom: 12px;
+}
+/* Chat: Create thread */
+.ChatChannelInput-container .ChannelTitleInput-container {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+/* Chat: Message hover */
+.ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChannelWrapper-content .ChannelPinnedMessages-container .ChatV2Message-container):hover {
+    background-color: rgba(0, 0, 0, 0.25)
+}
+/* Chat: Pinned message background */
+.ChatV2MessageContents-container-pinned .ChatV2MessageContents-display {
+    background-color: transparent;
+}
+/* Chat: Pinned messages: Main colour */
+.ChannelPinnedMessages-container {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+/* Chat: Pinned messages: Message: Main colour */
+.ChannelWrapper-content .ChatV2PinnedMessage-message-wrapper {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Chat: Pinned messages: Message: Hover */
+.ChannelWrapper-content .ChannelPinnedMessages-container .ChatV2Message-container:hover {
+    background-color: rgba(256, 256, 256, 0.03);
+}
+/* Chat: Pinned messages: Message: Quote */
+.ChatV2PinnedMessage-message-wrapper .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Chat: Pinned messages: Message: Embed */
+.ChatV2PinnedMessage-message-wrapper .OpenGraphEmbed-content {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Chat: share channel */
+.ShareChannelContentOverlay-container .DefaultContentEmbedCard-content-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ShareChannelContentOverlay-container .ContentEmbedCardFooter-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Chat: share channel > Hover */
+.ShareChannelContentOverlay-container .DefaultContentEmbedCard-content-wrapper:not(.DefaultContentEmbedCard-content-wrapper-disabled)::after {
+    background: rgba(0, 0, 0, 0.5);
+}
+/* Chat: Spaced message */
+.ChatV2Message-container {
+    margin-bottom: 5px;
+}
+/* Chat: Input > Loading image */
+.MediaRenderer-content.MediaRenderer-content-editor-simple.MaximizableImage-image.Img-skeleton-square,
+.MaximizedImageOverlay-image.Img-skeleton-square {
+    display: none;
+}
+/* Chat: Input> Codeblock */
+.SlateEditor-container .CodeContainerRenderer-container {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.CodeContainerRenderer-container .CodeLineRenderer {
+    background-color: transparent;
+    font-family: 'Consolas', monospace;
+}
+.MarkRenderer-inline-code-v2 {
+    font-family: 'Consolas', monospace;
+    letter-spacing: 1px;
+}
+/* Chat: Input > Quote */
+.SlateEditor-container .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Chat: Input > Embed */
+.ChatChannelInput-container .ContentEmbedCardStack-container {
+    display: none;
+}
+/* Chat: Shared channel */
+.ChatV2MessageContents-container .DefaultContentEmbedCard-content-wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.ChatV2MessageContents-container .ContentEmbedCardFooter-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Chat: Shared channel > Hover */
+.ChatV2MessageContents-container .DefaultContentEmbedCard-content-wrapper:not(.DefaultContentEmbedCard-content-wrapper-disabled)::after {
+    background: rgba(0, 0, 0, 0.5);
+}
+/* Chat: Moderator view */
+.ChatChannelMessages-container .ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-moderator-view.ChatChannelAlertBar-container-banner.ChatChannelMessages-moderation {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+/* Chat: Embed base colour */
+.ChatV2MessageContents-container .OpenGraphEmbed-content {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Chat: Embed hover */
+.ChatV2MessageContents-container .OpenGraphEmbedContent-container::after {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* Chat: Quote */
+.ChatV2MessageContents-container .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Chat: Codeblock */
+.ChatV2MessageContents-container .CodeContainerRenderer-container {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* Chat: Replpy to in a thread */
+.ChatV2MessageReplyTooltip-arrow,
+.ChatV2MessageReplyTooltip-content-wrapper {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+/* Chat: Replpy to in a thread: Reply content */
+.ChatV2MessageReplyTooltip-content-wrapper .Editor-container {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Chat: active message */
+.ChatV2Message-container-active {
+    background-color: rgba(256, 256, 256, 0.1)
+}
+/* Chat: Message options: Main colour */
+.ChatV2Message-content-wrapper .QuickActionBar-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Chat: Reaction on message: Background */
+.ReactionBadge-container.ReactionBadge-container-active .ReactionBadge-container-content {
+    background-color: rgba(256, 256, 256, 0.05);
+    border: solid 1px rgba(0, 0, 0, 1);
+}
