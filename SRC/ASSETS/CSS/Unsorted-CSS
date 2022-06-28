@@ -7,15 +7,6 @@ Profile, add game drop down
 */
 
 
-/* Select subscription tier */
-.ServerSubscriptionStageWrapper-content .ItemChooserItemWrapper-container {
-    background-color: rgba(0, 0, 0, 0.7)
-}
-/* Payment method */
-.ServerSubscriptionStageWrapper-content .PaymentInstrumentCreator-element {
-    background-color: rgba(0, 0, 0, 0.7)
-}
-
 
 /* Servers: Main colour */
 .UserProfileTeamsTab-container .CardWrapper-container {
