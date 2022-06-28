@@ -1,59 +1,6 @@
 /* Channels */
 /* Chat */
-/* Chat: Message hover */
-.ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChannelWrapper-content .ChannelPinnedMessages-container .ChatV2Message-container):hover {
-    background-color: rgba(0, 0, 0, 0.25)
-}
 
-
-/* Chat: Unread messages notification */
-.ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-unread-messages.ChatChannelMessages-alert-bar {
-    background-color: rgba(0, 0, 0, 0.9) !important;
-    border-radius: 5px;
-}
-
-/* Embed */
-.OpenGraphEmbed-content,
-.ChatEmbed-container {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.ChatEmbedFooter-container {
-    background-color: rgba(0, 0, 0, 0.3)
-}
-
-/* Chat: Embed hover */
-.OpenGraphEmbedContent-container::after {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-/* Chat: Loading image */
-.Img-skeleton-square,
-.DummyImagePlaceholder-container.DynamicMediaLoader-image-placeholder.RawVideoPlayer-video-loader {
-    display: none;
-}
-
-/* Chat: Codeblock */
-.CodeContainerRenderer-container,
-.BlockQuoteContainerRenderer {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-/* Chat: Codeblock 2*/
-.CodeContainerRenderer-container .CodeLineRenderer {
-    background-color: transparent;
-    font-family: 'Consolas', monospace;
-}
-
-.MarkRenderer-inline-code-v2 {
-    font-family: 'Consolas', monospace;
-    letter-spacing: 1px;
-}
-
-/* Chat: Pinned message background */
-.ChatV2MessageContents-container-pinned .ChatV2MessageContents-display {
-    background-color: transparent;
-}
 
 /* Chat: Create thread */
 .ChatChannelInput-container .ChannelTitleInput-container {
@@ -76,25 +23,6 @@
     background-color: rgba(66, 124, 135, 1);
 }
 
-/* Chat: Reply: Replying to: Box */
-.ChatChannelInputStatusBar-container {
-    background-color: rgba(256, 256, 256, 0.1);
-}
-
-.ChatChannelInput-container .ChatChannelInput-status-drawer {
-    position: absolute;
-    left: 0;
-    bottom: 100%;
-    width: 100%;
-    z-index: 2;
-    padding-bottom: 12px;
-}
-
-/* Chat: input/archived */
-.ChatChannelInput-container .ChatChannelInput-editor,
-.ChatChannelInput-container .BannerWithButton-container {
-    background-color: rgba(256, 256, 256, 0.1);
-}
 
 /* Chat: User modal */
 .ProfileHoverCardV2Overlay-container,
@@ -105,112 +33,20 @@
     background-attachment: fixed;
 }
 
-/* Chat: Options: Moderator view: Main colour */
-.ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-moderator-view.ChatChannelAlertBar-container-banner.ChatChannelMessages-moderation[style] {
-    background-color: rgba(0, 0, 0, 0.7) !important;
-}
 
-/* Chat: Pinned messages: Main colour */
-.ChannelPinnedMessages-container {
-    background-color: rgba(0, 0, 0, 0.95);
-}
 
-/* Chat: Pinned messages: Message: Main colour */
-.ChannelWrapper-content .ChatV2PinnedMessage-message-wrapper {
-    background-color: rgba(256, 256, 256, 0.05);
-}
 
-/* Chat: Pinned messages: Message: Hover */
-.ChannelWrapper-content .ChannelPinnedMessages-container .ChatV2Message-container:hover {
-    background-color: rgba(256, 256, 256, 0.03);
-}
 
-/* Chat: Pinned messages: Message: Quote */
-.ChatV2PinnedMessage-message-wrapper .BlockQuoteContainerRenderer {
-    background-color: rgba(0, 0, 0, 0.7);
-}
 
-/* Chat: Reaction: active message */
-.ChatV2Message-container-active {
-    background-color: rgba(256, 256, 256, 0.1)
-}
 
-/* Chat: Message options: Main colour */
-.ChatV2Message-content-wrapper .QuickActionBar-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
 
-/* Chat: Message options: Hover */
-.ChatV2Message-content-wrapper .QuickActionBar-action:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-}
 
-/* Chat: Replpy to in a thread */
-.ChatV2MessageReplyTooltip-arrow,
-.ChatV2MessageReplyTooltip-content-wrapper {
-    background-color: rgba(0, 0, 0, 0.95);
-}
 
-/* Chat: Reaction on message: Background */
-.ReactionBadge-container.ReactionBadge-container-active .ReactionBadge-container-content {
-    background-color: rgba(256, 256, 256, 0.05);
-    border: solid 1px rgba(0, 0, 0, 1);
-}
+
+
 
 
 /* Overview */
-/* Overview: Banner loading */
-.TeamPageBanner-skeleton {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-.TeamOverviewBanner-banner.TeamPageBanner-overview-banner.Img-skeleton-square {
-    content: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
-
-/* Overview: Latest announcements/Recent forum activity */
-.TeamOverviewContentSection-list .TeamOverviewContentItemCard-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Overview: Latest announcements/Recent forum activity: Pagination: Left */
-.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-left-blur {
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(256, 256, 256, 0.1) 75%);
-}
-
-/* Overview: Latest announcements/Recent forum activity: Pagination: Right */
-.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-right-blur {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255, 0.1) 75%);
-}
-
-/* Overview: Anouncements: Post an announcement */
-.TeamOverviewSummaryDisplay-public-announcements .DraftInputWithTitleV2-title-wrapper:not(.TeamAnnouncementsWidget-announcements .OverviewWidgetItemWrapper-container-type-filled *) {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Overview: Announcements: Loading */
-.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-container-type-filled,
-.TeamAnnouncements-container .OverviewWidgetSkeleton-container-type-filled {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Overview: Announcements: Loading: pfp, title & text */
-.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-profile-picture,
-.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-text,
-.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-subtitle,
-.TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetSkeleton-paragraph,
-.TeamAnnouncements-container .OverviewWidgetSkeleton-profile-picture,
-.TeamAnnouncements-container .OverviewWidgetSkeleton-text,
-.TeamAnnouncements-container .OverviewWidgetSkeleton-subtitle,
-.TeamAnnouncements-container .OverviewWidgetSkeleton-paragraph {
-    background: rgba(256, 256, 256, 0.1);
-}
-
-/* Overview: Announcements: Pinned */
-.PinnedAnnouncements-announcements .TeamPostRow-container {
-    background-color: rgba(0, 0, 0, 0.7)
-}
-
 /* Overview: Announcement: Main colour */
 .TeamAnnouncementsWidget-announcements .OverviewWidgetItemWrapper-container-type-filled {
     background-color: rgba(0, 0, 0, 0.7);
@@ -229,20 +65,6 @@
 /* Overview: View announcement: Comment: Quote */
 .TeamAnnouncements-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-/* Overview: Leaderboard */
-.TeamOverviewSummaryDisplay-team-content-summary .TeamOverviewLeaderboardSection-leaderboard-container {
-    background-color: rgba(0, 0, 0, 0.7)
-}
-
-/* Applications */
-.TeamRecruitmentTab-container .TeamApplicationInlineLink-container {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.TeamRecruitmentTab-container .CopyableTextbox-container {
-    background-color: transparent;
 }
 
 /* Edit applications */
@@ -723,4 +545,89 @@
 
 .TournamentPage-contents .ElimBracketMatchLineItemScorePanel-container:not(.ElimBracketMatchLineItemScorePanel-container-is-winner) {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Announcements */
+/* Announcement: Main colour */
+.TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Announcement: Post */
+.TeamAnnouncementsWidget-container .DraftInputWithTitleV2-title-wrapper {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Announcement: Post: Body */
+.TeamAnnouncementsWidget-container .Editor-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Announcement: Loading */
+.TeamAnnouncementsWidget-container .OverviewWidgetSkeleton-container-type-filled,
+.TeamAnnouncementWithReplies-container .OverviewWidgetSkeleton-container-type-filled {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Announcement: Loading: Avatar */
+.TeamAnnouncementsWidget-container .OverviewWidgetSkeleton-profile-picture,
+.TeamAnnouncementWithReplies-container .OverviewWidgetSkeleton-profile-picture {
+    background: rgba(256, 256, 256, 0.12);
+}
+
+/* Announcement: Loading: Text */
+.OverviewWidgetSkeleton-text,
+.OverviewWidgetSkeleton-subtitle,
+.TeamAnnouncementWithReplies-container .OverviewWidgetSkeleton-paragraph {
+    background: rgba(256, 256, 256, 0.12);
+}
+
+/* Announcement: Reply: Main colour */
+.TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Announcement: Reply: Quote */
+.TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Announcement: Reaction picker */
+.ReactionPicker-container .ReactionPickerNavbar-container,
+.ReactionPicker-container .ReactionPicker-content,
+.ReactionPicker-container .SearchBarV2-container,
+.ReactionPicker-container .ReactionPickerFooter-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Announcement: Docs */
+.TeamAnnouncementsWidget-announcements .CustomFormWrapper-container-standalone,
+.TeamAnnouncementWithReplies-container .CustomFormWrapper-container-standalone {
+    background-color: rgba(0, 0, 0, 0.7)
 }
