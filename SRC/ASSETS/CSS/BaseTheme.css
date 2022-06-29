@@ -259,6 +259,10 @@ body,
 .ChannelActivityDisplay-item {
     background-color: transparent;
 }
+/* Profile, Status, Activity, Settings and More: Account buttons: Inbox: Content > Unread */
+.ChannelActivityDisplay-container .ChannelActivityItem-container.ChannelActivityItem-container-unread {
+    background-color: rgba(256, 256, 256, 0.2)
+}
 
 
 
@@ -691,11 +695,11 @@ Adds a background to the main page to fit with modal section
     background-attachment: fixed;
 }
 /* Tournaments: Create modal: Search */
-.ItemChooser-container .SearchBarV2-container:not(.OnboardingExperience-create-team-flow>) {
+.ItemChooser-container .SearchBarV2-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
 /* Tournaments: Create moda: Games */
-.ItemChooser-container .ItemChooserItemWrapper-container:not(.OnboardingExperience-create-team-flow>) {
+.ItemChooser-container .ItemChooserItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -1275,4 +1279,127 @@ Adds a background to the main page to fit with modal section
 /* List: Share note */
 .ShareChannelContentEditorListItem-container .TeamListItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
+}
+/* Docs: Editor */
+.DocEditor-container .DocEditor-content-input {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+/* Docs: Editor: Indent */
+.DocEditor-container .DocEditor-content-input .ParagraphRenderer {
+    margin-left: 5px;
+}
+/* Docs: Main colour */
+.DocsGrid-container .DocsGrid-grid .DocDisplayItem-container {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+/* Docs: Info colour */
+.DocsGrid-container .DocsGrid-grid .DocDisplayItem-container .DocSummaryInfo-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Docs: Embed */
+.DocViewer-editor .OpenGraphEmbed-content.ContentLoader-container.ContentLoader-container-vertically-centered,
+.DocViewer-reader-container .OpenGraphEmbed-content.ContentLoader-container.ContentLoader-container-vertically-centered {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Docs: Embed */
+.DocViewer-editor .ContentEmbedRenderer-container.ContentEmbedRenderer-container-writable {
+    margin-left: 5px;
+}
+/* Docs: Reply */
+.DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Docs: Reply: Quote */
+.DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Media: Add new media */
+.MediaEditor-container-desktop {
+    background-color: transparent;
+}
+/* Media: Add new media > Add tag */
+.MediaEditor-container-desktop .MediaEditor-media-info .GuildedTagCreator-container .Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.MediaEditor-container-desktop .GuildedTagCreator-container .Select-option.is-focused {
+    background-color: transparent;
+}
+/* Media: Add new media > Tag */
+.MediaEditor-container-desktop .GuildedTagCreator-container-dark .Select-value {
+    background-color: rgba(256, 256, 256, 0.1)
+}
+/* Media: Loading image */
+.MediaDisplayItemV3Contents-media.Img-skeleton-square {
+    display: none;
+}
+/* Media: View media: Main colour */
+.MediaSplitView-container .MediaSplitView-media {
+    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Media: View media: Info panel */
+.MediaSplitView-container-desktop .MediaSplitView-right-pane .MediaInfoPane-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Media: View media: Info panel: Reply */
+.MediaSplitView-container-desktop .MediaSplitView-right-pane .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Tournaments: Set up tournament: Dashboard */
+.TournamentSettingsDashboardPage-container .PersistentUpsell-container-flavor-settings {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Tournaments: Server: Information */
+.TournamentNavHeader-container,
+.TournamentNav-container .TeamNavMenu-container {
+    background: transparent;
+}
+/* Tournaments: Server: Buttons */
+.TournamentNavHeader-container .TeamNavHeaderRowButton-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Tournaments: Archived */
+.TournamentNav-container .GroupUpsell-container-archived {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+/* Tournaments: Set up tournament: Brackets */
+.TournamentSettingsBracketsPage-brackets .TournamentSettingsBracket-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Tournaments: Set up tournament: Staff */
+.TournamentSettingsStaffList-staff-members .TournamentSettingsSupportStaff-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Tournaments: Set up tournament: Staff > Modal search */
+.TeamMembersSearch-container .SearchBarV2-container {
+    background-color: transparent;
+}
+/* Tournaments: Server: Brackets: Finalise bracket */
+.PersistentUpsell-container-flavor-default {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Tournaments: User modal */
+.TournamentParticipantHoverCard-container,
+.TournamentParticipantHoverCard-action-menu {
+    background-color: transparent;
+}
+/* Tournaments: Brackets: Rounds */
+.TournamentPage-contents .EliminationBracketHeaderRoundSummary-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Tournaments: Brackets: Teams */
+.TournamentPage-contents .EliminationBracketMatchDisplay-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Tournaments: Brackets: Score */
+.TournamentPage-contents .ElimBracketMatchLineItemScorePanel-container:not(.ElimBracketMatchLineItemScorePanel-container-is-winner) {
+    background-color: rgba(0, 0, 0, 0.7);
 }
