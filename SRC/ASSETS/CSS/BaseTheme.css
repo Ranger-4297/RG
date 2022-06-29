@@ -1265,6 +1265,10 @@ Adds a background to the main page to fit with modal section
 .TeamThreadPostPanel-container .TeamThreadPostPanelDisplay-container{
     background-color: rgba(0, 0, 0, 0.7);
 }
+/* Forum: Post: Embed */
+.TeamThreadPostPanel-container .OpenGraphEmbed-content {
+    background-color: rgba(0, 0, 0, 0.3);
+}
 /* Forum: Write a reply [1] */
 .TeamThread-content .TeamThreadReplyCreator-unexpanded-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
