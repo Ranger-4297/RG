@@ -1,4 +1,5 @@
 :root {
+    --background-image: url ('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     --black: black;
     --white: white;
     --tdark1: rgba(0, 0, 0, 0.1);
@@ -24,7 +25,7 @@
 
 /* WebApp container */
 .WebAppV2-container.WebAppV2-container-has-sidebar.WebAppV2-container-minimal.WebAppV2-container-electron.WebAppV2-container-electron-windows.WebAppV2-container-has-title-bar {
-    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,7 +48,7 @@
 /* Base colour */
 .ModalV2-container,
 .ModalHeaderV2-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -94,7 +95,7 @@
 .ReactionPicker-container .ReactionPicker-content,
 .ReactionPicker-container .SearchBarV2-container,
 .ReactionPicker-container .ReactionPickerFooter-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -102,7 +103,7 @@
 }
 /* Reaction picker: Skin colour picker */
 .SelectMenu-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -142,14 +143,14 @@ body,
 .SettingsMenu-container .OptionsMenuPageWrapper-container,
 .BlogPage-container,
 .BlogPage-container .BlogHeader-container:not(.BlogHeader-container-bare):not(.BlogHeader-container-user-blog) {
-    background: url(https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png);
+    background: var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .JobsPerks-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -162,19 +163,19 @@ body,
 /* Server list */
 /* Server list: Main colour */
 .NavV4Sidebar-team-selector {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
     background-size: cover;
     background-attachment: fixed;
 }
 /* Server search: Main colour */
 .NavV4Sidebar-sidebar-footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
     background-size: cover;
     background-attachment: fixed;
 }
 /* Server search: Search servers */
 .NavV4Sidebar-sidebar-footer .SearchBarV2-container {
-    background: linear-gradient(rgba(256, 256, 256, 0.05), rgba(256, 256, 256, 0.05)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(256, 256, 256, 0.05), rgba(256, 256, 256, 0.05)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -188,7 +189,7 @@ body,
 /* Server: Content navigation */
 .TeamPageNavV3-team-content .GroupSelector-container,
 .NavV4Footer-container .NavV4Footer-footer-content {
-    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -196,7 +197,7 @@ body,
 }
 /* Channel list: Main colour */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,7 +217,7 @@ body,
 }
 /* Channel list: Connected to voicechannel */
 .VoiceConnectionDisplayPanelContents-container * {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -224,7 +225,7 @@ body,
 }
 /* Channel list: Channel permissions: Selected role */
 .TeamSettingsPermissionsItem-container-selected {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
 }
 /* Member & threadlist: Main colour */
 .TeamPageV2-container .SidebarWrapper-container,
@@ -244,7 +245,7 @@ body,
 }
 /* Profile, Status, Activity, Settings and More */
 .NavV4Footer-right {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -270,7 +271,7 @@ body,
 /* Direct messages */
 /* DM list base colour */
 .WebAppV2-container-minimal .WebAppV2-sidebar .ChatChannelList-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,13 +302,13 @@ Changes both server && account settings
 Adds a background to the main page to fit with modal section
 */
 .OptionsMenu-container-desktop .OptionsMenu-options-control {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
     background-size: cover;
     background-attachment: fixed;
 }
 .OptionsMenuPageWrapper-container:not(.Form-container-section-border .Form-section:not(:first-child), .Form-container-section-border-unpadded .Form-section:not(:first-child), .Form-container-row-border .Form-section:not(:first-child)),
 .StatusContext-container .OptionsMenu-option-content {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -410,14 +411,14 @@ Adds a background to the main page to fit with modal section
 }
 /* Bots: Bot panels */
 .TeamSettingsBotsPage-container .UserCTAPanel-container-style-bordered .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 /* Bots: Edit flows */
 .ManageFlowOverlay-container .UserCTAPanel-container-style-bordered .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -520,7 +521,7 @@ Adds a background to the main page to fit with modal section
 /* My profile */
 /* Profile header */
 .UserProfileV3-content .ScreenHeader-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -528,14 +529,14 @@ Adds a background to the main page to fit with modal section
 }
 /* Main colour */
 .WebAppV2-sidebar, .NavV4SectionSidebar-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .UserProfileV3-content .UserProfileV3-container {
-    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -617,7 +618,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Profile: Servers: Create server base colour */
 .OnboardingExperience-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -684,7 +685,7 @@ Adds a background to the main page to fit with modal section
 }
 /* My servers: Join server > Status: Setup checklist */
 .PlayerLfgListing-card-wrapper .PlayerLfgListing-card {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -703,7 +704,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Tournaments: Create modal */
 .FullScreenIconFlowWrapper-background {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -741,7 +742,7 @@ Adds a background to the main page to fit with modal section
 .LandingPageV3Footer-trendy-slash,
 .LandingPageV3Footer-trendy-slash,
 .LandingPageV3Footer-footer-content {
-    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -878,14 +879,14 @@ Adds a background to the main page to fit with modal section
 }
 /* Subscriptions: Staff: Rewards */
 .ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-body {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1075,7 +1076,7 @@ Adds a background to the main page to fit with modal section
 /* Chat: User modal */
 .ProfileHoverCardV2Overlay-container,
 .ProfileHoverCardV2Overlay-action-menu {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1098,7 +1099,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Stream: Theatre display */
 .StreamTheaterViewer-content .StreamsDisplayV2-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1107,7 +1108,7 @@ Adds a background to the main page to fit with modal section
 /* Stream: Theatre sidebar */
 .StreamTheaterViewer-sidebar .ScreenHeader-container,
 .StreamTheaterViewer-sidebar .SidebarWrapper-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1152,7 +1153,7 @@ Adds a background to the main page to fit with modal section
     border: 1px solid black;
 }
 .EventCard-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1184,7 +1185,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Calendar: Upcoming events */
 .UpcomingCalendarDay-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1350,7 +1351,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Media: View media: Main colour */
 .MediaSplitView-container .MediaSplitView-media {
-    background: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1358,7 +1359,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Media: View media: Info panel */
 .MediaSplitView-container-desktop .MediaSplitView-right-pane .MediaInfoPane-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
