@@ -40,7 +40,7 @@
     height: 0;
     border-style: solid;
     border-width: 0 15px 10px 0;
-    border-color: transparent var(--message-bg) transparent transparent
+    border-color: transparent var(--message-bg) transparent transparent;
 }
 .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private).ChatV2Message-container-mentioned::before {
     border-color: transparent var(--mention-indent) transparent transparent;
