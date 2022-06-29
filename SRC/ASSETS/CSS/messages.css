@@ -1,0 +1,85 @@
+:root {
+    --message-bg: rgba(256, 256, 256, 0.15);
+    --message-hover-bg: rgba(256, 256, 256, 0.4);
+    --mention-bg: rgba(256, 256, 256, 0.15);
+    --mention-hover-bg: rgba(256, 256, 256, 0.4);
+    --mention-indent: #f8d64c;
+}
+
+/* Base */
+.ChatV2Message-container:not(.ChatV2Message-container.ChatV2Message-container-type-system.ChatV2Message-container-with-separator.ChatV2Message-container-threads-disabled) {
+    background: var(--message-bg, #111);
+    margin-left: 80px;
+    margin-right: 30px;
+    box-shadow: 0 4px 10px var(--shadow);
+}
+/* Message: hover */
+.ChatV2Message-container:hover {
+    background-color: var(--message-hover-bg) !important;
+}
+/* Message: Mentioned */
+.ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private).ChatV2Message-container-mentioned {
+    background: var(--mention-bg);
+}
+/* Message: Mentioned > Indent */
+.ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private).ChatV2Message-container-mentioned::after {
+    border-left: 5px solid var(--mention-indent);
+}
+/* Message: Mentioned > Hover */
+.ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private).ChatV2Message-container-mentioned:hover {
+    background: var(--mention-hover-bg, #111) !important;
+}
+/* Triangle */
+.ChatV2Message-container-with-header::before {
+    content: "";
+    height: 0;
+    width: -6px;
+    position: absolute;
+    top: -0.01px;
+    left: -15px;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 10px 0;
+    border-color: transparent var(--message-bg) transparent transparent
+}
+.ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private).ChatV2Message-container-mentioned::before {
+    border-color: transparent var(--mention-indent) transparent transparent;
+    background: transparent;
+}
+/* Triangle > Hover */
+.ChatV2Message-container-with-header:hover::before {
+    border-color: transparent var(--message-hover-bg) transparent transparent;
+}
+/* Move content to the left */
+.ChatV2MessageContents-container {
+    padding: 0;
+}
+/* Move timestamp to right */
+.ChatV2MessageTimestamp-flavor-chat-contents {
+    z-index: 0;
+    left: -50px;
+}
+/* Position avatar to the left */
+.ChatV2MessageHeader-avatar-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-left: -80px;
+    top: -10px
+}
+.ChatV2Message-container.ChatV2Message-container-type-default.ChatV2Message-container-same-next-type.ChatV2Message-container-with-header.ChatV2Message-container-with-replies .ChatV2MessageHeader-avatar-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-left: -80px;
+    top: -30px
+}
+/* Position username to the right */
+.ChatV2MessageReplyHeader-container {
+    padding-left: 0;
+}
+.ChatV2MessageHeader-info {
+    margin-left: 15px
+}
+/* Remove reply icon */
+.ChatV2MessageReplyHeader-container::after {
+    display: none;
+}
