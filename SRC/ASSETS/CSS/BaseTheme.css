@@ -1266,7 +1266,8 @@ Adds a background to the main page to fit with modal section
     background-color: rgba(0, 0, 0, 0.7);
 }
 /* Forum: Post: Embed */
-.TeamThreadPostPanel-container .OpenGraphEmbed-content {
+.TeamThreadPostPanel-container .OpenGraphEmbed-content,
+.TeamThread-content .ChatEmbed-container {
     background-color: rgba(0, 0, 0, 0.3);
 }
 /* Forum: Write a reply [1] */
