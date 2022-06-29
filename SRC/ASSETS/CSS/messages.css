@@ -66,7 +66,8 @@
     margin-left: -80px;
     top: -10px
 }
-.ChatV2Message-container.ChatV2Message-container-type-default.ChatV2Message-container-same-next-type.ChatV2Message-container-with-header.ChatV2Message-container-with-replies .ChatV2MessageHeader-avatar-wrapper {
+.ChatV2Message-container.ChatV2Message-container-type-default.ChatV2Message-container-same-next-type.ChatV2Message-container-with-header.ChatV2Message-container-with-replies .ChatV2MessageHeader-avatar-wrapper,
+.ChatV2Message-container.ChatV2Message-container-type-default.ChatV2Message-container-last-message.ChatV2Message-container-with-header.ChatV2Message-container-with-replies.ChatV2Message-container-last-message-for-day .ChatV2MessageHeader-avatar-wrapper {
     position: relative;
     z-index: 1;
     margin-left: -80px;
@@ -75,6 +76,9 @@
 /* Position username to the right */
 .ChatV2MessageReplyHeader-container {
     padding-left: 0;
+}
+.ChatV2Message-reactions {
+    margin-left: 0;
 }
 .ChatV2MessageHeader-info {
     margin-left: 15px
