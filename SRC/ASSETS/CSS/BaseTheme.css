@@ -561,9 +561,24 @@ Adds a background to the main page to fit with modal section
 .UserProfileV3-content .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.7)
 }
+/* Profile: Post: Published: Base colour */
+.PublishedPostPage {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.PublishedPostPage-wrapper {
+    background-color: transparent;
+}
+/* Profile: Post: Published: Reply */
+.PublishedPostPage-bounds .ReplyPanel-container-viewing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* Profile: Games */
 .UserProfileV3-profile-content .UserGameSummaryCard-container {
     background-color: rgba(0, 0, 0, 0.7);
+}
+/* Profile: Games: Add game > Drop down */
+.FormAndSubmit-container.FormAndSubmit-container-horizontal.AddGameAlias-game-input .TypeaheadMenu-container {
+    background-color: rgba(0, 0, 0, 0.9);
 }
 /* Profile: Games: Base colour */
 .UserProfileGamesTab-container .PlayerAliasCard-container-type-game,
