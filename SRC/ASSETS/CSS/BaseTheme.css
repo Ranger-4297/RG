@@ -42,7 +42,7 @@
 .SkeletonPlaceholder-container-no-children,
 .ExploreSkeleton-title,
 .ExploreSkeleton-card {
-    background: linear-gradient(270deg, var(--tlight4), var(--tlight4), var(--tlight4), var(--tlight4), var(--tlight4), var(--tlight4));
+    background: linear-gradient(270deg, rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4));
 }
 /* Universal Modal */
 /* Base colour */
