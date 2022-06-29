@@ -1,25 +1,5 @@
 :root {
     --background-image: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    --black: black;
-    --white: white;
-    --tdark1: rgba(0, 0, 0, 0.1);
-    --tdark2: rgba(0, 0, 0, 0.2);
-    --tdark3: rgba(0, 0, 0, 0.3);
-    --tdark4: rgba(0, 0, 0, 0.4);
-    --tdark5: rgba(0, 0, 0, 0.5);
-    --tdark6: rgba(0, 0, 0, 0.6);
-    --tdark7: rgba(0, 0, 0, 0.7);
-    --tdark8: rgba(0, 0, 0, 0.8);
-    --tdark9: rgba(0, 0, 0, 0.9);
-    --tlight1: rgba(256, 256, 256, 0.1);
-    --tlight2: rgba(256, 256, 256, 0.2);
-    --tlight3: rgba(256, 256, 256, 0.3);
-    --tlight4: rgba(256, 256, 256, 0.4);
-    --tlight5: rgba(256, 256, 256, 0.5);
-    --tlight6: rgba(256, 256, 256, 0.6);
-    --tlight7: rgba(256, 256, 256, 0.7);
-    --tlight8: rgba(256, 256, 256, 0.8);
-    --tlight9: rgba(256, 256, 256, 0.9);
 }
 
 
