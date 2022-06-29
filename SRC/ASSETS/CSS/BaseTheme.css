@@ -949,10 +949,6 @@ Adds a background to the main page to fit with modal section
 .ShareChannelContentOverlay-container .DefaultContentEmbedCard-content-wrapper:not(.DefaultContentEmbedCard-content-wrapper-disabled)::after {
     background: rgba(0, 0, 0, 0.5);
 }
-/* Chat: Spaced message */
-.ChatV2Message-container {
-    margin-bottom: 5px;
-}
 /* Chat: Input > Loading image */
 .MediaRenderer-content.MediaRenderer-content-editor-simple.MaximizableImage-image.Img-skeleton-square,
 .MaximizedImageOverlay-image.Img-skeleton-square {
