@@ -1,0 +1,69 @@
+/* Your settings */
+.DesktopOptionsControlItemTemplate-container[data-name="Overview"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/person.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Email"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/user_profile.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Billing"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/payment.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="SecuritySettings"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/security.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Privacy"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/security.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Connections"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/link.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Advanced"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/bug.svg)
+}
+
+/* App settings */
+.DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/camera.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="VoiceAndVideoSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/mic.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="KeybindSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/keyboard.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="WindowsSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/accessibility.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="SoundSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/language.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="StreamerMode"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/videocam.svg)
+}
+
+/* Settings: Reguilded */
+.DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/apps.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="rgAddons"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/puzzle.svg)
+}
+.DesktopOptionsControlItemTemplate-container[data-name="rgThemes"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/palette.svg)
+}
+
+
+/* Space for icons to be added */
+.DesktopOptionsControlItemTemplate-label-text:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -5px;
+    margin-top: -2px;
+    padding-right: 10px;
+}
+/* Moves content over */
+.SettingsMenu-container .PersistentActionMenu-container.DesktopOptionsControl-persistent-menu {
+    margin-left: 20px;
+}
