@@ -3,7 +3,7 @@
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/person.svg);
 }
 .DesktopOptionsControlItemTemplate-container[data-name="Email"] .DesktopOptionsControlItemTemplate-label-text:before {
-    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/user_profile.svg)
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/email.svg)
 }
 .DesktopOptionsControlItemTemplate-container[data-name="Billing"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/payment.svg)
@@ -23,7 +23,7 @@
 
 /* App settings */
 .DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
-    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/camera.svg);
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/general.svg);
 }
 .DesktopOptionsControlItemTemplate-container[data-name="VoiceAndVideoSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/mic.svg)
@@ -32,7 +32,7 @@
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/keyboard.svg)
 }
 .DesktopOptionsControlItemTemplate-container[data-name="WindowsSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
-    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/accessibility.svg)
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/windows.svg)
 }
 .DesktopOptionsControlItemTemplate-container[data-name="SoundSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/language.svg)
