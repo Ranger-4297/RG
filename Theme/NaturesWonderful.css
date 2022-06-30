@@ -9,6 +9,7 @@ Source: https://github.com/Ranger-4297/RG
 @import url('https://ranger-4297.github.io/RG/SRC/ASSETS/CSS/BaseTheme.css');
 
 :root {
+    --accent-color: rgba(138, 191, 139, 1);
     --background-image: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     --message-bg: rgba(256, 256, 256, 0.15);
     --message-hover-bg: rgba(256, 256, 256, 0.4);
