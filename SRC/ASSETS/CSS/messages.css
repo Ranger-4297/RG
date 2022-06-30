@@ -50,6 +50,23 @@
 .ChatV2Message-container-with-header:hover::before {
     border-color: transparent var(--message-hover-bg) transparent transparent;
 }
+/* Triangle: On Replying */
+.ChatV2Message-container:not(.ChatV2Message-container-editing).ChatV2Message-container-replying::after,
+.ChatV2Message-container:not(.ChatV2Message-container-editing).ChatV2Message-container-replying:hover::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 5px;
+    background-color: #f8d64c;
+}
+.ChatV2Message-container.ChatV2Message-container-replying.ChatV2Message-container-mentioned::before {
+    border-color: transparent var(--mention-indent) transparent transparent;
+    background: transparent;
+}
+/* Fix timing with hovering */
 .ChatV2Message-container-with-header::before {
     transition: border-color 140ms ease;
 }
