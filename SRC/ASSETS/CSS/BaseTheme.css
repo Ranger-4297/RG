@@ -1,6 +1,7 @@
 @import url('https://ranger-4297.github.io/RG/SRC/ASSETS/CSS/messages.css');
 
 :root {
+    --accent-color: rgba(138, 191, 139, 1);
     --background-image: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
     --message-bg: rgba(256, 256, 256, 0.15);
     --message-hover-bg: rgba(256, 256, 256, 0.4);
@@ -303,6 +304,28 @@ Adds a background to the main page to fit with modal section
 
 
 /* Account settings */
+/* Settings: Header content */
+.DesktopOptionsControlOptionHeader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Settings: Header content > Accent line */
+.DesktopOptionsControlOptionHeader-container::before {
+    content: "";
+    height: 3px;
+    flex-grow: 1;
+    background: linear-gradient(to left, var(--accent-color), transparent);
+    margin-right: 2px;
+}
+/* Settings: Header content > Accent line */
+.DesktopOptionsControlOptionHeader-container::after {
+    content: "";
+    height: 3px;
+    flex-grow: 1;
+    background: linear-gradient(to right, var(--accent-color), transparent);
+    margin-left: 2px;
+}
 /* Overview: Base colour */
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container {
     background-color: rgba(0, 0, 0, 0.7);
