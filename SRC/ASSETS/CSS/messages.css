@@ -50,6 +50,9 @@
 .ChatV2Message-container-with-header:hover::before {
     border-color: transparent var(--message-hover-bg) transparent transparent;
 }
+.ChatV2Message-container-with-header::before {
+    transition: border-color 140ms ease;
+}
 /* Move content to the left */
 .ChatV2MessageContents-container {
     padding: 0;
