@@ -1078,6 +1078,10 @@ Adds a background to the main page to fit with modal section
 .ChatMessageThread-container .LastReplyDisplay-container.LastReplyDisplay-container-participant:not(.LastReplyDisplay-container-unread):before {
     background-color: rgba(66, 124, 135, 1);
 }
+/* Chat: Nickname modal */
+.ChangeNicknameOverlay-container .ChangeNicknameOverlay-info {
+    background-color: transparent;
+}
 /* Chat: User modal */
 .ProfileHoverCardV2Overlay-container,
 .ProfileHoverCardV2Overlay-action-menu {
