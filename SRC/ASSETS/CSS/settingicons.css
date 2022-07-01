@@ -1,4 +1,4 @@
-/* Your settings */
+/* Profile: Settings */
 .DesktopOptionsControlItemTemplate-container[data-name="Overview"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/overview.svg);
 }
@@ -21,7 +21,7 @@
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/bug.svg)
 }
 
-/* App settings */
+/* Profile: App settings */
 .DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/general.svg);
 }
@@ -41,7 +41,7 @@
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/videocam.svg)
 }
 
-/* Settings: Reguilded */
+/* Profile: Settings: Reguilded */
 .DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/apps.svg)
 }
@@ -52,6 +52,45 @@
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/palette.svg)
 }
 
+
+
+
+/* Server: Settings */
+.DesktopOptionsControlItemTemplate-container[data-name="Roles"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/roles.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Bots"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/bots.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Groups"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/groups.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Customizations"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/emoji.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Notifications"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/notifications.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Integrations"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/puzzle.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Widget"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/widgets.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Webhooks"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/webhook.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="LevelRewards"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/gift.svg);
+}
+
+
+.DesktopOptionsControlItemTemplate-container[data-name="Invites"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/invite.svg);
+}
+.DesktopOptionsControlItemTemplate-container[data-name="Bans"] .DesktopOptionsControlItemTemplate-label-text:before {
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/hammer.svg);
+}
 
 /* Space for icons to be added */
 .DesktopOptionsControlItemTemplate-label-text:before {
