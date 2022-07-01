@@ -13,7 +13,7 @@
 .WebAppV2-container.WebAppV2-container-has-sidebar.WebAppV2-container-minimal.WebAppV2-container-electron.WebAppV2-container-electron-windows.WebAppV2-container-has-title-bar::before {
     z-index: 9999;
     text-align: center;
-    content: "Your version of *Nature is Wonderful* is outdated. Please download the newest version from source";
+    content: "Your version of \"Nature is Wonderful\" is outdated. Please download the newest version from source";
     display: var(--version1_0, block);
     padding: 8px 16px;
     background-color: rgba(255, 212, 49, 1);
