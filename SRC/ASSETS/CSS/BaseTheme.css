@@ -49,7 +49,8 @@
 /* Universal Modal */
 /* Base colour */
 .ModalV2-container,
-.ModalHeaderV2-container {
+.ModalHeaderV2-container,
+.Navbar-container {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1017,12 +1018,7 @@ Adds a background to the main page to fit with modal section
 .ShareChannelContentOverlay-container .DefaultContentEmbedCard-content-wrapper:not(.DefaultContentEmbedCard-content-wrapper-disabled)::after {
     background: rgba(0, 0, 0, 0.5);
 }
-/* Chat: Input > Loading image */
-.MediaRenderer-content.MediaRenderer-content-editor-simple.MaximizableImage-image.Img-skeleton-square,
-.MaximizedImageOverlay-image.Img-skeleton-square {
-    display: none;
-}
-/* Chat: Input> Codeblock */
+/* Chat: Input > Codeblock */
 .SlateEditor-container .CodeContainerRenderer-container {
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -1049,7 +1045,11 @@ Adds a background to the main page to fit with modal section
 .SlateEditor-container .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-/* Chat: Input > Embed */
+/* Chat: Typing indicator */
+.ChatChannelInputTypingIndicator-container {
+    color: white;
+}
+/* Chat: Input > Embed  */
 .ChatChannelInput-container .ContentEmbedCardStack-container {
     display: none;
 }
