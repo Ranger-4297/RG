@@ -1,6 +1,6 @@
 /* Your settings */
 .DesktopOptionsControlItemTemplate-container[data-name="Overview"] .DesktopOptionsControlItemTemplate-label-text:before {
-    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/person.svg);
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/overview.svg);
 }
 .DesktopOptionsControlItemTemplate-container[data-name="Email"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/email.svg)
