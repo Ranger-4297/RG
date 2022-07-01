@@ -9,5 +9,5 @@ This is a work in progress
 > Unzip it, and place the `Theme` Folder in `.reguilded/themes`
 
 # Updates
-> Refreshing your application should update your theme
-> It's not possible for me to show you when it's updated **yet**
+> Your theme should automatically update for a **majority of times**
+> However, on breaking changes there will be a notification on your theme stating that you need to update. When this happens please follow the Installation instructions
