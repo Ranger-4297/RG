@@ -1129,10 +1129,13 @@ Adds a background to the main page to fit with modal section
 /* Chat: User modal */
 .ProfileHoverCardV2Overlay-container,
 .ProfileHoverCardV2Overlay-action-menu {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--usermodal-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.ProfileHoverCardV2Overlay-container .ProfileHoverCardV2Overlay-info, .ProfileHoverCardV2Overlay-container .ContextMenu-content{
+    backdrop-filter: blur(2px);
 }
 /* Stream: Base colour */
 .StreamChannelDisplay-container {
