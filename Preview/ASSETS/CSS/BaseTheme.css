@@ -238,6 +238,15 @@ body,
 .TournamentPage-contents .SidebarWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
+/* Member * threadlist: Hover */
+.TeamPageV2-container .SidebarWrapper-container {
+    width: 6%;
+    transition: .15s ease-in-out;
+}
+.TeamPageV2-container .SidebarWrapper-container:hover {
+    width: 240px;
+    transition: .15s ease-in-out;
+}
 /* Member & threadlist: Inside: Colour */
 .SimpleIconTabMenu-container .SidebarInfoItem-container:not(.SidebarInfoItem-container.TeamPageContentSidebarGames-container.TeamPageContentSidebarGames-container-unpadded.TeamPageContentSidebarAbout-games),
 .TournamentPage-contents .SidebarInfoItem-container {
