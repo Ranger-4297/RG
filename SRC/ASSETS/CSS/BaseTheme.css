@@ -4,6 +4,7 @@
     --accent-color: rgba(138, 191, 139, 1);
     --background-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/base.jpg');
     --usermodal-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/modal.jpg');
+    --serverlist-image: url('https://images.pexels.com/photos/358238/pexels-photo-358238.jpeg?cs=srgb&dl=pexels-pixabay-358238.jpg&fm=jpg');
     --message-bg: rgba(0, 0, 0, 0.8);
     --message-hover-bg: rgba(0, 0, 0, 0.9);
     --mention-bg: var(--message-bg);
@@ -162,20 +163,22 @@ body,
 
 /* Server list */
 /* Server list: Main colour */
-.NavV4Sidebar-team-selector {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
+.NavV4Sidebar-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--serverlist-image);
+    background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.NavV4Sidebar-team-selector {
+    background-color: transparent;
 }
 /* Server search: Main colour */
 .NavV4Sidebar-sidebar-footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: transparent;
 }
 /* Server search: Search servers */
 .NavV4Sidebar-sidebar-footer .SearchBarV2-container {
-    background: linear-gradient(rgba(256, 256, 256, 0.05), rgba(256, 256, 256, 0.05)), var(--background-image);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), transparent;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

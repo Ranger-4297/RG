@@ -12,6 +12,7 @@ Source: https://github.com/Ranger-4297/RG
 :root {
     --accent-color: rgba(138, 191, 139, 1);
     --background-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/base.jpg');
+    --serverlist-image: url('https://images.pexels.com/photos/358238/pexels-photo-358238.jpeg?cs=srgb&dl=pexels-pixabay-358238.jpg&fm=jpg');
     --usermodal-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/modal.jpg');
     --message-bg: rgba(0, 0, 0, 0.8);
     --message-hover-bg: rgba(0, 0, 0, 0.9);
