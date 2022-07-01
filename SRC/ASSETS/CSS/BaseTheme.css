@@ -139,8 +139,6 @@
 /* Main app base colour */
 body,
 .ChannelWrapper-container,
-.ChatChannelContents-container,
-.LayeredPageContent-content,
 .TournamentsPortalPage-container,
 .BlogPage-container,
 .BlogPage-container .BlogHeader-container:not(.BlogHeader-container-bare):not(.BlogHeader-container-user-blog) {
@@ -149,6 +147,10 @@ body,
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.ChatChannelContents-container,
+.LayeredPageContent-content {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .JobsPerks-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
@@ -273,7 +275,7 @@ body,
 
 /* Direct messages */
 /* DM list base colour */
-.WebAppV2-container-minimal .WebAppV2-sidebar .ChatChannelList-container {
+.ChatChannelList-container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
     background-position: center;
     background-size: cover;
