@@ -13,8 +13,10 @@ Source: https://github.com/Ranger-4297/RG
     --accent-color: rgba(138, 191, 139, 1);
     --background-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/base.jpg');
     --usermodal-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/modal.jpg');
-    --message-bg: rgba(256, 256, 256, 0.15);
-    --message-hover-bg: rgba(256, 256, 256, 0.4);
+    --message-bg: rgba(0, 0, 0, 0.8);
+    --message-hover-bg: rgba(0, 0, 0, 0.9);
+    --mention-bg: var(--message-bg);
+    --mention-hover-bg: var(--message-hover-bg);
     --mention-indent: #f8d64c;
     --version1_01: none;
 }
