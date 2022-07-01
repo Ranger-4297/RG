@@ -1318,6 +1318,15 @@ Adds a background to the main page to fit with modal section
 .TeamAnnouncementItem-container.MediaRenderer-content.MediaRenderer-content-editor-default.MaximizableImage-image.Img-skeleton-square {
     display: none;
 }
+/* Announcement: Share announcement */
+.ShareContentOverlay-container .DefaultContentEmbedCard-content-wrapper,
+.ShareContentOverlay-container .ContentEmbedCardFooter-container {
+    background-color: rgba(0, 0, 0, 0.);
+}
+.ShareContentOverlay-container .DefaultContentEmbedCard-content-fade-overflow::after {
+    display: none;
+}
+
 /* Forum: Post: Base colour */
 .TeamThreadPostPanel-container {
     background-color: transparent;
