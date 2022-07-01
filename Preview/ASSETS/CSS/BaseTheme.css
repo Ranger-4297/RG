@@ -238,7 +238,7 @@ body,
 .TournamentPage-contents .SidebarWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-/* Member * threadlist: Hover */
+/* Member & threadlist: Hover */
 .TeamPageV2-container .SidebarWrapper-container {
     width: 6%;
     transition: .15s ease-in-out;
