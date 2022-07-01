@@ -1,11 +1,13 @@
-@import url('https://ranger-4297.github.io/RG/SRC/ASSETS/CSS/messages.css');
 @import url('https://ranger-4297.github.io/RG/SRC/ASSETS/CSS/settingicons.css');
 
 :root {
     --accent-color: rgba(138, 191, 139, 1);
-    --background-image: url('https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png');
-    --message-bg: rgba(256, 256, 256, 0.15);
-    --message-hover-bg: rgba(256, 256, 256, 0.4);
+    --background-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/base.jpg');
+    --usermodal-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/modal.jpg');
+    --message-bg: rgba(0, 0, 0, 0.8);
+    --message-hover-bg: rgba(0, 0, 0, 0.9);
+    --mention-bg: var(--message-bg);
+    --mention-hover-bg: var(--message-hover-bg);
     --mention-indent: #f8d64c;
 }
 
@@ -14,7 +16,7 @@
     z-index: 9999;
     text-align: center;
     content: "Your version of \"Nature is Wonderful\" is outdated. Please download the newest version from source";
-    display: var(--version1_0, block);
+    display: var(--version1_01, block);
     padding: 8px 16px;
     background-color: rgba(255, 212, 49, 1);
     color: #000;
@@ -139,7 +141,6 @@ body,
 .ChatChannelContents-container,
 .LayeredPageContent-content,
 .TournamentsPortalPage-container,
-.SettingsMenu-container .OptionsMenuPageWrapper-container,
 .BlogPage-container,
 .BlogPage-container .BlogHeader-container:not(.BlogHeader-container-bare):not(.BlogHeader-container-user-blog) {
     background: var(--background-image);
@@ -150,10 +151,10 @@ body,
 }
 .JobsPerks-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -188,7 +189,7 @@ body,
 /* Server: Content navigation */
 .TeamPageNavV3-team-content .GroupSelector-container,
 .NavV4Footer-container .NavV4Footer-footer-content {
-    background: var(--background-image);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,13 +302,15 @@ Changes both server && account settings
 Adds a background to the main page to fit with modal section
 */
 .OptionsMenu-container-desktop .OptionsMenu-options-control {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.OptionsMenuPageWrapper-container:not(.Form-container-section-border .Form-section:not(:first-child), .Form-container-section-border-unpadded .Form-section:not(:first-child), .Form-container-row-border .Form-section:not(:first-child)),
-.StatusContext-container .OptionsMenu-option-content {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
+.SettingsMenu-container .OptionsMenuPageWrapper-container  {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -341,7 +344,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Overview: Base colour */
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 /* Billing: Active tab */
 .UserSettingsBillingPage-container .HorizontalTab-container.HorizontalTab-container-selected.HorizontalTab-container-desktop.HorizontalTabMenu-tab {
@@ -375,7 +378,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Billing: Add payment method modal */
 .PaymentInstrumentCreator-container .PaymentInstrumentCreator-element {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Billing: Payments */
 .UserSettingsBillingPage-container .PaymentInstrumentSelector-container .CheckboxPanel-container-selected {
@@ -395,7 +398,12 @@ Adds a background to the main page to fit with modal section
 }
 /* Connections: Extra options */
 .UserSettingsConnectionsPage-container .SocialLinkConnectionOptionsForm-form {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* Voice and video: Drop down  */
+.VoiceAndVideoSettingsPage-container .GuildedSelect-container {
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 /* Voice and video: Pickers */
 .VoiceAndVideoSettingsPage-container .CheckboxPanel-container {
@@ -403,6 +411,11 @@ Adds a background to the main page to fit with modal section
 }
 /* Voice and video: Hovered picker */
 .VoiceAndVideoSettingsPage-container .CheckboxPanel-container.CheckboxPanel-container-clickable.CheckboxPanel-container-flavor-default:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Voice and video: Shortcuts */
+.VoiceAndVideoSettingsPage-container .HotkeyRecorder-container,
+.UserSettingsStreamerModePage-container .HotkeyRecorder-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
 /* Voice and video: Preview video */
@@ -415,13 +428,27 @@ Adds a background to the main page to fit with modal section
 }
 /* Streamer mode: Base colour  */
 .UserSettingsStreamerModePage-container .FormSection-container-section-background-inset {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Reguilded: Addon search */
+.ReGuildedSettings-container-padded .SearchBarV2-container {
+    background-color: transparent;
+}
+/* Reguilded: Addon/Theme cards */
+.ReGuildedSettings-container-padded .CardWrapper-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+.ReGuildedSettings-container-padded .CardWrapper-container.CardWrapper-container-desktop.CardWrapper-container-actionable:hover:hover {
+    transform: scale(1.06);
 }
 
 
-
-
 /* Server settings */
+/* Settings: Buttons */
+.OptionsMenuPageWrapper-container .FormConfirmButtonV2-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* Overview: Notification settings */
 .OptionsMenuPageWrapper-container .RadioOptionPanel-container-selected {
     background-color: rgba(0, 0, 0, 0.7);

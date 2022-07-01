@@ -7,6 +7,7 @@ Source: https://github.com/Ranger-4297/RG
 **/
 
 @import url('https://ranger-4297.github.io/RG/SRC/ASSETS/CSS/BaseTheme.css');
+@import url('https://ranger-4297.github.io/RG/SRC/ASSETS/CSS/messages.css');
 
 :root {
     --accent-color: rgba(138, 191, 139, 1);
@@ -14,5 +15,5 @@ Source: https://github.com/Ranger-4297/RG
     --message-bg: rgba(256, 256, 256, 0.15);
     --message-hover-bg: rgba(256, 256, 256, 0.4);
     --mention-indent: #f8d64c;
-    --version1_0: none;
+    --version1_01: none;
 }
