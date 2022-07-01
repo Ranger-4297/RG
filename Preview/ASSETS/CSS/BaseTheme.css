@@ -68,7 +68,7 @@
 }
 /* Drop down: selected */
 .ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
 }
 /* New DM: Search user */
 .StatusContext-container.ModalV2-modal-content .GlobalSearchResults-container {
@@ -79,7 +79,7 @@
 }
 /* Radio options */
 .ModalV2-container .RadioOptionPanel-container-selected:not(.OptionsMenuPageWrapper-container>) {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Right click modal */
 /* Base colour */
@@ -209,6 +209,17 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.TeamPageNavV3-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Channel list: Buttons */
+.TeamPageNavV3-header .TeamNavHeaderRowButton-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* Channel list: New server tasklist upsell */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .SetupUpsell-container {
     background-color: rgba(0, 0, 0, 0.5);
@@ -277,7 +288,7 @@ body,
 }
 /* Profile, Status, Activity, Settings and More: Account buttons: Inbox: Content > Unread */
 .ChannelActivityDisplay-container .ChannelActivityItem-container.ChannelActivityItem-container-unread {
-    background-color: rgba(256, 256, 256, 0.2)
+    background-color: rgba(256, 256, 256, 0.2);
 }
 
 
@@ -547,7 +558,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Webhook */
 .TeamSettingsWebhookPage-webhooks .UserCTAPanel-container {
-    background-color: rgba(256, 256, 256, 0.2)
+    background-color: rgba(256, 256, 256, 0.2);
 }
 /* Webhook: Edit webhook: Drop down */
 .TeamSettingsWebhookPage-webhooks .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
@@ -556,7 +567,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Subscriptions: Enable subscriptions */
 .ServerSubscriptionsSetupUpsell-container .ServerSubscriptionsSetupUpsell-content {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
 }
 /* Subscriptions: Remove image */
 .ServerSubscriptionsSetupUpsell-container .ServerSubscriptionsSetupUpsell-header {
@@ -611,7 +622,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Profile: Post */
 .UserProfileV3-content .UserProfilePostPanel-container:not(.UserProfileFeedWidget-posts.UserProfilePostsDisplay-container) {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Profile: Published post */
 .UserProfileV3-profile-content .StatusMessage-container-persistent.StatusMessage-container-type-info {
@@ -623,7 +634,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Profile: Post > Reply */
 .UserProfileV3-content .ReplyPanel-container-viewing {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Profile: Post: Published: Base colour */
 .PublishedPostPage {
@@ -787,11 +798,11 @@ Adds a background to the main page to fit with modal section
 
 /* Blog: Post panel */
 .BlogPage-container .BlogPostSummary-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Blog: Post panel > Social icons */
 .BlogPage-container .LandingPageV3FooterSocialLinkIcons-social-link {
-    background-color: rgba(256, 256, 256, 0.1)
+    background-color: rgba(256, 256, 256, 0.1);
 }
 /* Blog: Post: Share article */
 .BlogPage-container .CopyableTextbox-container {
@@ -813,7 +824,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Blog: Post: Footer > social icons */
 .LandingPageV3Footer-footer-content .LandingPageV3FooterSocialLinkIcons-social-link {
-    background-color: rgba(0, 0, 0, 0.2)
+    background-color: rgba(0, 0, 0, 0.2);
 }
 /* Blog: Post: Footer > Sign up modal */
 .OneStepSignUp-container.OneStepSignUp-container-has-cancel-text.OneStepSignUpLogIn-form {
@@ -870,11 +881,11 @@ Adds a background to the main page to fit with modal section
 }
 /* Overview: Announcements: Pinned */
 .PinnedAnnouncements-announcements .TeamPostRow-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Overview: Leaderboard */
 .TeamOverviewLeaderboardSection-list .TeamOverviewLeaderboardSection-leaderboard-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Overview: Announcement: Main colour */
 .TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetItemWrapper-container-type-filled {
@@ -957,7 +968,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Subscriptions: Recent activity */
 .ServerSubscriptions-container .ServerSubscriptionsRecentActivityFeed-empty-wrapper {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Chat: Unread messages */
 .ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-unread-messages.ChatChannelMessages-alert-bar {
@@ -990,7 +1001,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Chat: Message hover */
 .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChannelWrapper-content .ChannelPinnedMessages-container .ChatV2Message-container):hover {
-    background-color: rgba(0, 0, 0, 0.25)
+    background-color: rgba(0, 0, 0, 0.25);
 }
 /* Chat: Pinned message background */
 .ChatV2MessageContents-container-pinned .ChatV2MessageContents-display {
@@ -1108,7 +1119,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Chat: active message */
 .ChatV2Message-container-active {
-    background-color: rgba(256, 256, 256, 0.1)
+    background-color: rgba(256, 256, 256, 0.1);
 }
 /* Chat: Message options: Main colour */
 .ChatV2Message-content-wrapper .QuickActionBar-container {
@@ -1138,7 +1149,7 @@ Adds a background to the main page to fit with modal section
 /* Chat: Timestamp & reply colour */
 .ChatV2MessageTimestamp-flavor-default,
 .GuildedText-container-type-subtext2 {
-    color: rgba(209, 209, 209, 1)
+    color: rgba(209, 209, 209, 1);
 }
 /* Chat: User modal */
 .ProfileHoverCardV2Overlay-container,
@@ -1153,7 +1164,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Stream: Base colour */
 .StreamChannelDisplay-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Stream: Screenshare modal > Application window: Base colour */
 .DesktopAppCaptureDevicePickerOverlay-window .DesktopAppCaptureDevicePickerOverlay-options, .DesktopAppCaptureDevicePickerOverlay-screen .DesktopAppCaptureDevicePickerOverlay-options{
@@ -1186,7 +1197,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Voice: lobby */
 .VoiceChannelDisplay-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Calendar: Tabs outline */
 .TeamCalendarControls-container .TeamCalendarControls-view-options .ToggleControl-container {
@@ -1297,18 +1308,33 @@ Adds a background to the main page to fit with modal section
 /* Announcement: Main colour */
 .TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
     background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
 }
 /* Announcement: Post */
 .TeamAnnouncementsWidget-container .DraftInputWithTitleV2-title-wrapper {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Announcement: Post: Body */
 .TeamAnnouncementsWidget-container .Editor-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Announcement: Survey */
+.TeamAnnouncementsWidget-announcements .CustomFormWrapper-container-standalone {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Announcement: Embed */
+.TeamAnnouncementsWidget-announcements .TeamEmbedCard-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Announcement: Post a reply */
+.TeamAnnouncementWithReplies-replies .Editor-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
 }
 /* Announcement: Reply: Main colour */
 .TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
 }
 /* Announcement: Reply: Quote */
 .TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
@@ -1326,7 +1352,6 @@ Adds a background to the main page to fit with modal section
 .ShareContentOverlay-container .DefaultContentEmbedCard-content-fade-overflow::after {
     display: none;
 }
-
 /* Forum: Post: Base colour */
 .TeamThreadPostPanel-container {
     background-color: transparent;
@@ -1334,11 +1359,11 @@ Adds a background to the main page to fit with modal section
 /* Forum: Post */
 .TeamForumsThreadsDisplay-container .DraftInputWithTitleV2-title-wrapper,
 .TeamPostRow-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Forum: Post: Body */
 .TeamForumsThreadsDisplay-container .Editor-container {
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Forum: Post: Loading */
 .TeamThreadPostPanel-container .TeamThreadPostPanelDisplay-container{
@@ -1391,11 +1416,17 @@ Adds a background to the main page to fit with modal section
 }
 /* Docs: Main colour */
 .DocsGrid-container .DocsGrid-grid .DocDisplayItem-container {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Docs: Info colour */
 .DocsGrid-container .DocsGrid-grid .DocDisplayItem-container .DocSummaryInfo-container {
     background-color: rgba(0, 0, 0, 0.5);
+}
+/* Docs: Background on viewing */
+.DocViewer-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 20px;
 }
 /* Docs: Embed */
 .DocViewer-editor .OpenGraphEmbed-content.ContentLoader-container.ContentLoader-container-vertically-centered,
@@ -1406,9 +1437,14 @@ Adds a background to the main page to fit with modal section
 .DocViewer-editor .ContentEmbedRenderer-container.ContentEmbedRenderer-container-writable {
     margin-left: 5px;
 }
+/* Docs: Post a comment */
+.DocViewer-comments .Editor-container {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 /* Docs: Reply */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
 }
 /* Docs: Reply: Quote */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
@@ -1427,7 +1463,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Media: Add new media > Tag */
 .MediaEditor-container-desktop .GuildedTagCreator-container-dark .Select-value {
-    background-color: rgba(256, 256, 256, 0.1)
+    background-color: rgba(256, 256, 256, 0.1);
 }
 /* Media: Loading image */
 .MediaDisplayItemV3Contents-media.Img-skeleton-square {
