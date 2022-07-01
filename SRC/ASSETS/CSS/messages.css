@@ -1,6 +1,6 @@
 :root {
-    --message-bg: rgba(256, 256, 256, 0.15);
-    --message-hover-bg: rgba(256, 256, 256, 0.4);
+    --message-bg: rgba(0, 0, 0, 0.8);
+    --message-hover-bg: rgba(0, 0, 0, 0.9);
     --mention-bg: var(--message-bg);
     --mention-hover-bg: var(--message-hover-bg);
     --mention-indent: #f8d64c;
@@ -11,7 +11,6 @@
     background: var(--message-bg, #111);
     margin-left: 80px;
     margin-right: 30px;
-    box-shadow: 0 4px 10px var(--shadow);
 }
 /* Message: hover */
 .ChatV2Message-container:hover {
