@@ -952,7 +952,7 @@ Adds a background to the main page to fit with modal section
 /* Chat: input/archived */
 .ChatChannelInput-container .ChatChannelInput-editor,
 .ChatChannelInput-container .BannerWithButton-container {
-    background-color: rgba(256, 256, 256, 0.1);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 /* Chat: Reply: Replying to: Box */
 .ChatChannelInputStatusBar-container {
