@@ -1424,7 +1424,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Docs: Background on viewing */
 .DocViewer-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 20px;
 }
@@ -1443,7 +1443,7 @@ Adds a background to the main page to fit with modal section
 }
 /* Docs: Reply */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(256, 256, 256, 0.1);
     border-radius: 10px;
 }
 /* Docs: Reply: Quote */
