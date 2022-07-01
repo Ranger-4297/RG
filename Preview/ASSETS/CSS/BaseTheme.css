@@ -139,7 +139,6 @@
 }
 /* Main app base colour */
 body,
-.ChannelWrapper-container,
 .TournamentsPortalPage-container,
 .BlogPage-container,
 .BlogPage-container .BlogHeader-container:not(.BlogHeader-container-bare):not(.BlogHeader-container-user-blog) {
@@ -150,8 +149,9 @@ body,
     background-attachment: fixed;
 }
 .ChatChannelContents-container,
-.LayeredPageContent-content {
-    background-color: rgba(0, 0, 0, 0.3);
+.LayeredPageContent-content,
+.ChannelWrapper-container.ChannelWrapper-container-desktop.ChannelWrapper-container-unscrollable.ChatChannel-container.DMChatChannel-chat-content {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .JobsPerks-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
@@ -305,7 +305,7 @@ body,
 }
 /* DM list: Whatever the fuck is the bottom thing */
 .NavV4FooterGlobalContextDisplay-teams-wrapper {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
 }
 
 
@@ -1317,6 +1317,15 @@ Adds a background to the main page to fit with modal section
 .TeamAnnouncementItem-container.MediaRenderer-content.MediaRenderer-content-editor-default.MaximizableImage-image.Img-skeleton-square {
     display: none;
 }
+/* Announcement: Share announcement */
+.ShareContentOverlay-container .DefaultContentEmbedCard-content-wrapper,
+.ShareContentOverlay-container .ContentEmbedCardFooter-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ShareContentOverlay-container .DefaultContentEmbedCard-content-fade-overflow::after {
+    display: none;
+}
+
 /* Forum: Post: Base colour */
 .TeamThreadPostPanel-container {
     background-color: transparent;
