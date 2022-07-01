@@ -1094,6 +1094,11 @@ Adds a background to the main page to fit with modal section
 .ChangeNicknameOverlay-container .ChangeNicknameOverlay-info {
     background-color: transparent;
 }
+/* Chat: Timestamp & reply colour */
+.ChatV2MessageTimestamp-flavor-default,
+.GuildedText-container-type-subtext2 {
+    color: rgba(209, 209, 209, 1)
+}
 /* Chat: User modal */
 .ProfileHoverCardV2Overlay-container,
 .ProfileHoverCardV2Overlay-action-menu {
