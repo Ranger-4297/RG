@@ -3,6 +3,9 @@ My theme(s)/CSS for Guilded/ReGuilded
 
 This is a work in progress
 
+# Support & Updates
+> For developmental updates and previews, you can join https://www.guilded.gg/i/pB1rlyLk
+> Please join if you also have questions and would like to find out more and possibly contribute
 
 # Installation
 > To install this theme, download the `.zip` from releases
