@@ -1,3 +1,19 @@
+/* Space for icons to be added */
+.DesktopOptionsControlItemTemplate-label-text:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    margin-top: -2px;
+    padding-right: 10px;
+}
+
+/* Moves content over */
+.DesktopOptionsControlItemTemplate-label-text {
+    margin-left: 20px;
+}
+
 /* Profile: Settings */
 .DesktopOptionsControlItemTemplate-container[data-name="Overview"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/overview.svg);
@@ -90,19 +106,4 @@
 }
 .DesktopOptionsControlItemTemplate-container[data-name="Bans"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/hammer.svg);
-}
-
-/* Space for icons to be added */
-.DesktopOptionsControlItemTemplate-label-text:before {
-    content: "";
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: -5px;
-    margin-top: -2px;
-    padding-right: 10px;
-}
-/* Moves content over */
-.SettingsMenu-container .PersistentActionMenu-container.DesktopOptionsControl-persistent-menu {
-    margin-left: 20px;
 }
