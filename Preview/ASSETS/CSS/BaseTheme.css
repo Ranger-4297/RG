@@ -1361,7 +1361,7 @@ Adds a background to the main page to fit with modal section
 /* Announcement: Share announcement */
 .ShareContentOverlay-container .DefaultContentEmbedCard-content-wrapper,
 .ShareContentOverlay-container .ContentEmbedCardFooter-container {
-    background-color: rgba(0, 0, 0, 0.);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .ShareContentOverlay-container .DefaultContentEmbedCard-content-fade-overflow::after {
     display: none;
