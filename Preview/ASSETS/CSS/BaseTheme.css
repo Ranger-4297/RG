@@ -229,9 +229,44 @@ body,
 .TeamPageNavV3-container-desktop .ChatChannelAlertBar-container {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
-/* Channel list: Active channel */
-.TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .TeamChannelItemContents-container-selected {
-    background-color: rgba(256, 256, 256, 0.05);
+/* Channel list: Selected channel */
+.TeamChannelItemContents-container-selected::after {
+    right: 0;
+    opacity: 0.7;
+    background-color: var(--accent-color);
+    animation: channel-select .5s ease-in-out;
+}
+/* Channel list: Channel hover */
+.TeamChannelItemContents-container-selected:hover {
+    background-color: var(--accent-color);
+    opacity: 0.8;
+}
+/* Channel list: Animataion */
+@keyframes channel-select {
+    from {
+        right: 70%;
+        background-color: rgba(0, 0, 0, 0)
+    }
+    to {
+        right: 0;
+        background-color: var(--accent-color);
+    }
+}
+/* Channel list: Name and indicator position */
+.TeamChannelItemContents-container-selected .TeamChannelItemContents-name,
+.TeamChannelItemContents-container-selected .TeamChannelItemContents-action-icon {
+    z-index: 10;
+}
+.TeamChannelItemContents-container-selected .ChannelIcon-icon-primary {
+    fill: white;
+    z-index: 10;
+}
+/* Channel list: Name and indicator unread notification */
+.TeamChannelItemContents-container-unread .TeamChannelItemContents-name {
+    color: var(--accent-color)
+}
+.TeamChannelItemContents-container-unread .ChannelIcon-icon-primary {
+    fill: var(--accent-color);
 }
 /* Channel list: Connected to voicechannel */
 .VoiceConnectionDisplayPanelContents-container * {
