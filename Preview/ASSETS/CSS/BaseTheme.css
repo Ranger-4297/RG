@@ -10,6 +10,7 @@
     --mention-bg: var(--message-bg);
     --mention-hover-bg: var(--message-hover-bg);
     --mention-indent: #f8d64c;
+    --memberlist-size: 240px;
 }
 
 /* Needs updating notice */
@@ -255,7 +256,7 @@ body,
     transition: .15s ease-in-out;
 }
 .TeamPageV2-container .SidebarWrapper-container:hover {
-    width: 240px;
+    width: var(--memberlist-size);
     transition: .15s ease-in-out;
 }
 /* Member & threadlist: Inside: Colour */
