@@ -1311,6 +1311,19 @@ Adds a background to the main page to fit with modal section
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
 }
+/* Announcement: Corners */
+.TeamAnnouncementsWidget-container .DraftInputWithTitleV2-container {
+    border-radius: 10px;
+}
+/* Announcement: Right click/Toolbar */
+.SlateSelectionToolbar-toolbar {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* Announcement: Embed */
+.TeamAnnouncementsWidget-container .DraftInputWithTitleV2-container .OpenGraphEmbed-content {
+    background-color: rgba(256, 256, 256, 0.2);
+    border: 1px inset black;
+}
 /* Announcement: Post */
 .TeamAnnouncementsWidget-container .DraftInputWithTitleV2-title-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
