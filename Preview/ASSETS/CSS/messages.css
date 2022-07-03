@@ -38,10 +38,10 @@
     content: "";
     position: absolute;
     top: 5px;
-    left: -15px;
+    left: -10px;
     transform: scaleY(-1);
     border-radius: 1em/1ex;  
-    border: 10px solid transparent;
+    border: 7px solid transparent;
     border-bottom-color: var(--message-bg);
     border-right-color: var(--message-bg);
 }
