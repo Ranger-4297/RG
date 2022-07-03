@@ -208,7 +208,7 @@ body,
 }
 /* Channel list: Main colour */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
