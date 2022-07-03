@@ -10,6 +10,7 @@
     --mention-bg: var(--message-bg);
     --mention-hover-bg: var(--message-hover-bg);
     --mention-indent: #f8d64c;
+    --memberlist-size: 6%;
 }
 
 /* Needs updating notice */
@@ -17,7 +18,7 @@
     z-index: 9999;
     text-align: center;
     content: "Your version of \"Nature is Wonderful\" is outdated. Please download the newest version from source";
-    display: var(--version1_01, block);
+    display: var(--version1_02, block);
     padding: 8px 16px;
     background-color: rgba(255, 212, 49, 1);
     color: #000;
@@ -251,7 +252,7 @@ body,
 }
 /* Member & threadlist: Hover */
 .TeamPageV2-container .SidebarWrapper-container {
-    width: 6%;
+    width: var(--memberlist-size);
     transition: .15s ease-in-out;
 }
 .TeamPageV2-container .SidebarWrapper-container:hover {
