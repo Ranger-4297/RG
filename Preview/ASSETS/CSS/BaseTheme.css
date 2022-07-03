@@ -176,6 +176,10 @@ body,
 .NavV4Sidebar-team-selector {
     background-color: transparent;
 }
+/* Server list: Unread badge */
+.NavSelectorItem-container-orientation-vertical.NavSelectorItem-container-unread:before {
+    background-color: var(--accent-color);
+}
 /* Server search: Main colour */
 .NavV4Sidebar-sidebar-footer {
     background-color: transparent;
