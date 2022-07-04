@@ -213,7 +213,25 @@ body,
     height: 4rem;
     right: 1rem;
 }
-
+/* Server search: Buttons */
+.NavbarNavExploreIcons-container {
+    background-color: rgba(256, 256, 256, 0.2);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.NavbarChatSelector-container {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(256, 256, 256, 0.2);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Navbar-chat-items:after {
+    margin-left: 0.5rem;
+    background: none;
+}
 
 
 /* Server */
