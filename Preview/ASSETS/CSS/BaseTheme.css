@@ -519,6 +519,11 @@ Adds a background to the main page to fit with modal section
 .ReGuildedSettings-container-padded .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.ReGuildedSettings-container-padded .CardWrapper-container::after {
+    display: none;
 }
 .ReGuildedSettings-container-padded .CardWrapper-container.CardWrapper-container-desktop.CardWrapper-container-actionable:hover:hover {
     transform: scale(1.06);
