@@ -202,7 +202,17 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/* User info */
+.NavbarUserControls-container {
+    background-color: rgba(256, 256, 256, 0.2);
+    padding-left: 1rem;
+    border-radius: 20px;
+    bottom: 0.5rem;
+    z-index: 1000;
+    position: absolute;
+    height: 4rem;
+    right: 1rem;
+}
 
 
 
