@@ -68,7 +68,8 @@
 
 /* Profile: Settings: Reguilded */
 .DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"] .DesktopOptionsControlItemTemplate-label-text:before {
-    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/apps.svg)
+    background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/RG.svg);
+    background-size: 24px 24px;
 }
 .DesktopOptionsControlItemTemplate-container[data-name="rgAddons"] .DesktopOptionsControlItemTemplate-label-text:before {
     background-image: url(https://ranger-4297.github.io/RG/SRC/ASSETS/SVG/puzzle.svg)
