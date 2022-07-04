@@ -58,6 +58,14 @@
     background-position: center;
     background-attachment: fixed;
 }
+.ChatChannelSwitcherOverlay-container {
+    background: transparent;
+    backdrop-filter: blur(2px);
+}
+.ModalV2-container .ChatChannelSwitcherOverlayFooter-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
 /* Copy text/server invite */
 .ModalV2-container .CopyableTextbox-container {
     background-color: transparent;
