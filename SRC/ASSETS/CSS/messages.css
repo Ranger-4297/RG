@@ -106,5 +106,7 @@
 /* Border & margin to messages */
 .ChatV2Message-container {
     margin-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border-radius: 10px;
 }
