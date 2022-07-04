@@ -256,9 +256,8 @@ body,
     animation: channel-select .5s ease-in-out;
 }
 /* Channel list: Channel hover */
-.TeamChannelItemContents-container-selected:hover {
-    background-color: var(--accent-color);
-    opacity: 0.8;
+.TeamChannelItemContents-container-selected:hover::after {
+    opacity: 0.7;
 }
 /* Channel list: Animataion */
 @keyframes channel-select {
