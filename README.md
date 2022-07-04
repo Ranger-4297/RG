@@ -1,7 +1,6 @@
-# RG
-My theme(s)/CSS for Guilded/ReGuilded
-
-This is a work in progress
+# Update
+The latest update has completely reworked the directories used
+Please install the latest release. Thanks!
 
 # Support & Updates
 > For developmental updates and previews, you can join https://www.guilded.gg/i/pB1rlyLk
