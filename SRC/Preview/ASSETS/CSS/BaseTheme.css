@@ -416,6 +416,10 @@ Adds a background to the main page to fit with modal section
     align-items: center;
     justify-content: center;
 }
+/* Settings: Header content > Text colour */
+.DesktopOptionsControlOptionHeader-container .DesktopOptionsControlOptionHeader-header-text {
+    color: var(--accent-color);
+}
 /* Settings: Header content > Accent line */
 .DesktopOptionsControlOptionHeader-container::before {
     content: "";
