@@ -99,19 +99,21 @@
 }
 /* Reaction picker */
 /* Base colour */
-.ReactionPickerOverlay-container .ReactionPickerNavbar-container,
-.ReactionPickerOverlay-container .ReactionPicker-content,
-.ReactionPickerOverlay-container .SearchBarV2-container,
-.ReactionPickerOverlay-container .ReactionPickerFooter-container,
-.ReactionPicker-container .ReactionPickerNavbar-container,
-.ReactionPicker-container .ReactionPicker-content,
-.ReactionPicker-container .SearchBarV2-container,
-.ReactionPicker-container .ReactionPickerFooter-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
+.ReactionPickerOverlay-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), var(--background-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.ReactionPickerNavbar-container, .ReactionPicker-content{
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+}
+.ReactionPickerFooter-container {
+    background-color: rgba(0, 0, 0, 0.6)
 }
 /* Reaction picker: Skin colour picker */
 .SelectMenu-container {
