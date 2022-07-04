@@ -20,8 +20,8 @@ Source: https://github.com/Ranger-4297/RG
     --usermodal-image: url('https://ranger-4297.github.io/RG/SRC/ASSETS/images/modal.jpg'); /* Background of user modal */
 
     /* SMS style messages (Ignore if you have removed the messages import) */
-    --message-bg: rgba(0, 0, 0, 0.8); /* Background for messages */
-    --message-hover-bg: rgba(0, 0, 0, 0.9); /* Hovered background for messages */
+    --message-bg: rgba(0, 0, 0, 0.7); /* Background for messages */
+    --message-hover-bg: rgba(0, 0, 0, 0.75); /* Hovered background for messages */
     --mention-bg: var(--message-bg); /* Background of mentioned messages */
     --mention-hover-bg: var(--message-hover-bg); /* Hovered background of mentioned messages */
     --mention-indent: #f8d64c; /* Indent color of mentioned messages */
