@@ -202,7 +202,17 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/* Server search: User info */
+.NavbarUserControls-container {
+    background-color: rgba(256, 256, 256, 0.2);
+    padding-left: 1rem;
+    border-radius: 20px;
+    bottom: 0.5rem;
+    z-index: 1000;
+    position: absolute;
+    height: 4rem;
+    right: 1rem;
+}
 
 
 
@@ -256,9 +266,8 @@ body,
     animation: channel-select .5s ease-in-out;
 }
 /* Channel list: Channel hover */
-.TeamChannelItemContents-container-selected:hover {
-    background-color: var(--accent-color);
-    opacity: 0.8;
+.TeamChannelItemContents-container-selected:hover::after {
+    opacity: 0.7;
 }
 /* Channel list: Animataion */
 @keyframes channel-select {
@@ -519,6 +528,11 @@ Adds a background to the main page to fit with modal section
 .ReGuildedSettings-container-padded .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.ReGuildedSettings-container-padded .CardWrapper-container::after {
+    display: none;
 }
 .ReGuildedSettings-container-padded .CardWrapper-container.CardWrapper-container-desktop.CardWrapper-container-actionable:hover:hover {
     transform: scale(1.06);
