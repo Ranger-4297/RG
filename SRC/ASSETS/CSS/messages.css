@@ -1,6 +1,6 @@
 :root {
-    --message-bg: rgba(0, 0, 0, 0.8);
-    --message-hover-bg: rgba(0, 0, 0, 0.9);
+    --message-bg: rgba(0, 0, 0, 0.7);
+    --message-hover-bg: rgba(0, 0, 0, 0.75);
     --mention-bg: var(--message-bg);
     --mention-hover-bg: var(--message-hover-bg);
     --mention-indent: #f8d64c;
