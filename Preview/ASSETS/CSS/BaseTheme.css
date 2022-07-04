@@ -206,6 +206,11 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/* Server member search */
+.TeamPageNavV3-team-content .TeamSearchBar-search-results {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+}
 /* Channel list: Main colour */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
