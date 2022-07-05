@@ -25,7 +25,7 @@ Source: https://github.com/Ranger-4297/RG
 :root {
     /* Backgrounds */
     --background-image: url('https://ranger-4297.github.io/RG/SRC/Stable/ASSETS/images/base.jpg'); /* Base theme background */
-    --serverlist-image: url('https: //ranger-4297.github.io/RG/SRC/Stable/ASSETS/images/sidebar.jpg'); /* (Ctrl+S) server list (NOT on legacy) */
+    --serverlist-image: url('https://ranger-4297.github.io/RG/SRC/Stable/ASSETS/images/sidebar.jpg'); /* (Ctrl+S) server list (NOT on legacy) */
     --usermodal-image: url('https://ranger-4297.github.io/RG/SRC/Stable/ASSETS/images/modal.jpg'); /* Background of user modal */
 
     /* SMS style messages (Ignore if you have removed the messages import) */
