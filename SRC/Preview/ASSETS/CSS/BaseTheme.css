@@ -1239,6 +1239,9 @@ Adds a background to the main page to fit with modal section
 .ChatV2MessageContents-container .CodeContainerRenderer-container {
     background-color: rgba(0, 0, 0, 0.6);
 }
+.ChatV2MessageContents-container .CodeContainerRenderer-language-indicator {
+    top: 2.5rem;
+}
 /* Chat: Replpy to in a thread */
 .ChatV2MessageReplyTooltip-arrow,
 .ChatV2MessageReplyTooltip-content-wrapper {
