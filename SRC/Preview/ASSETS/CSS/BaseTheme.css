@@ -232,8 +232,20 @@ body,
     margin-left: 0.5rem;
     background: none;
 }
-
-
+.LoggedInUserAvatar-info {
+    background-color: rgba(256, 256, 256, 0.2);
+    padding-left: 1rem;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.NavbarNavIcons-container {
+    background-color: rgba(256, 256, 256, 0.2);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.NavV4Footer-nav-icons {
+    margin-left: 0;
+}
 /* Server */
 /* Server: Content navigation */
 .TeamPageNavV3-team-content .GroupSelector-container,
