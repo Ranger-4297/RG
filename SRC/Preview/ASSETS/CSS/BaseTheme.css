@@ -202,7 +202,7 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-/* Server search: User info */
+/* Legacy: Server search: User info */
 .NavbarUserControls-container {
     background-color: rgba(256, 256, 256, 0.2);
     padding-left: 1rem;
@@ -221,6 +221,7 @@ body,
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
+/* New: Server search: User info */
 .NavbarChatSelector-container {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -232,13 +233,13 @@ body,
     margin-left: 0.5rem;
     background: none;
 }
-.LoggedInUserAvatar-info {
+.LoggedInUserAvatar-container:not(.NavbarUserControls-container .LoggedInUserAvatar-container) {
     background-color: rgba(256, 256, 256, 0.2);
     padding-left: 1rem;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
-.NavbarNavIcons-container {
+.NavbarNavIcons-container:not(.NavbarUserControls-container .NavbarNavIcons-container) {
     background-color: rgba(256, 256, 256, 0.2);
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
