@@ -113,8 +113,12 @@
     top: -30px
 }
 /* Position username to the right */
+.ChatV2MessageReplyHeader-container::after {
+    left: 0;
+    border-color: var(--accent-color);
+}
 .ChatV2MessageReplyHeader-container {
-    padding-left: 0;
+    padding-left: 4rem;
 }
 .ChatV2Message-reactions {
     margin-left: 0;
@@ -123,7 +127,7 @@
     margin-left: 15px
 }
 /* Remove reply icon */
-.ChatV2MessageReplyHeader-container::after {
+.ChatV2MessageContents-container-thread::after {
     display: none;
 }
 /* Border & margin to messages */
