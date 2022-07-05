@@ -26,6 +26,17 @@
     font-size: small;
 }
 
+/* Nav bar icons */
+.NavIcon-container-type-vertical-nav,
+.NavbarNavExploreIcon-link .NavbarNavExploreIcon-icon,
+.ChatChannelIcon-icon-group
+ {
+    fill: white;
+}
+.LoggedInUserStatus-content-with-status,
+.LoggedInUserAvatar-name {
+    color: white;
+}
 /* WebApp container */
 .WebAppV2-container.WebAppV2-container-has-sidebar.WebAppV2-container-minimal.WebAppV2-container-electron.WebAppV2-container-electron-windows.WebAppV2-container-has-title-bar {
     background: var(--background-image);
