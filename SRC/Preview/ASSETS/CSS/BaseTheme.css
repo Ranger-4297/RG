@@ -29,8 +29,7 @@
 /* Nav bar icons */
 .NavIcon-container-type-vertical-nav,
 .NavbarNavExploreIcon-link .NavbarNavExploreIcon-icon,
-.ChatChannelIcon-icon-group
- {
+.ChatChannelIcon-icon-group {
     fill: white;
 }
 .LoggedInUserStatus-content-with-status,
@@ -258,6 +257,23 @@ body,
 .NavV4Footer-nav-icons {
     margin-left: 0;
 }
+/* Server list: Special tabs */
+.NavV4TeamSelector-options-list .NavV4SelectorRow-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 0;
+}
+.NavV4TeamSelector-options-list .NavV4SelectorRow-container:first-of-type {
+    border-radius: 15px 15px 0 0 ;
+}
+.NavV4TeamSelector-options-list .NavV4SelectorRow-container:last-of-type {
+    border-radius: 0 0 15px 15px ;
+}
+
+
+
+
 /* Server */
 /* Server: Content navigation */
 .TeamPageNavV3-team-content .GroupSelector-container,
