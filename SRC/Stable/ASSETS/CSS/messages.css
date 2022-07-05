@@ -96,6 +96,7 @@
 .ChatV2MessageTimestamp-flavor-chat-contents {
     z-index: 0;
     left: -50px;
+    color: white;
 }
 /* Position avatar to the left */
 .ChatV2MessageHeader-avatar-wrapper {
