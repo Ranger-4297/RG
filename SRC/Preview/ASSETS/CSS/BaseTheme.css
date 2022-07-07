@@ -1640,6 +1640,10 @@ Adds a background to the main page to fit with modal section
 .MediaSplitView-container-desktop .MediaSplitView-right-pane .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.5);
 }
+/* Media: View media: Back svg */
+.MediaSplitView-container .BackLink-container-size-lg .BackLink-icon {
+    fill: white;
+}
 /* Tournaments: Set up tournament: Dashboard */
 .TournamentSettingsDashboardPage-container .PersistentUpsell-container-flavor-settings {
     background-color: rgba(0, 0, 0, 0.5);
