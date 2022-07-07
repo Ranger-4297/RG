@@ -1690,3 +1690,15 @@ Adds a background to the main page to fit with modal section
 .TournamentPage-contents .ElimBracketMatchLineItemScorePanel-container:not(.ElimBracketMatchLineItemScorePanel-container-is-winner) {
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+/* Horizontal servers  */
+.WebAppV2-container.WebAppV2-container-has-navbar {
+    margin-top: 7.5rem;
+}
+.Navbar-container {
+    top: 2.4rem;
+}
+.WebAppV2-container.WebAppV2-container-has-navbar .WebAppV2-sidebar {
+    margin-top: 40px;;
+    bottom: 0;
+}
