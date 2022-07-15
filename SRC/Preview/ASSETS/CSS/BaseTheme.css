@@ -170,8 +170,7 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.ChatChannelContents-container,
-.LayeredPageContent-content {
+.ChannelWrapper-contents {
     background-color: rgba(0, 0, 0, 0.3);
 }
 .JobsPerks-container {
@@ -369,7 +368,7 @@ body,
 /* Member & threadlist: Main colour */
 .TeamPageV2-container .SidebarWrapper-container,
 .TournamentPage-contents .SidebarWrapper-container {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 /* Member & threadlist: Hover */
 .TeamPageV2-container .SidebarWrapper-container {
