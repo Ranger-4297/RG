@@ -195,8 +195,7 @@ body,
     background-attachment: fixed;
 }
 
-.ChatChannelContents-container,
-.LayeredPageContent-content {
+.ChannelWrapper-contents {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -426,7 +425,7 @@ body,
 /* Member & threadlist: Main colour */
 .TeamPageV2-container .SidebarWrapper-container,
 .TournamentPage-contents .SidebarWrapper-container {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Member & threadlist: Hover */
@@ -1959,6 +1958,11 @@ Adds a background to the main page to fit with modal section
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Media: View media: Back svg */
+.MediaSplitView-container .BackLink-container-size-lg .BackLink-icon {
+    fill: white;
+}
+
 /* Tournaments: Set up tournament: Dashboard */
 .TournamentSettingsDashboardPage-container .PersistentUpsell-container-flavor-settings {
     background-color: rgba(0, 0, 0, 0.5);
@@ -2019,4 +2023,19 @@ Adds a background to the main page to fit with modal section
 /* Tournaments: Brackets: Score */
 .TournamentPage-contents .ElimBracketMatchLineItemScorePanel-container:not(.ElimBracketMatchLineItemScorePanel-container-is-winner) {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Horizontal servers  */
+.WebAppV2-container.WebAppV2-container-has-navbar {
+    margin-top: 7.5rem;
+}
+
+.Navbar-container {
+    top: 2.4rem;
+}
+
+.WebAppV2-container.WebAppV2-container-has-navbar .WebAppV2-sidebar {
+    margin-top: 40px;
+    ;
+    bottom: 0;
 }
