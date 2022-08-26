@@ -32,12 +32,10 @@
 .ChatChannelIcon-icon-group {
     fill: white;
 }
-
 .LoggedInUserStatus-content-with-status,
 .LoggedInUserAvatar-name {
     color: white;
 }
-
 /* WebApp container */
 .WebAppV2-container.WebAppV2-container-has-sidebar.WebAppV2-container-minimal.WebAppV2-container-electron.WebAppV2-container-electron-windows.WebAppV2-container-has-title-bar {
     background: var(--background-image);
@@ -46,12 +44,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Skeleton classes */
 .OverviewWidgetSkeleton-container-type-filled {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 .OverviewWidgetSkeleton-profile-picture,
 .OverviewWidgetSkeleton-text,
 .OverviewWidgetSkeleton-subtitle,
@@ -61,7 +57,6 @@
 .ExploreSkeleton-card {
     background: linear-gradient(270deg, rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4), rgba(256, 256, 256, 0.4));
 }
-
 /* Universal Modal */
 /* Base colour */
 .ModalV2-container,
@@ -74,55 +69,48 @@
     background-position: center;
     background-attachment: fixed;
 }
-
 .ChatChannelSwitcherOverlay-container {
     background: transparent;
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
 }
-
 .ModalV2-container .ChatChannelSwitcherOverlayFooter-container {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
 }
-
 /* Copy text/server invite */
 .ModalV2-container .CopyableTextbox-container {
     background-color: transparent;
 }
-
 /* Drop down */
 .ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer,
 .GuildedSelect-container.GuildedSelect-container-dark .Select-noresults {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* Drop down: selected */
 .ModalV2-container .GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* New DM: Search user */
 .StatusContext-container.ModalV2-modal-content .GlobalSearchResults-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .StatusContext-container.ModalV2-modal-content .GlobalSearchResult-container-desktop.GlobalSearchResult-container-focused {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Radio options */
 .ModalV2-container .RadioOptionPanel-container-selected:not(.OptionsMenuPageWrapper-container>) {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Right click modal */
 /* Base colour */
 .TransientMenu-container-style-default {
     background-color: rgba(0, 0, 0, 0.7);
+    -webkit-backdrop-filter: blur(2.5px);
     backdrop-filter: blur(2.5px);
     border: solid 1px rgba(256, 256, 256, 0.2);
 }
-
 /* Reaction picker */
 /* Base colour */
 .ReactionPickerOverlay-container {
@@ -134,17 +122,14 @@
     border: 1px solid black;
     border-radius: 5px;
 }
-
-.ReactionPickerNavbar-container,
-.ReactionPicker-content {
+.ReactionPickerNavbar-container, .ReactionPicker-content{
     background-color: transparent;
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
 }
-
 .ReactionPickerFooter-container {
     background-color: rgba(0, 0, 0, 0.6)
 }
-
 /* Reaction picker: Skin colour picker */
 .SelectMenu-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
@@ -153,23 +138,19 @@
     background-position: center;
     background-attachment: fixed;
 }
-
 /* Reaction picker: Skin colour selected */
 .SelectMenuItem-container-selected {
     background-color: rgba(256, 256, 256, 0.05);
 }
-
 /* Reaction picker: Skin colour hover */
 .SelectMenuItem-container-desktop:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Reaction picker: Skin colour picker: border */
 .TransientMenu-container-style-default {
     border: solid 1px rgba(0, 0, 0, 1);
     border-radius: 10px;
 }
-
 /* Reaction picker: Loading emoji */
 .ReactionPicker-content .ReactionIcon-image.ReactionPickerIcon-icon.Img-skeleton-rounded-square {
     display: none;
@@ -182,7 +163,6 @@
 .ScreenHeader-container:not(.UserProfileV3-content .ScreenHeader-container) {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Main app base colour */
 body,
 .ChannelWrapper-container,
@@ -195,11 +175,9 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 .ChannelWrapper-contents {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 .JobsPerks-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--background-image);
     background-position: center;
@@ -219,21 +197,17 @@ body,
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .NavV4Sidebar-team-selector {
     background-color: transparent;
 }
-
 /* Server list: Unread badge */
 .NavSelectorItem-container-orientation-vertical.NavSelectorItem-container-unread:before {
     background-color: var(--accent-color);
 }
-
 /* Server search: Main colour */
 .NavV4Sidebar-sidebar-footer {
     background-color: transparent;
 }
-
 /* Server search: Search servers */
 .NavV4Sidebar-sidebar-footer .SearchBarV2-container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), transparent;
@@ -242,7 +216,6 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Legacy: Server search: User info */
 .NavbarUserControls-container {
     background-color: rgba(256, 256, 256, 0.2);
@@ -254,7 +227,6 @@ body,
     height: 4rem;
     right: 1rem;
 }
-
 /* Server search: Buttons */
 .NavbarNavExploreIcons-container {
     background-color: rgba(256, 256, 256, 0.2);
@@ -263,7 +235,6 @@ body,
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
-
 /* New: Server search: User info */
 .NavbarChatSelector-container {
     margin-top: 0.5rem;
@@ -272,29 +243,24 @@ body,
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
 .Navbar-chat-items:after {
     margin-left: 0.5rem;
     background: none;
 }
-
 .LoggedInUserAvatar-container:not(.NavbarUserControls-container .LoggedInUserAvatar-container) {
     background-color: rgba(256, 256, 256, 0.2);
     padding-left: 1rem;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
-
 .NavbarNavIcons-container:not(.NavbarUserControls-container .NavbarNavIcons-container) {
     background-color: rgba(256, 256, 256, 0.2);
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
-
 .NavV4Footer-nav-icons {
     margin-left: 0;
 }
-
 /* Server list: Special tabs */
 .NavV4TeamSelector-options-list .NavV4SelectorRow-container {
     margin-left: 10px;
@@ -302,13 +268,11 @@ body,
     background-color: rgba(256, 256, 256, 0.2);
     border-radius: 0;
 }
-
 .NavV4TeamSelector-options-list .NavV4SelectorRow-container:first-of-type {
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0 ;
 }
-
 .NavV4TeamSelector-options-list .NavV4SelectorRow-container:last-of-type {
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px ;
 }
 
 
@@ -324,13 +288,12 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Server member search */
 .TeamPageNavV3-team-content .TeamSearchBar-search-results {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
 }
-
 /* Channel list: Main colour */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
@@ -339,7 +302,6 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 .TeamPageNavV3-header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-position: center;
@@ -347,22 +309,18 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Channel list: Buttons */
 .TeamPageNavV3-header .TeamNavHeaderRowButton-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Channel list: New server tasklist upsell */
 .TeamPageNavV3-container-desktop .TeamPageNavV3-nav-sections .SetupUpsell-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Channel list: Unread messages */
 .TeamPageNavV3-container-desktop .ChatChannelAlertBar-container {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
-
 /* Channel list: Selected channel */
 .TeamChannelItemContents-container-selected::after {
     right: 0;
@@ -370,45 +328,37 @@ body,
     background-color: var(--accent-color);
     animation: channel-select .5s ease-in-out;
 }
-
 /* Channel list: Channel hover */
 .TeamChannelItemContents-container-selected:hover::after {
     opacity: 0.7;
 }
-
 /* Channel list: Animataion */
 @keyframes channel-select {
     from {
         right: 70%;
         background-color: rgba(0, 0, 0, 0)
     }
-
     to {
         right: 0;
         background-color: var(--accent-color);
     }
 }
-
 /* Channel list: Name and indicator position */
 .TeamChannelItemContents-container-selected .TeamChannelItemContents-name,
 .TeamChannelItemContents-container-selected .TeamChannelItemContents-action-icon {
     z-index: 10;
 }
-
 .TeamChannelItemContents-container-selected .ChannelIcon-icon-primary {
     fill: white;
     z-index: 10;
 }
-
 /* Channel list: Name and indicator unread notification */
 .TeamChannelItemContents-container-unread .TeamChannelItemContents-name {
     color: var(--accent-color)
 }
-
 .TeamChannelItemContents-container-unread .ChannelIcon-icon-primary {
     fill: var(--accent-color);
 }
-
 /* Channel list: Connected to voicechannel */
 .VoiceConnectionDisplayPanelContents-container * {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
@@ -417,42 +367,35 @@ body,
     background-position: center;
     background-attachment: fixed;
 }
-
 /* Channel list: Channel permissions: Selected role */
 .TeamSettingsPermissionsItem-container-selected {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
 }
-
 /* Member & threadlist: Main colour */
 .TeamPageV2-container .SidebarWrapper-container,
 .TournamentPage-contents .SidebarWrapper-container {
     background-color: rgba(0, 0, 0, 0.6);
 }
-
 /* Member & threadlist: Hover */
 .TeamPageV2-container .SidebarWrapper-container {
     width: var(--memberlist-size);
     transition: .15s ease-in-out;
 }
-
 .TeamPageV2-container .SidebarWrapper-container:hover {
     width: 240px;
     transition: .15s ease-in-out;
 }
-
 /* Member & threadlist: Inside: Colour */
 .SimpleIconTabMenu-container .SidebarInfoItem-container:not(.SidebarInfoItem-container.TeamPageContentSidebarGames-container.TeamPageContentSidebarGames-container-unpadded.TeamPageContentSidebarAbout-games),
 .TournamentPage-contents .SidebarInfoItem-container {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Member & threadlist: Top button things */
 .TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:hover,
 .TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:active,
 .TeamPageV2-container .SidebarWrapper-container .SimpleIconTabMenuHeaderItem-container:focus {
     background-color: rgb(0, 0, 0, 0.2);
 }
-
 /* Profile, Status, Activity, Settings and More */
 .NavV4Footer-right {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
@@ -461,18 +404,15 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Profile, Status, Activity, Settings and More: Account buttons: Inbox */
 .ChannelActivityDisplay-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Profile, Status, Activity, Settings and More: Account buttons: Inbox: Content */
 .ChannelActivityDisplay-group-header,
 .ChannelActivityDisplay-item {
     background-color: transparent;
 }
-
 /* Profile, Status, Activity, Settings and More: Account buttons: Inbox: Content > Unread */
 .ChannelActivityDisplay-container .ChannelActivityItem-container.ChannelActivityItem-container-unread {
     background-color: rgba(256, 256, 256, 0.2);
@@ -490,23 +430,18 @@ body,
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* DM list: Active dm */
 .ChatChannelList-items .ChatChannelListItem-container-selected {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* DM list: Hovered dm */
 .ChatChannelList-items .ChatChannelListItem-container:not(.ChatChannelListItem-container-selected):hover {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* DM list: Close X button */
-.ChatChannelList-items .ChatChannelListItem-container-selected .ChatChannelListItem-remove-icon,
-.ChatChannelListItem-container:not(.ChatChannelListItem-container-selected):hover .ChatChannelListItem-remove-icon {
+.ChatChannelList-items .ChatChannelListItem-container-selected .ChatChannelListItem-remove-icon, .ChatChannelListItem-container:not(.ChatChannelListItem-container-selected):hover .ChatChannelListItem-remove-icon {
     background-color: transparent;
 }
-
 /* DM list: Whatever the fuck is the bottom thing */
 .NavV4FooterGlobalContextDisplay-teams-wrapper {
     background-color: rgba(0, 0, 0, 0.5);
@@ -526,8 +461,7 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-.SettingsMenu-container .OptionsMenuPageWrapper-container {
+.SettingsMenu-container .OptionsMenuPageWrapper-container  {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-position: center;
     background-size: cover;
@@ -545,12 +479,10 @@ Adds a background to the main page to fit with modal section
     align-items: center;
     justify-content: center;
 }
-
 /* Settings: Header content > Text colour */
 .DesktopOptionsControlOptionHeader-container .DesktopOptionsControlOptionHeader-header-text {
     color: var(--accent-color);
 }
-
 /* Settings: Header content > Accent line */
 .DesktopOptionsControlOptionHeader-container::before {
     content: "";
@@ -559,7 +491,6 @@ Adds a background to the main page to fit with modal section
     background: linear-gradient(to left, var(--accent-color), transparent);
     margin-right: 2px;
 }
-
 /* Settings: Header content > Accent line */
 .DesktopOptionsControlOptionHeader-container::after {
     content: "";
@@ -568,134 +499,109 @@ Adds a background to the main page to fit with modal section
     background: linear-gradient(to right, var(--accent-color), transparent);
     margin-left: 2px;
 }
-
 /* Overview: Base colour */
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Billing: Active tab */
 .UserSettingsBillingPage-container .HorizontalTab-container.HorizontalTab-container-selected.HorizontalTab-container-desktop.HorizontalTabMenu-tab {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Billing: Active tab highlighter */
 .UserSettingsBillingPage-container .HorizontalTab-highlighter {
     display: none;
 }
-
 /* Billing: Hover tab */
 .UserSettingsBillingPage-container .HorizontalTab-container:hover,
 .UserSettingsBillingPage-container .HorizontalTab-container:active,
 .UserSettingsBillingPage-container .HorizontalTab-container:focus {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 /* Billing: Tab text colour */
 .UserSettingsBillingPage-container .HorizontalTab-tab-text {
     color: darkgray
 }
-
 /* Billing: Support server subcriptions */
-.UserSettingsBillingPage-container .UserSettingsServerSubscriptionsUpsell-container,
-.UserSettingsBillingPage-container .ServerSubscriptionBar-container {
+.UserSettingsBillingPage-container .UserSettingsServerSubscriptionsUpsell-container, .UserSettingsBillingPage-container .ServerSubscriptionBar-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Billing: Subscribe modal */
 .ServerSubscriptionFlowHeader-container .ServerSubscriptionFlowHeader-image {
     display: none;
 }
-
 /* Billing: Subscribe > Tier modal */
 .ServerSubscriptionStageWrapper-content .ItemChooserItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Billing: Add payment method modal */
 .PaymentInstrumentCreator-container .PaymentInstrumentCreator-element {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Billing: Payments */
 .UserSettingsBillingPage-container .PaymentInstrumentSelector-container .CheckboxPanel-container-selected {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Security: 2FA */
 .UserSettingsSecurityPage-container .PersistentUpsell-container-flavor-settings {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Privacy: Pickers */
 .UserPrivacySettingsPage-container .RadioOptionPanel-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Connections: Connections */
 .UserSettingsConnectionsPage-container .SocialLinkPanel-header {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Connections: Extra options */
 .UserSettingsConnectionsPage-container .SocialLinkConnectionOptionsForm-form {
     background-color: rgba(0, 0, 0, 0.6);
 }
-
 /* Voice and video: Drop down  */
 .VoiceAndVideoSettingsPage-container .GuildedSelect-container {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
-
 /* Voice and video: Pickers */
 .VoiceAndVideoSettingsPage-container .CheckboxPanel-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Voice and video: Hovered picker */
 .VoiceAndVideoSettingsPage-container .CheckboxPanel-container.CheckboxPanel-container-clickable.CheckboxPanel-container-flavor-default:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Voice and video: Shortcuts */
 .VoiceAndVideoSettingsPage-container .HotkeyRecorder-container,
 .UserSettingsStreamerModePage-container .HotkeyRecorder-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Voice and video: Preview video */
 .VoiceAndVideoSettingsPage-container .VideoPreferencesPane-video-preview {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Keybinds: Keybinds base colour */
 .KeybindsSettingsPage-container .ItemKeybindInput-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Streamer mode: Base colour  */
 .UserSettingsStreamerModePage-container .FormSection-container-section-background-inset {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 /* Reguilded: Addon search */
 .ReGuildedSettings-container-padded .SearchBarV2-container {
     background-color: transparent;
 }
-
 /* Reguilded: Addon/Theme cards */
 .ReGuildedSettings-container-padded .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     border-radius: 15px;
     border: 1px solid black;
 }
-
 .ReGuildedSettings-container-padded .CardWrapper-container::after {
     display: none;
 }
-
 .ReGuildedSettings-container-padded .CardWrapper-container.CardWrapper-container-desktop.CardWrapper-container-actionable:hover:hover {
     transform: scale(1.06);
 }
@@ -706,17 +612,14 @@ Adds a background to the main page to fit with modal section
 .OptionsMenuPageWrapper-container .FormConfirmButtonV2-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Overview: Notification settings */
 .OptionsMenuPageWrapper-container .RadioOptionPanel-container-selected {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Margins for overview */
 .OptionsMenuPageWrapper-container>.Form-container-section-border .Form-section:not(:first-child):not(.TournamentSettingsGameSettingsPage-container>) {
     margin-top: 0;
 }
-
 /* Bots: Bot panels */
 .TeamSettingsBotsPage-container .UserCTAPanel-container-style-bordered .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
@@ -724,7 +627,6 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Bots: Edit flows */
 .ManageFlowOverlay-container .UserCTAPanel-container-style-bordered .UserCTAPanel-contents:not(.UserCTAPanel-container-disabled) {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
@@ -732,115 +634,100 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Groups: Group panels */
 .TeamSettingsGroupsPageContentWrapper-container .GroupSettingsPanel-container {
     background-color: rgba(0, 0, 0, 0.2);
 }
-
 /* Groups: Edit groups: Drop down */
 .CreateGroupOverlayWrapper-content .TypeaheadInput-container-dropdown .TypeaheadInput-typeahead-options-list {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* Integrations: Base colour */
 .TeamSettingsIntegrationsPage-content .TeamSettingsAddIntegration-container,
 .TeamSettingsIntegrationsPage-content .SocialLinkPanel-header {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Integrations: Import Discord server: Background */
 .ModalWrapper-container.ModalWrapper-container-required:not(.ModalWrapper-background-style-transparent) {
     background-color: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
-
 /* Integrations: Import Discord server: Modal base colour */
 .FullScreenFlowStageWrapper-contents-wrapper {
     background-color: transparent;
 }
-
 /* Integrations: Import Discord server: Remove guild summary */
 .TeamSummaryBar-container.TeamSummaryBar-container-in-place.OnboardingTeamStageEnabled-summary {
     display: none;
 }
-
 /* Integrations: Import Discord server: Template information */
 .ImportServerTemplateResults-results-container {
     background-color: rgba(256, 256, 256, 0.1);
     border-radius: 15px;
 }
-
 /* Widgets: Code */
 .EmbedWidgetSettingPage-embed .CopyableTextbox-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Widgets: Micro: Main colour */
 .EmbedWidgetSettingPage-container .GuildedBadge-container {
     background-color: rgba(0, 0, 0, 0.6);
     border: solid 1px rgba(0, 0, 0, 1);
 }
-
 /* Widgets: Micro: Fix logos */
 .EmbedWidgetSettingPage-container .GuildedBadge-container .GuildedBadge-info-avatar,
 .GuildedBadge-container .GuildedBadge-logo {
     background-color: transparent;
 }
-
 /* Widgets: Micro: Hover */
 .EmbedWidgetSettingPage-container .GuildedBadge-container:hover .GuildedBadge-info-avatar,
 .GuildedBadge-container:hover .GuildedBadge-info-text {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Widgets: Small & Large: Base colour */
 .EmbedWidgetSettingPage-container .TeamCardDisplay-container,
 .EmbedWidgetSettingPage-container .EmbedCardFooter-container {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
 /* Widgets: Small & Large: Fix background */
 .EmbedWidgetSettingPage-preview .CardWrapper-container {
     background-color: transparent
 }
-
 /* Webhook */
 .TeamSettingsWebhookPage-webhooks .UserCTAPanel-container {
     background-color: rgba(256, 256, 256, 0.2);
 }
-
 /* Webhook: Edit webhook: Drop down */
 .TeamSettingsWebhookPage-webhooks .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
     background-color: rgba(0, 0, 0, 0.9);
+    -webkit-backdrop-filter: blur(2.5px);
     backdrop-filter: blur(2.5px);
 }
-
 /* Subscriptions: Enable subscriptions */
 .ServerSubscriptionsSetupUpsell-container .ServerSubscriptionsSetupUpsell-content {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Subscriptions: Remove image */
 .ServerSubscriptionsSetupUpsell-container .ServerSubscriptionsSetupUpsell-header {
     display: none;
 }
-
 /* Subscriptions: Tiers */
 .TeamSettingsServerSubscriptionsManage-container .ServerSubscriptionsManageTierSettingsCard-container {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(2.5px);
     backdrop-filter: blur(2.5px);
 }
-
 /* Subscriptions: Reports */
 .TeamSettingsServerSubscriptionsManage-container .ServerSubscriptionsReports-earnings-wrapper {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(2.5px);
     backdrop-filter: blur(2.5px);
 }
-
 /* Subscriptions: Settings */
 .TeamSettingsServerSubscriptionsManage-container .ServerSubscriptionsSettings-container {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(2.5px);
     backdrop-filter: blur(2.5px);
 }
 
@@ -856,117 +743,100 @@ Adds a background to the main page to fit with modal section
     background-position: center;
     background-attachment: fixed;
 }
-
-/* Main colour */
-.WebAppV2-sidebar,
-.NavV4SectionSidebar-container {
+/* Profile: Sidebar: Main colour */
+.WebAppV2-sidebar, .NavV4SectionSidebar-container {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-.UserProfileV3-content .UserProfileV3-container {
+/* Profile: Main colour */
+.UserProfileV3-content {
     background: var(--background-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/* Profile: Main colour 2 */
+.UserProfileV3-container {
+    background-color: rgba(0, 0, 0, 0.4);
+}
 /* Profile: Loading banner */
 .UserProfileBackground-image.Img-skeleton-square {
     display: none;
 }
-
 /* Profile: Post */
 .UserProfileV3-content .UserProfilePostPanel-container:not(.UserProfileFeedWidget-posts.UserProfilePostsDisplay-container) {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Profile: Published post */
 .UserProfileV3-profile-content .StatusMessage-container-persistent.StatusMessage-container-type-info {
     background-color: rgba(256, 256, 256, 0.2);
 }
-
 /* Profile: Post > Editing */
 .UserProfileV3-content .Editor-container {
     background-color: transparent;
 }
-
 /* Profile: Post > Reply */
 .UserProfileV3-content .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Profile: Post: Published: Base colour */
 .PublishedPostPage {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .PublishedPostPage-wrapper {
     background-color: transparent;
 }
-
 /* Profile: Post: Published: Reply */
 .PublishedPostPage-bounds .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Profile: Games */
 .UserProfileV3-profile-content .UserGameSummaryCard-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Profile: Games: Add game > Drop down */
 .FormAndSubmit-container.FormAndSubmit-container-horizontal.AddGameAlias-game-input .TypeaheadMenu-container {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* Profile: Games: Base colour */
 .UserProfileGamesTab-container .PlayerAliasCard-container-type-game,
 .UserProfileGamesTab-container .PlayerAliasCard-container-type-game .PlayerAliasCard-info {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Profile: Games: Game image */
 .UserProfileGamesTab-container .PlayerCard-container {
     background-color: rgba(0, 0, 0, 0);
 }
-
 /* Profile: Media: Base colour */
 .MediaDisplayControlV2-media-display .MediaDisplayItemV3-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Profile: Servers: Base colour */
 .UserProfileTeamsTab-container .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Profile: Friends: Selected tab */
 .UserProfileFriendsListTab-container .HorizontalTab-container.HorizontalTab-container-selected.HorizontalTab-container-desktop.HorizontalTab-container-custom-tab.HorizontalTabMenu-tab {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Profile: Friends: Highlighter */
 .UserProfileFriendsListTab-container .HorizontalTab-highlighter {
     display: none;
 }
-
 /* Profile: Friends: Hover */
 .UserProfileFriendsListTab-container .HorizontalTab-container:hover,
 .UserProfileFriendsListTab-container .HorizontalTab-container:active,
 .UserProfileFriendsListTab-container .HorizontalTab-container:focus {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 /* Profile: Friends: Hover > Interaction icons */
 .UserProfileFriendsListTab-container .ItemManager-container .FriendsList-actions .FriendList-action-icon {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Profile: Servers: Create server base colour */
 .OnboardingExperience-background {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
@@ -974,56 +844,47 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    -webkit-backdrop-filter: blur(2.5px);
     backdrop-filter: blur(2.5px);
 }
-
 /* Profile: Servers: Create server: Games > Panels */
 .OnboardingExperience-create-team-flow .ItemChooser-container .ItemChooserItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Profile: Servers: Create server: Games > Search */
 .OnboardingExperience-create-team-flow .ItemChooser-container .SearchBarV2-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Profile: Servers: Create server: Drop downs */
 .TransientMenuPortalContext-portal-container .TypeaheadMenu-container {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* Profile: Servers: Join server: Selected tab */
 .ExplorePage-content .HorizontalTab-container.HorizontalTab-container-selected.HorizontalTab-container-desktop.HorizontalTabMenu-tab {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Profile: Servers: Join server: Highlighter */
 .ExplorePage-content .HorizontalTab-highlighter {
     display: none;
 }
-
 /* Profile: Servers: Join server: Hover */
 .ExplorePage-content .HorizontalTab-container:hover,
 .ExplorePage-content .HorizontalTab-container:active,
 .ExplorePage-content .HorizontalTab-container:focus {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 /* Profile: Servers: Join server: Drop down */
 .ExplorePage-content .TypeaheadInput-container:not(.TypeaheadInput-container-menu-portal) .TypeaheadInput-typeahead-options-list {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* Profile: Servers: Join server: Server panels */
 .ExplorePage-content .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Profile: Applications: Application panels */
 .RecruitmentApplicantsDisplayWrapper-container .ApplicantDisplayItem-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Profile: Applications: Sections */
 .ApplicantSummaryCard-container .ApplicantSummaryCard-votes,
 .ApplicantSummaryCard-container .ApplicantSummaryCard-buttons-applied-date,
@@ -1039,13 +900,11 @@ Adds a background to the main page to fit with modal section
 .MyTeamsPage-container.ContentLoader-container .CardWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* My servers: Join server > Status */
 /* My servers: Join server > Status: Drop downs */
 .PlayerLfgListing-header-settings .TypeaheadMenu-container {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* My servers: Join server > Status: Setup checklist */
 .PlayerLfgListing-card-wrapper .PlayerLfgListing-card {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
@@ -1054,7 +913,6 @@ Adds a background to the main page to fit with modal section
     background-position: center;
     background-attachment: fixed;
 }
-
 .PlayerLfgListing-card-wrapper .LfgLfmListingCard-upsell-bg {
     display: none;
 }
@@ -1066,7 +924,6 @@ Adds a background to the main page to fit with modal section
 .TournamentsPortalPage-sections .TournamentCard-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Tournaments: Create modal */
 .FullScreenIconFlowWrapper-background {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
@@ -1075,12 +932,10 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Tournaments: Create modal: Search */
 .ItemChooser-container .SearchBarV2-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Tournaments: Create moda: Games */
 .ItemChooser-container .ItemChooserItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
@@ -1093,22 +948,18 @@ Adds a background to the main page to fit with modal section
 .BlogPage-container .BlogPostSummary-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Blog: Post panel > Social icons */
 .BlogPage-container .LandingPageV3FooterSocialLinkIcons-social-link {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Blog: Post: Share article */
 .BlogPage-container .CopyableTextbox-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Blog: Post: Remove slant */
 .LandingPageV3Footer-trendy-slash {
     transform: none;
 }
-
 /* Blog: Post: Footer base colour */
 .LandingPageV3Footer-trendy-slash,
 .LandingPageV3Footer-trendy-slash,
@@ -1119,12 +970,10 @@ Adds a background to the main page to fit with modal section
     background-position: center;
     background-attachment: fixed;
 }
-
 /* Blog: Post: Footer > social icons */
 .LandingPageV3Footer-footer-content .LandingPageV3FooterSocialLinkIcons-social-link {
     background-color: rgba(0, 0, 0, 0.2);
 }
-
 /* Blog: Post: Footer > Sign up modal */
 .OneStepSignUp-container.OneStepSignUp-container-has-cancel-text.OneStepSignUpLogIn-form {
     background-color: rgba(0, 0, 0, 0.7);
@@ -1142,7 +991,6 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Partner program: Profile */
 .PartnerProgramLanding-container .PlayerCard-container {
     background-color: rgba(0, 0, 0, 0.7);
@@ -1164,87 +1012,70 @@ Adds a background to the main page to fit with modal section
 .TeamPageBanner-skeleton {
     background: rgba(0, 0, 0, 0.5) !important;
 }
-
 .TeamOverviewBanner-banner.TeamPageBanner-overview-banner.Img-skeleton-square {
     content: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
-
 /* Overview: Latest announcements/Recent forum activity */
 .TeamOverviewContentSection-list .TeamOverviewContentItemCard-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Overview: Latest announcements/Recent forum activity: Pagination: Left */
 .CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-left-blur {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2) 70%);
 }
-
 /* Overview: Latest announcements/Recent forum activity: Pagination: Right */
 .CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-right-blur {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.1) 70%);
 }
-
 /* Overview: Announcements: Pinned */
 .PinnedAnnouncements-announcements .TeamPostRow-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Overview: Leaderboard */
 .TeamOverviewLeaderboardSection-list .TeamOverviewLeaderboardSection-leaderboard-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Overview: Announcement: Main colour */
 .TeamOverviewSummaryDisplay-public-announcements .OverviewWidgetItemWrapper-container-type-filled {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Overview: Announcement: Post > Image loading */
 .TeamOverviewSummaryDisplay-public-announcements .MediaRenderer-content.MediaRenderer-content-editor-default.MaximizableImage-image.Img-skeleton-square {
     display: none;
 }
-
 /* Overview: Announcement: Post > Form base colour */
 .TeamOverviewSummaryDisplay-public-announcements .CustomFormWrapper-container-standalone {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Overview: Announcement: Post > Embed base colour */
 .TeamOverviewSummaryDisplay-public-announcements .ContentEmbedCard-container .OpenGraphEmbed-content {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Applications: Base colour */
 .TeamRecruitmentTab-container .TeamApplicationInlineLink-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Applications: Share link */
 .TeamRecruitmentTab-container .CopyableTextbox-container {
     background-color: transparent;
 }
-
 /* Applications: Drop down */
 .TeamRecruitment-container .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* Applications: Drop down: Selected */
 .TeamRecruitment-container .GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Applications: Search */
 .TeamRecruitment-all-applications .SearchBarInput-input {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
 }
-
 /* Applications: Preview */
 .RecruitmentApplicationEditor-forms-previewing {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Applications: Sort */
 .Overlay-container .Overlay-status-context .ItemManagerFilterWrapper-container,
 .LandingPageNavBar-container-theme-gilded,
@@ -1252,27 +1083,22 @@ Adds a background to the main page to fit with modal section
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 9px;
 }
-
 /* Subscription */
 /* Subscriptions: Support your server */
 .ServerSubscriptions-container .ServerSubscriptionsSectionMemberUpsell-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Subscriptions: Staff: Earnings */
 .ServerSubscriptions-container .ServerSubscriptionsSectionAdminHasSetup-earnings {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Subscriptions: Staff: Invite others */
 .ServerSubscriptions-container .ServerSubscriptionsInviteUpsell-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 .ServerSubscriptions-container .ServerSubscriptionsInviteUpsell-container .CopyableTextbox-container {
     background-color: transparent;
 }
-
 /* Subscriptions: Staff: Rewards */
 .ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-header {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
@@ -1281,7 +1107,6 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 .ServerSubscriptions-container .ServerSubscriptionsTierUpsellCard-body {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image);
     background-position: center;
@@ -1289,33 +1114,31 @@ Adds a background to the main page to fit with modal section
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 /* Subscriptions: Recent activity */
 .ServerSubscriptions-container .ServerSubscriptionsRecentActivityFeed-empty-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Chat: Unread messages */
 .ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-unread-messages.ChatChannelMessages-alert-bar {
     background-color: rgba(0, 0, 0, 0.9) !important;
     border-radius: 5px;
 }
-
 /* Chat: input/archived */
 .ChatChannelInput-container .ChatChannelInput-editor,
 .ChatChannelInput-container .BannerWithButton-container {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
+/* Chat: Reply: Header */
+.ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private).ChatV2Message-container-mentioned .ChatV2MessageHeader-info {
+    margin-left: 20px;
+}
 /* Chat: Reply: Replying to: Box */
 .ChatChannelInputStatusBar-container {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 .ChatChannelInputStatusBar-container {
     height: auto;
 }
-
 .ChatChannelInput-container .ChatChannelInput-status-drawer {
     position: absolute;
     left: 0;
@@ -1324,241 +1147,197 @@ Adds a background to the main page to fit with modal section
     z-index: 2;
     padding-bottom: 12px;
 }
-
 /* Chat: Create thread */
 .ChatChannelInput-container .ChannelTitleInput-container {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Chat: Message hover */
 .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChannelWrapper-content .ChannelPinnedMessages-container .ChatV2Message-container):hover {
     background-color: rgba(0, 0, 0, 0.25);
 }
-
 /* Chat: Pinned message background */
 .ChatV2MessageContents-container-pinned .ChatV2MessageContents-display {
     background-color: transparent;
 }
-
 /* Chat: Pinned messages: Main colour */
 .ChannelPinnedMessages-container {
     background-color: rgba(0, 0, 0, 0.95);
 }
-
 /* Chat: Pinned messages: Message: Main colour */
 .ChannelWrapper-content .ChatV2PinnedMessage-message-wrapper {
     background-color: rgba(256, 256, 256, 0.05);
 }
-
 /* Chat: Pinned messages: Message: Hover */
 .ChannelWrapper-content .ChannelPinnedMessages-container .ChatV2Message-container:hover {
     background-color: rgba(256, 256, 256, 0.03);
 }
-
 /* Chat: Pinned messages: Message: Quote */
 .ChatV2PinnedMessage-message-wrapper .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Chat: Pinned messages: Message: Embed */
 .ChatV2PinnedMessage-message-wrapper .OpenGraphEmbed-content {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Chat: share channel */
 .ShareChannelContentOverlay-container .DefaultContentEmbedCard-content-wrapper {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .ShareChannelContentOverlay-container .ContentEmbedCardFooter-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Chat: share channel > Hover */
 .ShareChannelContentOverlay-container .DefaultContentEmbedCard-content-wrapper:not(.DefaultContentEmbedCard-content-wrapper-disabled)::after {
     background: rgba(0, 0, 0, 0.5);
 }
-
 /* Chat: Input > Codeblock */
 .SlateEditor-container .CodeContainerRenderer-container {
     background-color: rgba(0, 0, 0, 0.6);
 }
-
 .CodeContainerRenderer-container .CodeLineRenderer {
     background-color: transparent;
     font-family: 'Consolas', monospace;
 }
-
 .MarkRenderer-inline-code-v2 {
     font-family: 'Consolas', monospace;
     letter-spacing: 1px;
 }
-
 /* Chat: Input > Emoji */
 .ChatChannelInput-container .TypeaheadDrawer-container {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 .ChatChannelInput-container .SlateTypeaheadMenuHeader-container {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 /* Chat: Input > Emoji : Selected */
 .ChatChannelInput-container .MenuItemEnabled-container-highlighted {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Chat: Input > Quote */
 .SlateEditor-container .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Chat: Typing indicator */
 .ChatChannelInputTypingIndicator-container {
     color: white;
 }
-
 /* Chat: Input > Embed  */
 .ChatChannelInput-container .ContentEmbedCardStack-container {
     display: none;
 }
-
 /* Chat: Shared channel */
 .ChatV2MessageContents-container .DefaultContentEmbedCard-content-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 .ChatV2MessageContents-container .ContentEmbedCardFooter-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Chat: Shared channel > Hover */
 .ChatV2MessageContents-container .DefaultContentEmbedCard-content-wrapper:not(.DefaultContentEmbedCard-content-wrapper-disabled)::after {
     background: rgba(0, 0, 0, 0.5);
 }
-
 /* Chat: Shared event */
 .ChatV2MessageContents-container .DefaultContentEmbedCard-content-fade-overflow::after {
     display: none;
 }
-
 /* Chat: Moderator view */
 .ChatChannelMessages-container .ChatChannelAlertBar-container.ChatChannelAlertBar-container-type-moderator-view.ChatChannelAlertBar-container-banner.ChatChannelMessages-moderation {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
-
 /* Chat: Embed base colour */
 .ChatV2MessageContents-container .OpenGraphEmbed-content {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Chat: Embed hover */
 .ChatV2MessageContents-container .OpenGraphEmbedContent-container::after {
     background-color: rgba(0, 0, 0, 0.4);
 }
-
 /* Chat: Quote */
 .ChatV2MessageContents-container .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Chat: Codeblock */
 .ChatV2MessageContents-container .CodeContainerRenderer-container {
     background-color: rgba(0, 0, 0, 0.6);
 }
-
 .ChatV2MessageContents-container .CodeContainerRenderer-language-indicator {
     top: 2.5rem;
 }
-
 /* Chat: Replpy to in a thread */
 .ChatV2MessageReplyTooltip-arrow,
 .ChatV2MessageReplyTooltip-content-wrapper {
     background-color: rgba(0, 0, 0, 0.95);
 }
-
 /* Chat: Replpy to in a thread: Reply content */
 .ChatV2MessageReplyTooltip-content-wrapper .Editor-container {
     background-color: rgba(256, 256, 256, 0.05);
 }
-
 /* Chat: active message */
 .ChatV2Message-container-active {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Chat: Message options: Main colour */
 .ChatV2Message-content-wrapper .QuickActionBar-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Chat: Reaction on message: Background */
 .ReactionBadge-container.ReactionBadge-container-active .ReactionBadge-container-content {
     background-color: rgba(256, 256, 256, 0.05);
     border: solid 1px rgba(0, 0, 0, 1);
 }
-
 /* Chat: Thread link */
 .ChatV2Message-content-wrapper .ChatMessageThread-container {
     background-color: rgb(0, 0, 0, 0.7);
 }
-
 /* Chat: Thread link: Hovered */
 .ChatV2Message-content-wrapper .ChatMessageThread-container::after {
     background-color: rgba(256, 256, 256, 0.2);
 }
-
 /* Chat: Thread link: Last reply colour */
 .ChatMessageThread-container .LastReplyDisplay-container.LastReplyDisplay-container-participant:not(.LastReplyDisplay-container-unread):before {
     background-color: rgba(66, 124, 135, 1);
 }
-
 /* Chat: Nickname modal */
 .ChangeNicknameOverlay-container .ChangeNicknameOverlay-info {
     background-color: transparent;
 }
-
 /* Chat: Timestamp & reply colour */
 .ChatV2MessageTimestamp-flavor-default,
 .GuildedText-container-type-subtext2 {
     color: rgba(209, 209, 209, 1);
 }
-
 /* Chat: User modal */
-.ProfileHoverCardV2Overlay-container,
-.ProfileHoverCardV2Overlay-action-menu {
+.ProfileHoverCardOverlay-container {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--usermodal-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.ProfileHoverCardV2Overlay-container .ProfileHoverCardV2Overlay-info,
-.ProfileHoverCardV2Overlay-container .ContextMenu-content {
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
 }
-
+/* Chat: User modal: Buttons */
+.ProfileHoverCardOverlay-container .ActionBubbleButton-icon-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ProfileHoverCardOverlay-container .ActionBubbleButton-container:hover:not(.ActionBubbleButton-disabled) .ActionBubbleButton-icon-container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
 /* Stream: Base colour */
 .StreamChannelDisplay-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Stream: Screenshare modal > Application window: Base colour */
-.DesktopAppCaptureDevicePickerOverlay-window .DesktopAppCaptureDevicePickerOverlay-options,
-.DesktopAppCaptureDevicePickerOverlay-screen .DesktopAppCaptureDevicePickerOverlay-options {
+.DesktopAppCaptureDevicePickerOverlay-window .DesktopAppCaptureDevicePickerOverlay-options, .DesktopAppCaptureDevicePickerOverlay-screen .DesktopAppCaptureDevicePickerOverlay-options{
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Stream: Screen, Cam, Voice */
 .StreamChannelDisplay-container .SVGIconWithTooltip-container-flavor-hover-bleach {
     background-color: rgba(256, 256, 256, 0.05);
 }
-
 /* Stream: Application window */
 .StreamsDisplayV2-container:not(.StreamTheaterViewer-content .StreamsDisplayV2-container) {
     background-color: transparent;
 }
-
 /* Stream: Theatre display */
 .StreamTheaterViewer-content .StreamsDisplayV2-container {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
@@ -1567,7 +1346,6 @@ Adds a background to the main page to fit with modal section
     background-position: center;
     background-attachment: fixed;
 }
-
 /* Stream: Theatre sidebar */
 .StreamTheaterViewer-sidebar .ScreenHeader-container,
 .StreamTheaterViewer-sidebar .SidebarWrapper-container {
@@ -1577,54 +1355,45 @@ Adds a background to the main page to fit with modal section
     background-position: center;
     background-attachment: fixed;
 }
-
 /* Voice: lobby */
 .VoiceChannelDisplay-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Calendar: Tabs outline */
 .TeamCalendarControls-container .TeamCalendarControls-view-options .ToggleControl-container {
     border: 1px solid black;
 }
-
 /* Calendar: Tabs */
 .TeamCalendarControls-container .TeamCalendarControls-view-options .ToggleControlButton-container.ToggleControlButton-container-desktop:hover,
 .TeamCalendarControls-container .ToggleControlButton-container.ToggleControlButton-container-selected {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Calendar: Main colour */
 .FullSizedCalendar-week {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
-
 /* Calendar: Different month */
 .FullSizedCalendar-week .FullSizedCalendarDay-container-different-month {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Calendar: Today */
 .FullSizedCalendar-week .FullSizedCalendarDay-container-today {
     background-color: rgba(256, 256, 256, 0.05);
 }
-
 /* Calendar: Hover */
 .FullSizedCalendar-week .FullSizedCalendarDay-container-desktop.FullSizedCalendarDay-container-can-create:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Calendar: Event */
 .FullSizedCalendar-week .FullSizedCalendarEvent-container-unread:not(.FullSizedCalendarEvent-container-full-day) {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Calendar: Event details */
 .TransientMenu-container-style-card {
     border: 1px solid black;
 }
-
 .EventCard-container {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
     background-size: cover;
@@ -1632,12 +1401,10 @@ Adds a background to the main page to fit with modal section
     background-position: center;
     background-attachment: fixed;
 }
-
 /* Calendar: Event details > Share events */
 .ShareChannelContentOverlay-container .DefaultContentEmbedCard-content-wrapper .DefaultContentEmbedCard-content-fade-overflow::after {
     display: none;
 }
-
 /* Calendar: Event details > Enhanced */
 .TeamEvent-contents .EventTemporalChannelDisplay-container,
 .TeamEventDetails-post-metadata,
@@ -1646,22 +1413,18 @@ Adds a background to the main page to fit with modal section
 .EventCardMetadata-container-size-lg {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Calendar: Event: Details > Enhanced: Search */
 .TeamEvent-container .SearchBarV2-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Calendar: Event: Details > Enhanced: Reply */
 .TeamEvent-contents .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Calendar: Event: Details > Enhanced: Reply > Share reply */
 .ContentEmbedCardLoading-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Calendar: Upcoming events */
 .UpcomingCalendarDay-container {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--background-image);
@@ -1670,272 +1433,224 @@ Adds a background to the main page to fit with modal section
     background-position: center;
     background-attachment: fixed;
 }
-
 .UpcomingCalendarEvent-container-desktop:hover {
     background-color: rgba(256, 256, 256, 0.2);
 }
-
 /* Calendar: Upcoming events > RSVP */
 .UpcomingCalendarEvent-rsvps .GuildedSelect-container.GuildedSelect-container-dark .Select-menu-outer {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 .UpcomingCalendarEvent-rsvps .GuildedSelect-container.GuildedSelect-container-dark .Select-option.is-selected {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Calendar: Create event: Date picker: Header */
 .DayPicker-header {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
 /* Shedule: Main colour */
 .ChannelWrapper-contents .AvailabilityDisplay-container,
 .ChannelWrapper-content .AvailabilityDisplayHeader-day {
     background-color: rgba(0, 0, 0, 0.4);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
-
 /* Schedule: Today */
 .ChannelWrapper-contents .AvailabilityDisplayHeader-day-today {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Schedule: Change days */
 .ChannelWrapper-contents .AvailabilityDisplayHeader-button {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
-
 /* Availability */
 .ChannelWrapper-contents .AvailabilityDisplayDaysPlaceholder-create {
     background-color: rgba(0, 0, 0, 0.6);
 }
-
 /* Announcement: Main colour */
 .TeamAnnouncementItem-container .OverviewWidgetItemWrapper-container-type-filled {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
 }
-
 /* Announcement: Corners */
 .TeamAnnouncementsWidget-container .DraftInputWithTitleV2-container {
     border-radius: 10px;
 }
-
 /* Announcement: Right click/Toolbar */
 .SlateSelectionToolbar-toolbar {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* Announcement: Embed */
 .TeamAnnouncementsWidget-container .DraftInputWithTitleV2-container .OpenGraphEmbed-content {
     background-color: rgba(256, 256, 256, 0.2);
     border: 1px inset black;
 }
-
 /* Announcement: Post */
 .TeamAnnouncementsWidget-container .DraftInputWithTitleV2-title-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Announcement: Post: Body */
 .TeamAnnouncementsWidget-container .Editor-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Announcement: Survey */
 .TeamAnnouncementsWidget-announcements .CustomFormWrapper-container-standalone {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Announcement: Embed */
 .TeamAnnouncementsWidget-announcements .TeamEmbedCard-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Announcement: Post a reply */
 .TeamAnnouncementWithReplies-replies .Editor-container {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
 }
-
 /* Announcement: Reply: Main colour */
 .TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
 }
-
 /* Announcement: Reply: Quote */
 .TeamAnnouncementWithReplies-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Announcement: Loading image */
 .TeamAnnouncementItem-container.MediaRenderer-content.MediaRenderer-content-editor-default.MaximizableImage-image.Img-skeleton-square {
     display: none;
 }
-
 /* Announcement: Share announcement */
 .ShareContentOverlay-container .DefaultContentEmbedCard-content-wrapper,
 .ShareContentOverlay-container .ContentEmbedCardFooter-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .ShareContentOverlay-container .DefaultContentEmbedCard-content-fade-overflow::after {
     display: none;
 }
-
 /* Forum: Post: Base colour */
 .TeamThreadPostPanel-container {
     background-color: transparent;
 }
-
 /* Forum: Post */
 .TeamForumsThreadsDisplay-container .DraftInputWithTitleV2-title-wrapper,
 .TeamPostRow-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Forum: Post: Body */
 .TeamForumsThreadsDisplay-container .Editor-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Forum: Post: Loading */
-.TeamThreadPostPanel-container .TeamThreadPostPanelDisplay-container {
+.TeamThreadPostPanel-container .TeamThreadPostPanelDisplay-container{
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Forum: Post: Embed */
 .TeamThreadPostPanel-container .OpenGraphEmbed-content,
 .TeamThread-content .ChatEmbed-container {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 /* Forum: Write a reply [1] */
 .TeamThread-content .TeamThreadReplyCreator-unexpanded-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Forum: Write a reply [2] */
 .TeamThread-content .TeamThread-posts .TeamThreadPostEditor-container:not(.TeamThreadPostPanel-inline-reply) {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Forum: Write a reply [3] */
 .TeamThreadPostPanel-container .TeamThreadPostEditor-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Forum: Embed */
 .TeamThreadPost-container .OpenGraphEmbed-content {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* List: Add item */
 .TeamList-container .TeamListItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* List: Item */
 .TeamList-container .TeamListItemIndentWrapper-container {
     background-color: transparent;
 }
-
 /* List: Move item */
 .TeamList-container .TeamListItemIndentWrapper-container .ReorderIndentable-blockout {
     background-color: rgba(0, 0, 0, 0.4);
 }
-
 .PortalTarget-container.ReorderPortalContext-drag-portal .TeamListItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 /* List: Share note */
 .ShareChannelContentEditorListItem-container .TeamListItemWrapper-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Docs: Editor */
 .DocEditor-container .DocEditor-content-input {
     background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+
     backdrop-filter: blur(5px);
 }
-
 /* Docs: Editor: Indent */
 .DocEditor-container .DocEditor-content-input .ParagraphRenderer {
     margin-left: 5px;
 }
-
 /* Docs: Main colour */
 .DocsGrid-container .DocsGrid-grid .DocDisplayItem-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Docs: Info colour */
 .DocsGrid-container .DocsGrid-grid .DocDisplayItem-container .DocSummaryInfo-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Docs: Background on viewing */
 .DocViewer-container {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 20px;
 }
-
 /* Docs: Embed */
 .DocViewer-editor .OpenGraphEmbed-content.ContentLoader-container.ContentLoader-container-vertically-centered,
 .DocViewer-reader-container .OpenGraphEmbed-content.ContentLoader-container.ContentLoader-container-vertically-centered {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Docs: Embed */
 .DocViewer-editor .ContentEmbedRenderer-container.ContentEmbedRenderer-container-writable {
     margin-left: 5px;
 }
-
 /* Docs: Post a comment */
 .DocViewer-comments .Editor-container {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Docs: Reply */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing {
     background-color: rgba(256, 256, 256, 0.1);
     border-radius: 10px;
 }
-
 /* Docs: Reply: Quote */
 .DocViewer-comments .RepliesDisplayV2-container .ReplyPanel-container-viewing .BlockQuoteContainerRenderer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Media: Add new media */
 .MediaEditor-container-desktop {
     background-color: transparent;
 }
-
 /* Media: Add new media > Add tag */
 .MediaEditor-container-desktop .MediaEditor-media-info .GuildedTagCreator-container .Select-menu-outer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 .MediaEditor-container-desktop .GuildedTagCreator-container .Select-option.is-focused {
     background-color: transparent;
 }
-
 /* Media: Add new media > Tag */
 .MediaEditor-container-desktop .GuildedTagCreator-container-dark .Select-value {
     background-color: rgba(256, 256, 256, 0.1);
 }
-
 /* Media: Loading image */
 .MediaDisplayItemV3Contents-media.Img-skeleton-square {
     display: none;
 }
-
 /* Media: View media: Main colour */
 .MediaSplitView-container .MediaSplitView-media {
     background: var(--background-image);
@@ -1944,83 +1659,68 @@ Adds a background to the main page to fit with modal section
     background-position: center;
     background-attachment: fixed;
 }
-
 /* Media: View media: Info panel */
 .MediaSplitView-container-desktop .MediaSplitView-right-pane .MediaInfoPane-container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
-    background-size: cover;
+    background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-
 /* Media: View media: Info panel: Reply */
 .MediaSplitView-container-desktop .MediaSplitView-right-pane .ReplyPanel-container-viewing {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Media: View media: Back svg */
 .MediaSplitView-container .BackLink-container-size-lg .BackLink-icon {
     fill: white;
 }
-
 /* Tournaments: Set up tournament: Dashboard */
 .TournamentSettingsDashboardPage-container .PersistentUpsell-container-flavor-settings {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Tournaments: Server: Information */
 .TournamentNavHeader-container,
 .TournamentNav-container .TeamNavMenu-container {
     background: transparent;
 }
-
 /* Tournaments: Server: Buttons */
 .TournamentNavHeader-container .TeamNavHeaderRowButton-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Tournaments: Archived */
 .TournamentNav-container .GroupUpsell-container-archived {
     background-color: rgba(256, 256, 256, 0.05);
 }
-
 /* Tournaments: Set up tournament: Brackets */
 .TournamentSettingsBracketsPage-brackets .TournamentSettingsBracket-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Tournaments: Set up tournament: Staff */
 .TournamentSettingsStaffList-staff-members .TournamentSettingsSupportStaff-container {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Tournaments: Set up tournament: Staff > Modal search */
 .TeamMembersSearch-container .SearchBarV2-container {
     background-color: transparent;
 }
-
 /* Tournaments: Server: Brackets: Finalise bracket */
 .PersistentUpsell-container-flavor-default {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Tournaments: User modal */
 .TournamentParticipantHoverCard-container,
 .TournamentParticipantHoverCard-action-menu {
     background-color: transparent;
 }
-
 /* Tournaments: Brackets: Rounds */
 .TournamentPage-contents .EliminationBracketHeaderRoundSummary-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Tournaments: Brackets: Teams */
 .TournamentPage-contents .EliminationBracketMatchDisplay-container {
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 /* Tournaments: Brackets: Score */
 .TournamentPage-contents .ElimBracketMatchLineItemScorePanel-container:not(.ElimBracketMatchLineItemScorePanel-container-is-winner) {
     background-color: rgba(0, 0, 0, 0.7);
@@ -2030,13 +1730,10 @@ Adds a background to the main page to fit with modal section
 .WebAppV2-container.WebAppV2-container-has-navbar {
     margin-top: 7.5rem;
 }
-
 .Navbar-container {
     top: 2.4rem;
 }
-
 .WebAppV2-container.WebAppV2-container-has-navbar .WebAppV2-sidebar {
-    margin-top: 40px;
-    ;
+    margin-top: 40px;;
     bottom: 0;
 }
