@@ -1128,6 +1128,10 @@ Adds a background to the main page to fit with modal section
 .ChatChannelInput-container .BannerWithButton-container {
     background-color: rgba(0, 0, 0, 0.9);
 }
+/* Chat: Reply: Header */
+.ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private).ChatV2Message-container-mentioned .ChatV2MessageHeader-info {
+    margin-left: 20px;
+}
 /* Chat: Reply: Replying to: Box */
 .ChatChannelInputStatusBar-container {
     background-color: rgba(0, 0, 0, 0.9);
