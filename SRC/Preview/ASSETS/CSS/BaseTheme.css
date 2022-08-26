@@ -1303,16 +1303,20 @@ Adds a background to the main page to fit with modal section
     color: rgba(209, 209, 209, 1);
 }
 /* Chat: User modal */
-.ProfileHoverCardV2Overlay-container,
-.ProfileHoverCardV2Overlay-action-menu {
+.ProfileHoverCardOverlay-container {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--usermodal-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-.ProfileHoverCardV2Overlay-container .ProfileHoverCardV2Overlay-info, .ProfileHoverCardV2Overlay-container .ContextMenu-content{
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
+}
+/* Chat: User modal: Buttons */
+.ProfileHoverCardOverlay-container .ActionBubbleButton-icon-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ProfileHoverCardOverlay-container .ActionBubbleButton-container:hover:not(.ActionBubbleButton-disabled) .ActionBubbleButton-icon-container {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 /* Stream: Base colour */
 .StreamChannelDisplay-container {
